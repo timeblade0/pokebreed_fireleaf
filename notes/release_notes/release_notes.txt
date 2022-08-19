@@ -1,0 +1,142 @@
+#20220814 SMW
+	finished code for gym badge truck
+	fixed zoom with zhop
+	added golden
+	re-wrote breed scripts to be cleaner and more efficient
+
+#20220507 SMW
+	fixed a bug that allow zooming when the menu was open
+	fixed a bug that activated pokemon in pokeballs after opeing and closing the shop
+	created control object. migrated all system level commands to this object.
+	fixed a bug that caused pokeballs to not show what is inside
+	middle mouse button will now unzoom
+	added aerodactyle=geodude+pidgy
+	fixed a bug that would delete pidgey whirlwind as soon as it was created
+
+20211114
+	mirated to Game Maker Studio 2.3.6
+	added rhyhorn
+	added element groups for sprites and objects
+
+20211106
+	changed bulbasaur seed to a random circle spray
+	changed gym truck circle to outline only
+	added machop
+	added bellsprout
+	added tentacool
+	added rapidash
+	added shelder = blastoise + golem
+	added mouse wheel shop
+	fixed a bug that let you walk while the menu was open
+	added fence8_h and fence8_v
+	fences can be rotated in terrain mode with R
+	breed pad can be rotated in terrain mode with R
+
+20210924
+	added random flowers at start
+	cleaned up pokemon_parent create event
+	created truck object to be used by gym leaders
+	slowed ember, bubble, and rock throw creations
+	started on code for gym badge pokemon check
+
+20210918
+	added paris family
+	added mushroom item
+	added venonat family
+	added meowth family
+	added coin object
+	added psyduck family
+	added mankey family
+	added poochyena family
+	added arcanine family
+	changed steel stone to metal coat
+	added kings rock item
+	added poliwag family
+	changed ember and bubble to allow holding right click
+	fire no longer burns plants. this would have destroyed gardens
+	added abra/ralts family
+	doubled size of shop
+	changed e to go up if in a shop submenu
+	merged all events from obj_control into obj_player
+	removed pokeball max
+
+20210917
+	added vulpix family
+	added zubat family
+	added supersonic skill for zubat
+
+20210910
+	added spark skill for pichu family
+	added nidoran family
+	added igglybuff/cleffa family
+	added pink shop button and egg
+	simplified code for shop pokemon buy button
+
+20210906
+	added vacuum object
+	added pichu family
+	added diglett family
+	added sandshrew family
+	changed breed names to final form
+	created scp_mate script to simplify scp_breedpad_mate
+	stones now cost $500 and can be refunded
+	standardized for items and terrain:
+	    right click = delete
+	    middle click = clone
+	simplified scp_evolve to only need sprite_index,not name
+	moved name and money variables from pokemon to parents
+
+20210904
+	added pokeball to shop
+	added rattata family
+	added spearow family
+	merged seller and supper seller into obj_item_parent
+	added page up + page down to change game speeed
+	game speed is now shoen in the top right
+	fixed money, speed, and terrain icon to follow view
+
+20210902
+	updated breed code to all run from breedpad
+	changed breed values from _f and _m to [0] and [1]
+	added 10 second breedpad cooldown
+	added pidgey family
+	added whilwind skill
+	added steel stone which is used to evolve onix
+
+20210830
+	merged all eggs into obj_egg_parent
+	added weedle family
+
+20210828
+	added torkoal = charmander + squirtle
+	added thunder, water, sun, and moon stones
+	added jolteon, vaporeon, espeon, and umbreon
+
+20210827
+	added caterpie family
+	    added bug egg
+	changed fps from 30 to 60
+	halfed all speeds to account for this
+	made room 4x as big
+	    added view to allow room movement
+	    increased player speed for bigger room
+	simplified pokemon buy buttons in shop
+	    now only one object
+	simplified terrain buy buttons in shop
+	    now only one object
+	added gates to default room
+	fixed terrain moving when not in terrain mode
+	    left click was changing set=1 even when not in terrain mode
+	added fire stone
+	added stone submenu to shop
+	added flareon
+
+20210826
+	added treeko family
+	added terrain mode
+	added gate objects
+	added breedpad buy from shop
+
+20210825
+	created on Game Maker Studio 1.4
+	added squirtle family
