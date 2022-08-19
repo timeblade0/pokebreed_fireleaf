@@ -24,3 +24,5 @@ long term:
 	fix not enough money in shop message exiting from full screen
 	fix evolution stuck on fence
 	evolution wheel change to clockwise spinning instead of color change
+
+test message for github sync
