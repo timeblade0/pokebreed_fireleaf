@@ -1,8 +1,11 @@
-misty gym truck pokemon
+misty pokemon
+	kingdra
+	starmii
+	seel
+	togikiss
+	
 misty gym truck
 
-slowpoke=squirtle+abra
-slowbro=slowpoke+shelder/cloyster
 farfetched/delibird
 voltorb - pokeball
 eggsecute=bulbasaur+abra

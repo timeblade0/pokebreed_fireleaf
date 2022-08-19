@@ -289,6 +289,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_vulpix","path":"objects/obj_vulpix/obj_vulpix.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1568.0,"y":96.0,"resourceVersion":"1.0","name":"inst_6A90E29D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_zubat","path":"objects/obj_zubat/obj_zubat.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":96.0,"resourceVersion":"1.0","name":"inst_5F20123F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_aerodactyl","path":"objects/obj_aerodactyl/obj_aerodactyl.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":96.0,"resourceVersion":"1.0","name":"inst_5DFC9B29","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_slowpoke","path":"objects/obj_slowpoke/obj_slowpoke.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":352.0,"resourceVersion":"1.0","name":"inst_6F383AFD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_slowpoke","path":"objects/obj_slowpoke/obj_slowpoke.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":448.0,"resourceVersion":"1.0","name":"inst_14CEBF0D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"objects_0","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_breedpad","path":"objects/obj_breedpad/obj_breedpad.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":144.0,"resourceVersion":"1.0","name":"inst_8882BE7C","tags":[],"resourceType":"GMRInstance",},
@@ -579,6 +581,8 @@
     {"name":"inst_6A90E29D","path":"rooms/room_main_ranch/room_main_ranch.yy",},
     {"name":"inst_5F20123F","path":"rooms/room_main_ranch/room_main_ranch.yy",},
     {"name":"inst_5DFC9B29","path":"rooms/room_main_ranch/room_main_ranch.yy",},
+    {"name":"inst_6F383AFD","path":"rooms/room_main_ranch/room_main_ranch.yy",},
+    {"name":"inst_14CEBF0D","path":"rooms/room_main_ranch/room_main_ranch.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
