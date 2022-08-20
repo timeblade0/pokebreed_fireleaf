@@ -77,6 +77,7 @@
     {"id":{"name":"spr_truck_cascade","path":"sprites/spr_truck_cascade/spr_truck_cascade.yy",},"order":1,},
     {"id":{"name":"spr_pidgey","path":"sprites/spr_pidgey/spr_pidgey.yy",},"order":3,},
     {"id":{"name":"spr_pidgeot","path":"sprites/spr_pidgeot/spr_pidgeot.yy",},"order":5,},
+    {"id":{"name":"scp_view_compatibility","path":"scripts/scp_view_compatibility/scp_view_compatibility.yy",},"order":10,},
     {"id":{"name":"spr_pidgeotto","path":"sprites/spr_pidgeotto/spr_pidgeotto.yy",},"order":7,},
     {"id":{"name":"spr_spearow_baby","path":"sprites/spr_spearow_baby/spr_spearow_baby.yy",},"order":1,},
     {"id":{"name":"spr_spearow","path":"sprites/spr_spearow/spr_spearow.yy",},"order":3,},
