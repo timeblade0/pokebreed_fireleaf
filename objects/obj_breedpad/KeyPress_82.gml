@@ -1,2 +1,2 @@
-//rotate 90 degrees
-if(scp_mouse_over(0)==1){ image_angle+=45; }
+/// @desc rotate 45 degrees
+if(scp_mouseover(0)==1){ image_angle+=45; }

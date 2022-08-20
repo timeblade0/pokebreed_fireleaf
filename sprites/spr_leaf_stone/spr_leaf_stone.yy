@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 34,
-  "bbox_top": 0,
-  "bbox_bottom": 34,
+  "bbox_left": 9,
+  "bbox_right": 87,
+  "bbox_top": 6,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 35,
+  "width": 94,
+  "height": 102,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bd53956c-b337-494c-b6c6-7343d4368787","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd53956c-b337-494c-b6c6-7343d4368787","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"LayerId":{"name":"34711dc7-f465-4a99-9df5-d5815f9f7f8f","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_leaf_stone","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"resourceVersion":"1.0","name":"bd53956c-b337-494c-b6c6-7343d4368787","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2b4c306d-079f-4c63-9bca-404137fc60c6","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2b4c306d-079f-4c63-9bca-404137fc60c6","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"LayerId":{"name":"ba9f2780-a64d-43c0-b3d7-73e932a58d2c","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_leaf_stone","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"resourceVersion":"1.0","name":"2b4c306d-079f-4c63-9bca-404137fc60c6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_leaf_stone","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4fc8731f-f180-41ef-934f-8baf6b77ecc7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd53956c-b337-494c-b6c6-7343d4368787","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"b7d3e8bf-628f-468c-99fa-e8cf9ec2a93d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b4c306d-079f-4c63-9bca-404137fc60c6","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 17,
-    "yorigin": 17,
+    "xorigin": 47,
+    "yorigin": 51,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_leaf_stone","path":"sprites/spr_leaf_stone/spr_leaf_stone.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34711dc7-f465-4a99-9df5-d5815f9f7f8f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ba9f2780-a64d-43c0-b3d7-73e932a58d2c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Evolution",
-    "path": "folders/Sprites/Items/Stones/Evolution.yy",
+    "path": "folders/Sprites/Items/Evolution.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_leaf_stone",

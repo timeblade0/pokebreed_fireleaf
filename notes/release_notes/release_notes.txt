@@ -1,3 +1,9 @@
+#20220820 SMW
+	updated grapics for evolution items
+	scaled all shop buttons by 2x
+	all objects can not be rotated with R
+	all objects can not be resized with - and +
+
 #20220819 SMW
 	added slowpoke family = alakazam/gaurdivour + Blastoise
 

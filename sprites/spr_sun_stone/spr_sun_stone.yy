@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 33,
-  "bbox_top": 1,
-  "bbox_bottom": 33,
+  "bbox_left": 4,
+  "bbox_right": 93,
+  "bbox_top": 4,
+  "bbox_bottom": 93,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 35,
+  "width": 98,
+  "height": 98,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"19381ad0-95ad-4785-91ec-cb29c82f8336","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"19381ad0-95ad-4785-91ec-cb29c82f8336","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"LayerId":{"name":"dca27816-8f7f-43a5-b530-2259003f3ce6","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sun_stone","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"resourceVersion":"1.0","name":"19381ad0-95ad-4785-91ec-cb29c82f8336","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8bb474aa-9fdd-4320-a7ea-9efb78e4e156","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8bb474aa-9fdd-4320-a7ea-9efb78e4e156","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"LayerId":{"name":"4c3d3b7e-c338-4b79-9c43-abc5a03229f7","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_sun_stone","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"resourceVersion":"1.0","name":"8bb474aa-9fdd-4320-a7ea-9efb78e4e156","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_sun_stone","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4ff7640d-bb95-46bf-93d9-e64f63bdfb32","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19381ad0-95ad-4785-91ec-cb29c82f8336","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"b8a39b01-cc06-4e1d-8a3d-77897a62ec10","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8bb474aa-9fdd-4320-a7ea-9efb78e4e156","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 17,
-    "yorigin": 17,
+    "xorigin": 49,
+    "yorigin": 49,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_sun_stone","path":"sprites/spr_sun_stone/spr_sun_stone.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dca27816-8f7f-43a5-b530-2259003f3ce6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4c3d3b7e-c338-4b79-9c43-abc5a03229f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Evolution",
-    "path": "folders/Sprites/Items/Stones/Evolution.yy",
+    "path": "folders/Sprites/Items/Evolution.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sun_stone",

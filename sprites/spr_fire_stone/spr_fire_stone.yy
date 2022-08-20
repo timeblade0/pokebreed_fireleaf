@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 34,
-  "bbox_top": 1,
-  "bbox_bottom": 34,
+  "bbox_left": 8,
+  "bbox_right": 96,
+  "bbox_top": 4,
+  "bbox_bottom": 93,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 35,
+  "width": 105,
+  "height": 98,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7ca8a7dd-ff0b-4aa3-bb26-e7e5bc38dcd7","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7ca8a7dd-ff0b-4aa3-bb26-e7e5bc38dcd7","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"LayerId":{"name":"1a6af1df-0a9f-4c7c-8678-0cd47a4318ec","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_fire_stone","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"resourceVersion":"1.0","name":"7ca8a7dd-ff0b-4aa3-bb26-e7e5bc38dcd7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"03371b60-0ab7-4156-84f5-f4ea305b6837","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"03371b60-0ab7-4156-84f5-f4ea305b6837","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"LayerId":{"name":"848bc8b7-3a32-4834-9ff5-3fd65507f2aa","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_fire_stone","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"resourceVersion":"1.0","name":"03371b60-0ab7-4156-84f5-f4ea305b6837","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_fire_stone","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4fe4262a-1c0a-41b3-8ef5-9c86ea06c414","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7ca8a7dd-ff0b-4aa3-bb26-e7e5bc38dcd7","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"18e87c43-f443-44e0-b004-7e11eff7b9a6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03371b60-0ab7-4156-84f5-f4ea305b6837","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 17,
-    "yorigin": 17,
+    "xorigin": 52,
+    "yorigin": 49,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_fire_stone","path":"sprites/spr_fire_stone/spr_fire_stone.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a6af1df-0a9f-4c7c-8678-0cd47a4318ec","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"848bc8b7-3a32-4834-9ff5-3fd65507f2aa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Evolution",
-    "path": "folders/Sprites/Items/Stones/Evolution.yy",
+    "path": "folders/Sprites/Items/Evolution.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fire_stone",

@@ -1,13 +1,14 @@
 //mouse drag
 event_inherited();
 
-//set pokemon values to zero each step
-golem=0
-steelix=0
-rhyperior=0
-ninetails=0
-crobat=0
-aerodactyl=0
+#region set pokemon values to zero each step
+	golem=0
+	steelix=0
+	rhyperior=0
+	ninetails=0
+	crobat=0
+	aerodactyl=0
+#endregion
 
 #region check if pokemon are in range, right form, and right gender
 	AA=instance_nearest(x,y,obj_geodude)
@@ -29,20 +30,21 @@ aerodactyl=0
 	if(distance_to_object(obj_aerodactyl)<range){if(AF.form==1 && AF.gender==1){aerodactyl=1}}
 #endregion
 
-//earn gym badge
-if(golem==1 && steelix==1 && rhyperior==1 && ninetails==1 && crobat==1 && aerodactyl==1){
-	global.badge[1]=1;
-	BB=instance_create_depth(x,y,depth,obj_badge_parent);
-	BB.sprite_index=spr_badge_boulder;
+#region earn gym badge if all pokemon are present
+	if(golem==1 && steelix==1 && rhyperior==1 && ninetails==1 && crobat==1 && aerodactyl==1){
+		global.badge[1]=1;
+		BB=instance_create_depth(x,y,depth,obj_badge_parent);
+			BB.sprite_index=spr_badge_boulder;
 	
-	//remove pokemon for badge
-	instance_destroy(AA);
-	instance_destroy(AB);
-	instance_destroy(AC);
-	instance_destroy(AD);
-	instance_destroy(AE);
-	instance_destroy(AF);
+		//remove pokemon for badge
+		instance_destroy(AA);
+		instance_destroy(AB);
+		instance_destroy(AC);
+		instance_destroy(AD);
+		instance_destroy(AE);
+		instance_destroy(AF);
 	
-	//destroy truck
-	instance_destroy()
-}
+		//destroy truck
+		instance_destroy()
+	}
+#endregion

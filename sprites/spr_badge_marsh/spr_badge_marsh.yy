@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "badges",
-    "path": "folders/Sprites/Items/badges.yy",
+    "name": "Badges",
+    "path": "folders/Sprites/Items/Badges.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_badge_marsh",

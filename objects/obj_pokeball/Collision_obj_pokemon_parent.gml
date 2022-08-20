@@ -1,4 +1,4 @@
-//capture
+/// @desc capture
 if(pokemon==0){
     pokemon = other.id        //save pokemon in ball
     gender = pokemon.gender   //used for inside preview

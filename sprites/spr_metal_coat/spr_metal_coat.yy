@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
-  "bbox_right": 31,
-  "bbox_top": 3,
-  "bbox_bottom": 36,
+  "bbox_left": 14,
+  "bbox_right": 80,
+  "bbox_top": 0,
+  "bbox_bottom": 82,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 38,
+  "width": 95,
+  "height": 83,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3b23b6ef-8d51-4166-b4f9-76dce5fa9e72","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3b23b6ef-8d51-4166-b4f9-76dce5fa9e72","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"LayerId":{"name":"70d059ac-da6b-4dbd-b6fd-938001116928","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_metal_coat","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"resourceVersion":"1.0","name":"3b23b6ef-8d51-4166-b4f9-76dce5fa9e72","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f5298a22-f3f4-4f3d-b576-d46efac28544","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f5298a22-f3f4-4f3d-b576-d46efac28544","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"LayerId":{"name":"a5e9a477-7f3a-4849-a35d-82310207e924","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_metal_coat","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"resourceVersion":"1.0","name":"f5298a22-f3f4-4f3d-b576-d46efac28544","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_metal_coat","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"235a8429-3421-4186-be40-6bb3df319f6b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3b23b6ef-8d51-4166-b4f9-76dce5fa9e72","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"2dbdcf34-5573-423a-9a97-99d08c232d7e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5298a22-f3f4-4f3d-b576-d46efac28544","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 17,
-    "yorigin": 19,
+    "xorigin": 47,
+    "yorigin": 41,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_metal_coat","path":"sprites/spr_metal_coat/spr_metal_coat.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70d059ac-da6b-4dbd-b6fd-938001116928","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5e9a477-7f3a-4849-a35d-82310207e924","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Evolution",
-    "path": "folders/Sprites/Items/Stones/Evolution.yy",
+    "path": "folders/Sprites/Items/Evolution.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_metal_coat",

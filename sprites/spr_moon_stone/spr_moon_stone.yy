@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
-  "bbox_right": 33,
-  "bbox_top": 1,
-  "bbox_bottom": 33,
+  "bbox_left": 9,
+  "bbox_right": 98,
+  "bbox_top": 12,
+  "bbox_bottom": 92,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 35,
+  "width": 107,
+  "height": 104,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"afd73abe-3a14-4895-9626-84a344171f50","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"afd73abe-3a14-4895-9626-84a344171f50","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"LayerId":{"name":"c53c6090-2177-411f-b2a0-c3aef5e00d02","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_moon_stone","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"resourceVersion":"1.0","name":"afd73abe-3a14-4895-9626-84a344171f50","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"37b4897c-ea88-468b-b968-876f424c2414","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"37b4897c-ea88-468b-b968-876f424c2414","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"LayerId":{"name":"c1c0dd5d-10ff-496d-bd40-43d135b3dfc1","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_moon_stone","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"resourceVersion":"1.0","name":"37b4897c-ea88-468b-b968-876f424c2414","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_moon_stone","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ff805d9f-f1dd-414d-bc66-30b92ae343f1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"afd73abe-3a14-4895-9626-84a344171f50","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"8876ee8a-b85c-4e9a-b3e7-34a3e48bc047","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37b4897c-ea88-468b-b968-876f424c2414","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 17,
-    "yorigin": 17,
+    "xorigin": 53,
+    "yorigin": 52,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_moon_stone","path":"sprites/spr_moon_stone/spr_moon_stone.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c53c6090-2177-411f-b2a0-c3aef5e00d02","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c1c0dd5d-10ff-496d-bd40-43d135b3dfc1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Evolution",
-    "path": "folders/Sprites/Items/Stones/Evolution.yy",
+    "path": "folders/Sprites/Items/Evolution.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_moon_stone",

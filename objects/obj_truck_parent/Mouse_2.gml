@@ -1,1 +1,1 @@
-//don't duplicate on middle down
+/// @desc don't inherit

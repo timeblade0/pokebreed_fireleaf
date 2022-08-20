@@ -1,4 +1,4 @@
-//release
+/// @desc release
 if(pokemon!=0){
     instance_destroy()
     instance_activate_object(pokemon)

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
-  "bbox_right": 32,
-  "bbox_top": 3,
-  "bbox_bottom": 33,
+  "bbox_left": 9,
+  "bbox_right": 95,
+  "bbox_top": 7,
+  "bbox_bottom": 96,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 35,
-  "height": 35,
+  "width": 102,
+  "height": 103,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"230b0423-176e-4626-a338-7d7b6003d173","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"230b0423-176e-4626-a338-7d7b6003d173","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"LayerId":{"name":"3ee84ccd-2e3d-4047-9caf-0ef9e9f9984b","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_thunder_stone","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"resourceVersion":"1.0","name":"230b0423-176e-4626-a338-7d7b6003d173","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"be48e3b4-8853-43d5-a6a5-2fe070d30018","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"be48e3b4-8853-43d5-a6a5-2fe070d30018","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"LayerId":{"name":"81999d09-a126-49b4-a750-49536ff6df49","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_thunder_stone","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"resourceVersion":"1.0","name":"be48e3b4-8853-43d5-a6a5-2fe070d30018","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_thunder_stone","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},
@@ -41,10 +41,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5c59a679-cf8f-4033-bbdf-2873caebcad9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"230b0423-176e-4626-a338-7d7b6003d173","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"9e9cdaae-c842-48c9-be2e-8890d09bf2bf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be48e3b4-8853-43d5-a6a5-2fe070d30018","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -54,8 +54,8 @@
     "backdropHeight": 1080,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 17,
-    "yorigin": 17,
+    "xorigin": 51,
+    "yorigin": 51,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_thunder_stone","path":"sprites/spr_thunder_stone/spr_thunder_stone.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ee84ccd-2e3d-4047-9caf-0ef9e9f9984b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"81999d09-a126-49b4-a750-49536ff6df49","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Evolution",
-    "path": "folders/Sprites/Items/Stones/Evolution.yy",
+    "path": "folders/Sprites/Items/Evolution.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_thunder_stone",

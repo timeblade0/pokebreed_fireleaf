@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_truck",
-    "path": "sprites/spr_truck/spr_truck.yy",
+    "name": "spr_truck_boulder",
+    "path": "sprites/spr_truck_boulder/spr_truck_boulder.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,3 +1,4 @@
+//init var
 set = 0;
 xp = 0;
 xp_max = 600;

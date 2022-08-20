@@ -1,4 +1,4 @@
 direction = random(360);
 speed = 3;
-image_speed = 0.5;
+image_speed = 0.25;
 set = 0;
