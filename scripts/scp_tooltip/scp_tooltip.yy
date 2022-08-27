@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Misc",
-    "path": "folders/Scripts/Misc.yy",
+    "name": "Attributes",
+    "path": "folders/Scripts/Attributes.yy",
   },
   "resourceVersion": "1.0",
   "name": "scp_tooltip",

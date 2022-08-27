@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Pokemon",
-    "path": "folders/Scripts/Pokemon.yy",
+    "name": "Attributes",
+    "path": "folders/Scripts/Attributes.yy",
   },
   "resourceVersion": "1.0",
   "name": "scp_random_movement",

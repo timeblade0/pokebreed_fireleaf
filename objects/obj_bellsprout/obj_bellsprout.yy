@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_grass_parent",
-    "path": "objects/obj_grass_parent/obj_grass_parent.yy",
+    "name": "obj_parent_grass",
+    "path": "objects/obj_parent_grass/obj_parent_grass.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

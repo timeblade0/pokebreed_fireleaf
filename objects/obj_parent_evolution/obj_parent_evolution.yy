@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "spr_sun_stone",
+    "path": "sprites/spr_sun_stone/spr_sun_stone.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_parent_item",
+    "path": "objects/obj_parent_item/obj_parent_item.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":19.0,"y":18.0,},
+    {"x":19.0,"y":19.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_parent_evolution",
+  "tags": [],
+  "resourceType": "GMObject",
+}

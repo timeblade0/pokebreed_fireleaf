@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_psychic_parent",
-    "path": "objects/obj_psychic_parent/obj_psychic_parent.yy",
+    "name": "obj_parent_psychic",
+    "path": "objects/obj_parent_psychic/obj_parent_psychic.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -30,7 +30,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_stone_parent","path":"objects/obj_stone_parent/obj_stone_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_evolution","path":"objects/obj_parent_evolution/obj_parent_evolution.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,1 +1,0 @@
-scp_breedpad_collision();

@@ -1,6 +1,4 @@
-//draw self
-draw_self()
-scp_draw_terrain_mouseover()
+event_inherited()
 
 //show timer circle
 if(alarm[1]>=0){

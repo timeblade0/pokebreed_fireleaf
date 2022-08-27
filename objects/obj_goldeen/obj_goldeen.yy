@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_water_parent",
-    "path": "objects/obj_water_parent/obj_water_parent.yy",
+    "name": "obj_parent_water",
+    "path": "objects/obj_parent_water/obj_parent_water.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

@@ -1,5 +1,6 @@
 event_inherited();
+
 //evolve
 if(form==0){scp_evolve(spr_growlith)}
-if(form==1){scp_evolve(spr_arcanine)}
+if(form==1){xp=0}
 

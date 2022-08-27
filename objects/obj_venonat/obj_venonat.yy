@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_bug_parent",
-    "path": "objects/obj_bug_parent/obj_bug_parent.yy",
+    "name": "obj_parent_bug",
+    "path": "objects/obj_parent_bug/obj_parent_bug.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

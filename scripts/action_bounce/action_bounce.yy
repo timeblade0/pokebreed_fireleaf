@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": true,
   "parent": {
-    "name": "action",
-    "path": "folders/Scripts/compatibility/action.yy",
+    "name": "compatibility",
+    "path": "folders/Scripts/compatibility.yy",
   },
   "resourceVersion": "1.0",
   "name": "action_bounce",

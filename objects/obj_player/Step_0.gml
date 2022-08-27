@@ -2,7 +2,7 @@
 action_bounce(0, 0);
 
 #region Walk if shop is closed
-	if(instance_number(obj_shop_menu)==0){
+	if(instance_number(obj_shop_main)==0){
 	    //walk right
 	    if(keyboard_check(ord("A"))){
 	        image_speed=walk_speed

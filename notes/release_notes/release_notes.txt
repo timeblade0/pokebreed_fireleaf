@@ -1,3 +1,18 @@
+#20220827 SMW
+	optimized item, evolution, badge, and terrain inheritence
+	improved vacuum
+	terrain can now be rotated and resized
+	mouseover + del now sells the pokemon / item
+	mouseover + spcae now copies the grabbed item
+	optimized and reduced number of fence objects
+	added pokemon parents for all elements
+	moved most pokemon skills to element parent
+	set game to maximized
+
+#20220826 SMW
+	optimized shop buttons
+	created gym lead sub page in shop
+
 #20220820 SMW
 	updated grapics for evolution items
 	scaled all shop buttons by 2x

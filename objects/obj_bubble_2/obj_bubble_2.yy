@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_item_parent",
-    "path": "objects/obj_item_parent/obj_item_parent.yy",
+    "name": "obj_bubble_1",
+    "path": "objects/obj_bubble_1/obj_bubble_1.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,7 +27,9 @@
     {"x":19.0,"y":18.0,},
     {"x":19.0,"y":19.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

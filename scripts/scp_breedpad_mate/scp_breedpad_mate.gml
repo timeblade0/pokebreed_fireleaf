@@ -14,7 +14,7 @@ function scp_breedpad_mate_function(gender, category, parent1, parent2, parent3,
 	
 	//breed requirements met
 	if(breed==1){
-		aa=instance_create_depth(x,y,0,obj_egg_parent);         //create the egg
+		aa=instance_create_depth(x,y,0,obj_parent_egg);         //create the egg
 		aa.sprite_index=egg_color;								//set egg color
 		aa.name=baby;											//send name to pokemon object
 		aa.object=asset_get_index("obj_"+aa.name)               //pokemon that will hatch

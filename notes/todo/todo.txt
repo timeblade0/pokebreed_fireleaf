@@ -1,3 +1,5 @@
+add exit game button in shop
+
 misty pokemon
 	kingdra
 	starmii
@@ -22,8 +24,9 @@ make rhypherior bigger
 make aerodactyl bigger
 
 long term:
+	save / load buttons in shop
 	screenshot of game behind shop menu
-	add minimap
 	fix not enough money in shop message exiting from full screen
 	fix evolution stuck on fence
 	evolution wheel change to clockwise spinning instead of color change
+	refine gym leader page in shop

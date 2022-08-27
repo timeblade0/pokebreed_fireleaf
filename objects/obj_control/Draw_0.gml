@@ -12,7 +12,7 @@
 #region draw terrain mode in bottom right
 
 	if(global.terrain_mode==1){
-		draw_sprite(spr_terrain_mode,0,camera_get_view_x(view_camera)+camera_get_view_width(view_camera)-20,camera_get_view_y(view_camera)+camera_get_view_height(view_camera)-20)
+		draw_sprite(spr_terrain_mode,0,camera_get_view_x(view_camera)+camera_get_view_width(view_camera)-40,camera_get_view_y(view_camera)+camera_get_view_height(view_camera)-40)
 	}
 
 #endregion

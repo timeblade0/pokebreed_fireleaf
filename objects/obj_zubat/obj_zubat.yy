@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_flying_parent",
-    "path": "objects/obj_flying_parent/obj_flying_parent.yy",
+    "name": "obj_parent_flying",
+    "path": "objects/obj_parent_flying/obj_parent_flying.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Poison",
-    "path": "folders/Objects/Pokemon/Poison.yy",
+    "name": "Flying",
+    "path": "folders/Objects/Pokemon/Flying.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_zubat",

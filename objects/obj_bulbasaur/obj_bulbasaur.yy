@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_grass_parent",
-    "path": "objects/obj_grass_parent/obj_grass_parent.yy",
+    "name": "obj_parent_grass",
+    "path": "objects/obj_parent_grass/obj_parent_grass.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,8 +28,8 @@
     {"x":42.0,"y":42.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

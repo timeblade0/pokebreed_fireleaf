@@ -5,12 +5,13 @@ function scp_shop_pokemon_btn_function(col,row,pokemon_name,button_bkg) {
 	//argument1=row
 	//argument2=pokemon name
 	//argument3=button background sprite
-	button_origin_x=obj_shop_menu.x+20
-	button_origin_y=obj_shop_menu.y+20
-	button_spacing=100
+	
+	//define shop columns and rows
+	scp_shop_define_col_row()
 
-	aa=instance_create_depth(button_origin_x+(col-1)*button_spacing,button_origin_y+(row-1)*button_spacing,0,obj_pokemon_buy_btn_parent)
-	aa.cost=1000; 
+	//create pokemon
+	aa=instance_create_depth(menu_col[col],menu_row[row],0,obj_button_pokemon_buy_parent)
+	aa.cost=1000;
 	aa.name=pokemon_name
 	aa.sprite=asset_get_index("spr_"+aa.name)
 	aa.object=asset_get_index("obj_"+aa.name)    

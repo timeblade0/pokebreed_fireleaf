@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_truck_boulder",
-    "path": "sprites/spr_truck_boulder/spr_truck_boulder.yy",
+    "name": "spr_truck_1",
+    "path": "sprites/spr_truck_1/spr_truck_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_item_parent",
-    "path": "objects/obj_item_parent/obj_item_parent.yy",
+    "name": "obj_parent_item",
+    "path": "objects/obj_parent_item/obj_parent_item.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

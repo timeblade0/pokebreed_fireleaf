@@ -4,6 +4,7 @@
 //example with function:	draw_text(view_left(), view_right(), "ABCDE");
 //example without function:	draw_text(camera_get_view_x(view_camera), camera_get_view_y(view_camera), "ABCDE");
 
+/*
 function view_left(){
 	return camera_get_view_x(view_camera);
 }
@@ -16,3 +17,4 @@ function view_width(){
 function view_height(){
 	return camera_get_view_height(view_camera);
 }
+*/
