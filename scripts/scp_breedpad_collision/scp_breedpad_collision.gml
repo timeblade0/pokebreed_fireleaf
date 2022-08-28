@@ -35,6 +35,8 @@ function scp_breedpad_collision() {
 	if(other.name=="cloyster")      {cloyster[other.gender]=1; }
 	if(other.name=="rhyperior")     {rhyperior[other.gender]=1; }
 	if(other.name=="slowking")		{slowking[other.gender]=1; }
+	if(other.name=="kingdra")		{kingdra[other.gender]=1; }
+	if(other.name=="farfetched")	{farfetched[other.gender]=1; }
 
 	if(other.name=="golem")         {golem+=0.2; }
 	if(other.name=="steelix")       {steelix+=0.2; }

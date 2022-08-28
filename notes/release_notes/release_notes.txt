@@ -1,3 +1,11 @@
+#20220828 SMW
+	added horsea family (rapidash + goldeen)
+	added dragon scale evolution item
+	added farfetched (pidgeot + fearow)
+	duplicating evolution items now cost money
+	deleting evolution items now refunds money
+	fixed bug that caused E to not close the menu
+
 #20220827 SMW
 	optimized item, evolution, badge, and terrain inheritence
 	improved vacuum

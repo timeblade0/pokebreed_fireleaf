@@ -16,7 +16,7 @@
 	}
 #endregion
 #region close menu with E
-	if(keyboard_check_pressed(ord("E")) && instance_number(obj_shop_main)==1 && instance_number(obj_button_up)==0){  
+	if(keyboard_check_pressed(ord("E")) && instance_number(obj_shop_main)==1 && instance_number(obj_button_submenu_badges)==1){  
 		instance_destroy(obj_shop_main)
 		instance_destroy(obj_button_shop_parent)
 		global.zoom=global.zoom_preshop

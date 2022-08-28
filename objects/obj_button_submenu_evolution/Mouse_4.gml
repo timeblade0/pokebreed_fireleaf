@@ -26,6 +26,8 @@ aa=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=stone_cost; aa.name="Metal Coat"; aa.sprite=spr_metal_coat; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_black; aa.scale=0.75
 aa=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=stone_cost; aa.name="King's Rock"; aa.sprite=spr_kings_rock; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_black; aa.scale=0.75
+aa=instance_create_depth(menu_col[3],menu_row[3],0,obj_button_item_buy_parent)
+    aa.cost=stone_cost; aa.name="Dragon Scale"; aa.sprite=spr_dragon_scale; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_black; aa.scale=0.75
 
 //row 9
 scp_shop_create_buttons_bottom()

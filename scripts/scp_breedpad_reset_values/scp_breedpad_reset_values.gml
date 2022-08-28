@@ -36,6 +36,8 @@ function scp_breedpad_reset_values() {
 		rhyperior[aa]=0
 		aerodactyl[aa]=0
 		slowking[aa]=0
+		kingdra[aa]=0
+		farfetched[aa]=0
     
 	    eevee[aa]=0;   
 	        flareon[aa]=0;   

@@ -11,3 +11,7 @@ if(element=="grass"){
 	    AA.alarm[0]=15
 	}
 }
+
+if(element=="flying"){
+	instance_create_depth(x,y,0,obj_whirlwind_1)
+}
