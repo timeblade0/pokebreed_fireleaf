@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rhyhorn_baby",
-    "path": "sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",
+    "name": "spr_rhyhorn",
+    "path": "sprites/spr_rhyhorn/spr_rhyhorn.yy",
   },
   "solid": false,
   "visible": true,

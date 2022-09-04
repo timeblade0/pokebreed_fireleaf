@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_zubat_baby",
-    "path": "sprites/spr_zubat_baby/spr_zubat_baby.yy",
+    "name": "spr_zubat",
+    "path": "sprites/spr_zubat/spr_zubat.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_treeko_baby",
-    "path": "sprites/spr_treeko_baby/spr_treeko_baby.yy",
+    "name": "spr_treeko",
+    "path": "sprites/spr_treeko/spr_treeko.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,10 @@
 function scp_breedpad_collision() {
 	//set breed values on collision
 
-	//gen1
+	//change name to lowercase. should never be uppercase
+	other.name=scp_string_lowercase_first(other.name)
+
+	//gender
 	if(other.name=="venusaur")      {venusaur[other.gender]=1; }
 	if(other.name=="charizard")     {charizard[other.gender]=1; }
 	if(other.name=="blastoise")     {blastoise[other.gender]=1; }
@@ -41,6 +44,10 @@ function scp_breedpad_collision() {
 	if(other.name=="aerodactyl")    {aerodactyl[other.gender]=1; }
 	if(other.name=="houndoom")		{houndoom[other.gender]=1; }
 	if(other.name=="ursaring")		{ursaring[other.gender]=1; }
+	if(other.name=="dodrio")		{dodrio[other.gender]=1; }
+	if(other.name=="dewgong")		{dewgong[other.gender]=1; }
+	if(other.name=="sceptile")      {sceptile[other.gender]=1; }
+	if(other.name=="torkoal")       {torkoal[other.gender]=1; }
 	
 	//genderless
 	if(other.name=="golem")         {golem+=0.2;		}
@@ -53,8 +60,4 @@ function scp_breedpad_collision() {
 	if(other.name=="vaporeon")      {eevee[other.gender]=1; vaporeon[other.gender]=1;}
 	if(other.name=="espeon")        {eevee[other.gender]=1; espeon[other.gender]=1;}
 	if(other.name=="umbreon")       {eevee[other.gender]=1; umbreon[other.gender]=1;}
-	
-	//gen3
-	if(other.name=="sceptile")      {sceptile[other.gender]=1; }
-	if(other.name=="torkoal")       {torkoal[other.gender]=1; }
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_farfetched_baby",
-    "path": "sprites/spr_farfetched_baby/spr_farfetched_baby.yy",
+    "name": "spr_farfetched",
+    "path": "sprites/spr_farfetched/spr_farfetched.yy",
   },
   "solid": false,
   "visible": true,

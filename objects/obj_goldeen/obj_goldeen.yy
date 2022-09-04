@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_goldeen_baby",
-    "path": "sprites/spr_goldeen_baby/spr_goldeen_baby.yy",
+    "name": "spr_goldeen",
+    "path": "sprites/spr_goldeen/spr_goldeen.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pidgey_baby",
-    "path": "sprites/spr_pidgey_baby/spr_pidgey_baby.yy",
+    "name": "spr_pidgey",
+    "path": "sprites/spr_pidgey/spr_pidgey.yy",
   },
   "solid": false,
   "visible": true,

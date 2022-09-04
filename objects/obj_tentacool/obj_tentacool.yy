@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tentacool_baby",
-    "path": "sprites/spr_tentacool_baby/spr_tentacool_baby.yy",
+    "name": "spr_tentacool",
+    "path": "sprites/spr_tentacool/spr_tentacool.yy",
   },
   "solid": false,
   "visible": true,

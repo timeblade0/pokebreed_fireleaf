@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_poliwag_baby",
-    "path": "sprites/spr_poliwag_baby/spr_poliwag_baby.yy",
+    "name": "spr_poliwag",
+    "path": "sprites/spr_poliwag/spr_poliwag.yy",
   },
   "solid": false,
   "visible": true,

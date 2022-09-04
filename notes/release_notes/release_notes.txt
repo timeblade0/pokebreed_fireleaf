@@ -1,9 +1,20 @@
+#20220904 SMW
+	added doduo family = fearow + dugtrio
+	added seel family = goldeen + ursaring
+	egg upgrades
+		scale and rotation carries into baby
+		can now be deleted
+		can not be sold with seller
+		can now be captured in a pokeball
+		now has parent of pokemon parent
+		gender is now shown before eggs hatch
+	remove all tiny babies
+
 #20220903 SMW
 	added Staryu family to shop
 	changed poochyena to houndour
 	added teddiursa family to shop
 	added magnemite family (steelix + raichu)
-	eggs can now be deleted
 	fixed a bug that prevetned Steelix from breeding
 
 #20220828 SMW

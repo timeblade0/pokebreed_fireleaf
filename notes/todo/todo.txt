@@ -1,6 +1,4 @@
-doduo
 misty pokemon
-	seel - ursaring + squirtle
 	togikiss
 	
 misty gym truck

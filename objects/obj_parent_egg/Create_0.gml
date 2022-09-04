@@ -1,8 +1,8 @@
+event_inherited()
+
 //init var
-set = 0;
-xp = 0;
-xp_max = 600;
-form = 0;
-form_max = 1;
-name = "";
+unit_speed=0;
+direction=0;
+form_max=1;
 money=0;
+gender=floor(random(2))

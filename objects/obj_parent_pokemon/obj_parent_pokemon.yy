@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_geodude",
-    "path": "sprites/spr_geodude/spr_geodude.yy",
+    "name": "spr_rhydon",
+    "path": "sprites/spr_rhydon/spr_rhydon.yy",
   },
   "solid": false,
   "visible": true,

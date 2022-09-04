@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_spearow_baby",
-    "path": "sprites/spr_spearow_baby/spr_spearow_baby.yy",
+    "name": "spr_spearow",
+    "path": "sprites/spr_spearow/spr_spearow.yy",
   },
   "solid": false,
   "visible": true,

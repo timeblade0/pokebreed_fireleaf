@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_venonat_baby",
-    "path": "sprites/spr_venonat_baby/spr_venonat_baby.yy",
+    "name": "spr_venonat",
+    "path": "sprites/spr_venonat/spr_venonat.yy",
   },
   "solid": false,
   "visible": true,

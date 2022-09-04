@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rattata_baby",
-    "path": "sprites/spr_rattata_baby/spr_rattata_baby.yy",
+    "name": "spr_rattata",
+    "path": "sprites/spr_rattata/spr_rattata.yy",
   },
   "solid": false,
   "visible": true,

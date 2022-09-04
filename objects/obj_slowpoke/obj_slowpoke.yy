@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_slowpoke_baby",
-    "path": "sprites/spr_slowpoke_baby/spr_slowpoke_baby.yy",
+    "name": "spr_slowpoke",
+    "path": "sprites/spr_slowpoke/spr_slowpoke.yy",
   },
   "solid": false,
   "visible": true,

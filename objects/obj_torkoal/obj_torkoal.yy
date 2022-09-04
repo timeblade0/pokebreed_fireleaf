@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_torkoal_baby",
-    "path": "sprites/spr_torkoal_baby/spr_torkoal_baby.yy",
+    "name": "spr_torkoal",
+    "path": "sprites/spr_torkoal/spr_torkoal.yy",
   },
   "solid": false,
   "visible": true,

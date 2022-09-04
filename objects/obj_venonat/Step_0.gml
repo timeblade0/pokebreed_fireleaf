@@ -1,5 +1,5 @@
 event_inherited();
+
 //evolve
-if(form==0){scp_evolve(spr_venonat)}
-if(form==1){scp_evolve(spr_venomoth)}
+if(form==0){scp_evolve(spr_venomoth)}
 

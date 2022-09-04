@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Misc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_capitalize_string",
+  "name": "scp_string_lowercase_first",
   "tags": [],
   "resourceType": "GMScript",
 }

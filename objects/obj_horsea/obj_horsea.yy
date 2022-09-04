@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_horsea_baby",
-    "path": "sprites/spr_horsea_baby/spr_horsea_baby.yy",
+    "name": "spr_horsea",
+    "path": "sprites/spr_horsea/spr_horsea.yy",
   },
   "solid": false,
   "visible": true,

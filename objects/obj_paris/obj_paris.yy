@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_paris_baby",
-    "path": "sprites/spr_paris_baby/spr_paris_baby.yy",
+    "name": "spr_paris",
+    "path": "sprites/spr_paris/spr_paris.yy",
   },
   "solid": false,
   "visible": true,

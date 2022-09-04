@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mankey_baby",
-    "path": "sprites/spr_mankey_baby/spr_mankey_baby.yy",
+    "name": "spr_mankey",
+    "path": "sprites/spr_mankey/spr_mankey.yy",
   },
   "solid": false,
   "visible": true,

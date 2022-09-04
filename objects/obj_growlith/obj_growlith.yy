@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_growlith_baby",
-    "path": "sprites/spr_growlith_baby/spr_growlith_baby.yy",
+    "name": "spr_growlith",
+    "path": "sprites/spr_growlith/spr_growlith.yy",
   },
   "solid": false,
   "visible": true,

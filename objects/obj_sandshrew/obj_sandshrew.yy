@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sandshrew_baby",
-    "path": "sprites/spr_sandshrew_baby/spr_sandshrew_baby.yy",
+    "name": "spr_sandshrew",
+    "path": "sprites/spr_sandshrew/spr_sandshrew.yy",
   },
   "solid": false,
   "visible": true,

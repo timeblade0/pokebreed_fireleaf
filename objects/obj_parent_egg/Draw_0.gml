@@ -1,9 +1,14 @@
-//draw self
-draw_self()
-name=scp_capitalize_string(name)
-
-//show time circle
-scp_show_timer_circle()
+event_inherited()
 
 //show tooltip
-scp_tooltip(name)
+scp_tooltip(scp_string_uppercase_first(name))
+
+//hatch
+if(xp>=xp_max){
+	bb=instance_create_depth(x,y,0,object)
+	bb.gender=gender
+	bb.image_xscale=image_xscale
+	bb.image_yscale=image_yscale
+	bb.image_angle=image_angle
+	instance_destroy()
+}

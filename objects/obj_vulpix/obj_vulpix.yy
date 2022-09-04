@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_vulpix_baby",
-    "path": "sprites/spr_vulpix_baby/spr_vulpix_baby.yy",
+    "name": "spr_vulpix",
+    "path": "sprites/spr_vulpix/spr_vulpix.yy",
   },
   "solid": false,
   "visible": true,

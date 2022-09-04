@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_aerodactyl_baby",
-    "path": "sprites/spr_aerodactyl_baby/spr_aerodactyl_baby.yy",
+    "name": "spr_aerodactyl",
+    "path": "sprites/spr_aerodactyl/spr_aerodactyl.yy",
   },
   "solid": false,
   "visible": true,

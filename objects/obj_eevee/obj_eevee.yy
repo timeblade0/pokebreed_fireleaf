@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_eevee_baby",
-    "path": "sprites/spr_eevee_baby/spr_eevee_baby.yy",
+    "name": "spr_eevee",
+    "path": "sprites/spr_eevee/spr_eevee.yy",
   },
   "solid": false,
   "visible": true,

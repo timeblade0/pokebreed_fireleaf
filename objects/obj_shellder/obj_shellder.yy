@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_shellder_baby",
-    "path": "sprites/spr_shellder_baby/spr_shellder_baby.yy",
+    "name": "spr_shellder",
+    "path": "sprites/spr_shellder/spr_shellder.yy",
   },
   "solid": false,
   "visible": true,

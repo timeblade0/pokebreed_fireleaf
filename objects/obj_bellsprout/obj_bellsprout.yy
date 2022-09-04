@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bellsprout_baby",
-    "path": "sprites/spr_bellsprout_baby/spr_bellsprout_baby.yy",
+    "name": "spr_bellsprout",
+    "path": "sprites/spr_bellsprout/spr_bellsprout.yy",
   },
   "solid": false,
   "visible": true,

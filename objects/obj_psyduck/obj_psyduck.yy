@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_psyduck_baby",
-    "path": "sprites/spr_psyduck_baby/spr_psyduck_baby.yy",
+    "name": "spr_psyduck",
+    "path": "sprites/spr_psyduck/spr_psyduck.yy",
   },
   "solid": false,
   "visible": true,

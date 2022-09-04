@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_meowth_baby",
-    "path": "sprites/spr_meowth_baby/spr_meowth_baby.yy",
+    "name": "spr_meowth",
+    "path": "sprites/spr_meowth/spr_meowth.yy",
   },
   "solid": false,
   "visible": true,

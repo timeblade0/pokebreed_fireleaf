@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ponyta_baby",
-    "path": "sprites/spr_ponyta_baby/spr_ponyta_baby.yy",
+    "name": "spr_ponyta",
+    "path": "sprites/spr_ponyta/spr_ponyta.yy",
   },
   "solid": false,
   "visible": true,

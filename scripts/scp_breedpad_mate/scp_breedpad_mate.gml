@@ -1,4 +1,4 @@
-//function to simplify breedpad_mate. DO NOT change this
+//function to simplify breedpad_mate. DO NOT CHANGE THIS
 function scp_breedpad_mate_function(gender, category, parent1, parent2, parent3, parent4, baby, egg_color) {
 	breed=0; //are breed requirements start as not met
 	
@@ -69,6 +69,8 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("gender", "same", farfetched[0],	farfetched[1], , ,								"farfetched",	spr_egg_white);
 		scp_breedpad_mate_function("gender", "same", starmie[0],	starmie[1], , ,									"staryu",		spr_egg_blue);
 		scp_breedpad_mate_function("gender", "same", ursaring[0],	ursaring[1], , ,								"teddiursa",	spr_egg_white);
+		scp_breedpad_mate_function("gender", "same", dodrio[0],		dodrio[1], , ,									"doduo",		spr_egg_white);
+		scp_breedpad_mate_function("gender", "same", dewgong[0],	dewgong[1], , ,									"seel",			spr_egg_blue);
     
 		//genderless - same species
 		scp_breedpad_mate_function("genderless", "same", golem, , , ,												"geodude",		spr_egg_grey);
@@ -88,6 +90,8 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("gender", "cross", blastoise[0],	alakazam[1],	blastoise[1],	alakazam[0],	"slowpoke",		spr_egg_purple);
 		scp_breedpad_mate_function("gender", "cross", goldeen[0],	rapidash[1],	goldeen[1],		rapidash[0],	"horsea",		spr_egg_blue);
 		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	fearow[1],		pidgeot[1],		fearow[0],		"farfetched",	spr_egg_blue);
+		scp_breedpad_mate_function("gender", "cross", dugtrio[0],	fearow[1],		dugtrio[1],		fearow[0],		"doduo",		spr_egg_white);
+		scp_breedpad_mate_function("gender", "cross", goldeen[0],	ursaring[1],	goldeen[1],		ursaring[0],	"seel",			spr_egg_blue);
 		
 		//crossbreed - gender + genderless
 		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	golem,			pidgeot[1],		golem,			"aerodactyl",	spr_egg_grey);
