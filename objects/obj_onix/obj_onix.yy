@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_onix_baby",
-    "path": "sprites/spr_onix_baby/spr_onix_baby.yy",
+    "name": "spr_onix",
+    "path": "sprites/spr_onix/spr_onix.yy",
   },
   "solid": false,
   "visible": true,

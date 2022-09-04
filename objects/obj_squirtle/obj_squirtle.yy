@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_squirtle_baby",
-    "path": "sprites/spr_squirtle_baby/spr_squirtle_baby.yy",
+    "name": "spr_squirtle",
+    "path": "sprites/spr_squirtle/spr_squirtle.yy",
   },
   "solid": false,
   "visible": true,

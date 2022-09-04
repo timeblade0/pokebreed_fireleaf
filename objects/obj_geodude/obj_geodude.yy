@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_geodude_baby",
-    "path": "sprites/spr_geodude_baby/spr_geodude_baby.yy",
+    "name": "spr_geodude",
+    "path": "sprites/spr_geodude/spr_geodude.yy",
   },
   "solid": false,
   "visible": true,

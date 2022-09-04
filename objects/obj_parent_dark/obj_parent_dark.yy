@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mightyena",
-    "path": "sprites/spr_mightyena/spr_mightyena.yy",
+    "name": "spr_houndoom",
+    "path": "sprites/spr_houndoom/spr_houndoom.yy",
   },
   "solid": false,
   "visible": true,

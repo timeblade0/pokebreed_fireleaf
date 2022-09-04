@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ekans_baby",
-    "path": "sprites/spr_ekans_baby/spr_ekans_baby.yy",
+    "name": "spr_ekans",
+    "path": "sprites/spr_ekans/spr_ekans.yy",
   },
   "solid": false,
   "visible": true,

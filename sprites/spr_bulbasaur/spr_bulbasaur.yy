@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Bulbasaur",
-    "path": "folders/Sprites/Pokemon/Plant/Bulbasaur.yy",
+    "path": "folders/Sprites/Pokemon/Grass/Bulbasaur.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bulbasaur",

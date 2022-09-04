@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bulbasaur_baby",
-    "path": "sprites/spr_bulbasaur_baby/spr_bulbasaur_baby.yy",
+    "name": "spr_bulbasaur",
+    "path": "sprites/spr_bulbasaur/spr_bulbasaur.yy",
   },
   "solid": false,
   "visible": true,

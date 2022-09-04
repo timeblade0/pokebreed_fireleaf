@@ -1,4 +1,7 @@
 event_inherited();
+
+//genderless
+gender=2;
+
 //evolve
-if(form==0){scp_evolve(spr_onix)}
-if(form==1){xp=0}
+if(form=0){xp=0}

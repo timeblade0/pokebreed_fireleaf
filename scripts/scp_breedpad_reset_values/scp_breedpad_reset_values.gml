@@ -38,19 +38,23 @@ function scp_breedpad_reset_values() {
 		slowking[aa]=0
 		kingdra[aa]=0
 		farfetched[aa]=0
+		starmie[aa]=0
+		houndoom[aa]=0
+		ursaring[aa]=0
+		sceptile[aa]=0
+	    torkoal[aa]=0
     
+		//eevee
 	    eevee[aa]=0;   
 	        flareon[aa]=0;   
 	        jolteon[aa]=0;  
 	        vaporeon[aa]=0; 
 	        espeon[aa]=0;   
 	        umbreon[aa]=0; 
+			
+		//genderless
 	    golem=0;
 	    steelix=0;
-
-	    //gen3
-	    sceptile[aa]=0
-	    torkoal[aa]=0
-	    mightyena[aa]=0
+		magnezone=0
 	}
 }

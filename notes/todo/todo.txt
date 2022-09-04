@@ -1,6 +1,6 @@
+doduo
 misty pokemon
-	starmii
-	seel
+	seel - ursaring + squirtle
 	togikiss
 	
 misty gym truck
@@ -11,8 +11,8 @@ cubone/marrowwak/kangashkahn
 hitmonlee/hitmonchan/hitmontop
 pinser/heriacross
 tarus/miltank
+porygon - genderless in shop
 
-allow eggs to be deleted
 badge acquired sound
 
 terrain objects

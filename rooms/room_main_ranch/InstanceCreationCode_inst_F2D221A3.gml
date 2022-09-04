@@ -1,3 +1,3 @@
 gender=1
-form=2
+form=1
 xp=xp_max

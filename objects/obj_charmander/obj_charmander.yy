@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_charmander_baby",
-    "path": "sprites/spr_charmander_baby/spr_charmander_baby.yy",
+    "name": "spr_charmander",
+    "path": "sprites/spr_charmander/spr_charmander.yy",
   },
   "solid": false,
   "visible": true,

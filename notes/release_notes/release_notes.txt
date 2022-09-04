@@ -1,3 +1,11 @@
+#20220903 SMW
+	added Staryu family to shop
+	changed poochyena to houndour
+	added teddiursa family to shop
+	added magnemite family (steelix + raichu)
+	eggs can now be deleted
+	fixed a bug that prevetned Steelix from breeding
+
 #20220828 SMW
 	added horsea family (rapidash + goldeen)
 	added dragon scale evolution item

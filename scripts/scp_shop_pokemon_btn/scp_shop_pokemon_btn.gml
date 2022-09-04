@@ -62,9 +62,10 @@ scp_shop_define_col_row()
 		//scp_shop_pokemon_btn_function(10,5,"",spr_button_yellow)
 	#endregion
 	#region row 6
-		scp_shop_pokemon_btn_function(1,6,"eevee",spr_button_blue_light)
-		scp_shop_pokemon_btn_function(2,6,"poochyena",spr_button_black)
-		//scp_shop_pokemon_btn_function(3,6,"",spr_button_blue_light)
+		scp_shop_pokemon_btn_function(1,6,"staryu",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(2,6,"eevee",spr_button_blue_light)
+		scp_shop_pokemon_btn_function(3,6,"houndour",spr_button_black)
+		scp_shop_pokemon_btn_function(4,6,"teddiursa",spr_button_black)
 		//scp_shop_pokemon_btn_function(4,6,"",spr_button_purple)
 		//scp_shop_pokemon_btn_function(5,6,"",spr_button_yellow)
 		//scp_shop_pokemon_btn_function(6,6,"",spr_button_yellow)
