@@ -8,7 +8,7 @@ room_speed=60
 
 #region badge variables
 	global.badge[1]=0
-	//global.badge[2]=0
+	global.badge[2]=0
 	//global.badge[3]=0
 	//global.badge[4]=0
 	//global.badge[5]=0

@@ -1,4 +1,4 @@
-//init var
+/// @desc init var
 set = 0;
 money=0;
 vacuumable=0

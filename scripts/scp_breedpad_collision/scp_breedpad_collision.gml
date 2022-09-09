@@ -53,6 +53,7 @@ function scp_breedpad_collision() {
 	//genderless
 	if(other.name=="golem")         {golem+=0.2;		}
 	if(other.name=="magnezone")		{magnezone+=0.2;	}
+	if(other.name=="muk")			{muk+=0.2;	}
 	if(other.name=="steelix")       {steelix+=0.2;		}
 
 	//eevees

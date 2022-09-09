@@ -1,6 +1,9 @@
 #20220909 SMW
 	added togepi family = wigglytuff + pidgeot
 	alphabatized breed lists
+	added isty badge to shop
+	changed (psyduck = blastoise + pidgeot) to (psyduck = goldeen + pideot)
+	added grimer family to shop genderless. right click to split
 
 #20220904 SMW
 	added doduo family = fearow + dugtrio

@@ -1,12 +1,13 @@
-misty gym truck
-grimer
+gastly - shop genderless
+koffing - shop genderless
 
-voltorb - pokeball
-eggsecute=bulbasaur+abra
-cubone/marrowwak/kangashkahn
-hitmonlee/hitmonchan/hitmontop
-pinser/heriacross
-tarus/miltank
+voltorb = pokeball + electric type
+add rubber ball for electric pokemon
+eggsecute = bulbasaur + abra
+cubone/marowak/kangashkahn
+tyrouge/hitmonlee/hitmonchan/hitmontop
+pinser F / heriacross M
+miltank F / tauros M
 porygon - genderless in shop
 
 badge acquired sound
@@ -21,4 +22,3 @@ long term:
 	fix not enough money in shop message exiting from full screen
 	fix evolution stuck on fence
 	evolution wheel change to clockwise spinning instead of color change
-	refine gym leader page in shop

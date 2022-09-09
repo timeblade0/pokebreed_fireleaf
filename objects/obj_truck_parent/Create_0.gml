@@ -6,6 +6,10 @@ range=375   //range to find pokemon
 
 //remove all other trucks of this type
 global.AA=id		//id of new truck
-with(obj_truck_parent){
+with(object_index){
 	if(id!=global.AA)	instance_destroy();
 }
+
+//delay change to badge if earned
+//this fixes a bug with setting sptrie image
+alarm[0]=1

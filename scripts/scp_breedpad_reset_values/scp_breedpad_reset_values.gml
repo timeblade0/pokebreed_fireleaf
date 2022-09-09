@@ -21,7 +21,7 @@ function scp_breedpad_reset_values() {
 	    golduck[aa]=0
 		houndoom[aa]=0
 		kingdra[aa]=0
-	    machamp[aa]=0		
+	    machamp[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
 	    parasect[aa]=0
@@ -57,7 +57,8 @@ function scp_breedpad_reset_values() {
 			
 		//genderless
 	    golem=0;
-	    steelix=0;
 		magnezone=0
+		muk=0;
+	    steelix=0;
 	}
 }

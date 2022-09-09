@@ -1,3 +1,5 @@
+/// @desc check for pokemon
+
 //mouse drag
 event_inherited();
 
@@ -34,7 +36,7 @@ event_inherited();
 	if(golem==1 && steelix==1 && rhyperior==1 && ninetails==1 && crobat==1 && aerodactyl==1){
 		global.badge[1]=1;
 		BB=instance_create_depth(x,y,depth,obj_parent_badge);
-			BB.sprite_index=spr_badge_boulder;
+			BB.sprite_index=spr_badge_1;
 	
 		//remove pokemon for badge
 		instance_destroy(AA);

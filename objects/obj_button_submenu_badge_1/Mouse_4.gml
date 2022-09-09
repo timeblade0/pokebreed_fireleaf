@@ -30,11 +30,10 @@ AA.sprite_index=spr_aerodactyl;		AA.image_index=1
 AA=instance_create_depth(menu_col[7],menu_row[3],0,obj_shop_badge_sprite)
 AA.sprite_index=spr_brock;			AA.image_index=1
 
-//create truck request button
-aa=instance_create_depth(menu_col[6],menu_row[6],0,obj_shop_badge_sprite)
-	aa.sprite_index=spr_button_brown; aa.image_xscale=6; aa.image_yscale=6;
-aa=instance_create_depth(menu_col[7],menu_row[7],-1,obj_button_item_buy_parent)
+//create delivery truck button
+aa=instance_create_depth(menu_col[6],menu_row[6],-1,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Request Delivery Truck"; aa.sprite=spr_truck_1; aa.object=obj_truck_1; aa.sprite_index=spr_button_brown; aa.scale=2
+	aa.image_xscale=6;	aa.image_yscale=6;
 
 //row 9
 scp_shop_create_buttons_bottom()

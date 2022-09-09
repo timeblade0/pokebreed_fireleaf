@@ -1,4 +1,4 @@
-//attributes
+/// @desc attributes
 scp_deletable();
 scp_duplicatable()
 scp_mouse_drag_item();

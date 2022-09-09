@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_badge_boulder",
-    "path": "sprites/spr_badge_boulder/spr_badge_boulder.yy",
+    "name": "spr_badge_1",
+    "path": "sprites/spr_badge_1/spr_badge_1.yy",
   },
   "solid": false,
   "visible": true,

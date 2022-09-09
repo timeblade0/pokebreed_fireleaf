@@ -76,6 +76,7 @@ function scp_breedpad_mate() {
 		//genderless - same species
 		scp_breedpad_mate_function("genderless", "same", golem, , , ,												"geodude",		spr_egg_grey);
 		scp_breedpad_mate_function("genderless", "same", magnezone, , , ,											"magnemite",	spr_egg_yellow);
+		scp_breedpad_mate_function("genderless", "same", muk, , , ,													"grimer",		spr_egg_purple);
 		scp_breedpad_mate_function("genderless", "same", steelix, , , ,												"onix",			spr_egg_grey);
 
 		//crossbreed - gender + gender
@@ -84,7 +85,7 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("gender", "cross", charizard[0],	houndoom[1],	charizard[1],	houndoom[0],	"growlith",		spr_egg_orange);
 		scp_breedpad_mate_function("gender", "cross", goldeen[0],	rapidash[1],	goldeen[1],		rapidash[0],	"horsea",		spr_egg_blue);
 		scp_breedpad_mate_function("gender", "cross", venusaur[0],	blastoise[1],	venusaur[1],	blastoise[0],	"poliwag",		spr_egg_blue);
-		scp_breedpad_mate_function("gender", "cross", blastoise[0],	pidgeot[1],		blastoise[1],	pidgeot[0],		"psyduck",		spr_egg_blue);
+		scp_breedpad_mate_function("gender", "cross", goldeen[0],	pidgeot[1],		goldeen[1],		pidgeot[0],		"psyduck",		spr_egg_blue);
 		scp_breedpad_mate_function("gender", "cross", raichu[0],	dugtrio[1],		raichu[1],		dugtrio[0],		"sandshrew",	spr_egg_brown);
 		scp_breedpad_mate_function("gender", "cross", goldeen[0],	ursaring[1],	goldeen[1],		ursaring[0],	"seel",			spr_egg_blue);
 		scp_breedpad_mate_function("gender", "cross", blastoise[0],	alakazam[1],	blastoise[1],	alakazam[0],	"slowpoke",		spr_egg_purple);
