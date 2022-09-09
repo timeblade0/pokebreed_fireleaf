@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_igglybuff",
-    "path": "sprites/spr_igglybuff/spr_igglybuff.yy",
+    "name": "spr_togepi",
+    "path": "sprites/spr_togepi/spr_togepi.yy",
   },
   "solid": false,
   "visible": true,
@@ -39,7 +39,7 @@
     "path": "folders/Objects/Pokemon/Fairy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_igglybuff",
+  "name": "obj_togepi",
   "tags": [],
   "resourceType": "GMObject",
 }

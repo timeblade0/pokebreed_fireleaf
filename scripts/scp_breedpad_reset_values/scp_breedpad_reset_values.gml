@@ -38,6 +38,7 @@ function scp_breedpad_reset_values() {
 		slowking[aa]=0
 		starmie[aa]=0
 	    tentacruel[aa]=0
+		togekiss[aa]=0
 	    torkoal[aa]=0
 		ursaring[aa]=0
 	    venomoth[aa]=0

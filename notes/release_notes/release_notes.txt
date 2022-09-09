@@ -1,3 +1,7 @@
+#20220909 SMW
+	added togepi family = wigglytuff + pidgeot
+	alphabatized breed lists
+
 #20220904 SMW
 	added doduo family = fearow + dugtrio
 	added seel family = goldeen + ursaring

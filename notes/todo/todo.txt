@@ -1,7 +1,5 @@
-misty pokemon
-	togikiss
-	
 misty gym truck
+grimer
 
 voltorb - pokeball
 eggsecute=bulbasaur+abra
@@ -14,9 +12,6 @@ porygon - genderless in shop
 badge acquired sound
 
 terrain objects
-
-make rhypherior bigger
-make aerodactyl bigger
 
 long term:
 	add exit game button in shop
