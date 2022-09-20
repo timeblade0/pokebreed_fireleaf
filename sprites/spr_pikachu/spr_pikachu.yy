@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_pikachu",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8d33d141-7680-4698-832b-a405b0e8ba69","path":"sprites/spr_pikachu/spr_pikachu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8d33d141-7680-4698-832b-a405b0e8ba69","path":"sprites/spr_pikachu/spr_pikachu.yy",},"LayerId":{"name":"9555d380-7e8f-41ad-9194-519cc0bf5769","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pikachu","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","name":"8d33d141-7680-4698-832b-a405b0e8ba69","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0c75b778-80c3-4538-b30b-d63916229d1f","path":"sprites/spr_pikachu/spr_pikachu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0c75b778-80c3-4538-b30b-d63916229d1f","path":"sprites/spr_pikachu/spr_pikachu.yy",},"LayerId":{"name":"9555d380-7e8f-41ad-9194-519cc0bf5769","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pikachu","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","name":"0c75b778-80c3-4538-b30b-d63916229d1f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d33d141-7680-4698-832b-a405b0e8ba69",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c75b778-80c3-4538-b30b-d63916229d1f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_pikachu","path":"sprites/spr_pikachu/spr_pikachu.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"306ca8d5-a173-405f-964c-cae9e8f36b83","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d33d141-7680-4698-832b-a405b0e8ba69","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"c4d77892-9adb-4214-8519-d4677640f8be","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c75b778-80c3-4538-b30b-d63916229d1f","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"306ca8d5-a173-405f-964c-cae9e8f36b83","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d33d141-7680-4698-832b-a405b0e8ba69","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c4d77892-9adb-4214-8519-d4677640f8be","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c75b778-80c3-4538-b30b-d63916229d1f","path":"sprites/spr_pikachu/spr_pikachu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_pikachu","path":"sprites/spr_pikachu/spr_pikachu.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9555d380-7e8f-41ad-9194-519cc0bf5769","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9555d380-7e8f-41ad-9194-519cc0bf5769","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Pichu",
     "path": "folders/Sprites/Pokemon/Electric/Pichu.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_pikachu",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

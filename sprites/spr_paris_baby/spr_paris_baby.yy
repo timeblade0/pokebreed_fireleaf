@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_paris_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cf6bed2a-e013-4818-afe3-147b28e917d7","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf6bed2a-e013-4818-afe3-147b28e917d7","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"LayerId":{"name":"59feb19a-8167-45f6-a81e-f83eff3df7db","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_paris_baby","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","name":"cf6bed2a-e013-4818-afe3-147b28e917d7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7872b7dd-e644-4648-8b97-3a1d5733d885","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7872b7dd-e644-4648-8b97-3a1d5733d885","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"LayerId":{"name":"59feb19a-8167-45f6-a81e-f83eff3df7db","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_paris_baby","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","name":"7872b7dd-e644-4648-8b97-3a1d5733d885","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf6bed2a-e013-4818-afe3-147b28e917d7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7872b7dd-e644-4648-8b97-3a1d5733d885",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_paris_baby","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3dd82e4b-a052-40df-add4-a12b0c3f5ed5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf6bed2a-e013-4818-afe3-147b28e917d7","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"e6842520-1e4f-4bf7-91d9-5d9f0f3f3a5f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7872b7dd-e644-4648-8b97-3a1d5733d885","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"3dd82e4b-a052-40df-add4-a12b0c3f5ed5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf6bed2a-e013-4818-afe3-147b28e917d7","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e6842520-1e4f-4bf7-91d9-5d9f0f3f3a5f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7872b7dd-e644-4648-8b97-3a1d5733d885","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_paris_baby","path":"sprites/spr_paris_baby/spr_paris_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"59feb19a-8167-45f6-a81e-f83eff3df7db","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"59feb19a-8167-45f6-a81e-f83eff3df7db","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Paris",
     "path": "folders/Sprites/Pokemon/Bug/Paris.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_paris_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

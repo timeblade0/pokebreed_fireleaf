@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_rhyhorn_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1e87c7de-cdff-47bf-96b3-cad002b4363b","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1e87c7de-cdff-47bf-96b3-cad002b4363b","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"LayerId":{"name":"b96af35b-7e16-43aa-afdf-3b42c98c0faf","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rhyhorn_baby","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","name":"1e87c7de-cdff-47bf-96b3-cad002b4363b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e3f26ebe-b42a-4139-88ac-f068de21d90a","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e3f26ebe-b42a-4139-88ac-f068de21d90a","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"LayerId":{"name":"b96af35b-7e16-43aa-afdf-3b42c98c0faf","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rhyhorn_baby","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","name":"e3f26ebe-b42a-4139-88ac-f068de21d90a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1e87c7de-cdff-47bf-96b3-cad002b4363b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e3f26ebe-b42a-4139-88ac-f068de21d90a",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rhyhorn_baby","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_rhyhorn_baby",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"47959a55-d415-4239-9165-8d14b30e4c0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e87c7de-cdff-47bf-96b3-cad002b4363b","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"3087887e-9229-4ec6-aab9-44dab08d0e06","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e3f26ebe-b42a-4139-88ac-f068de21d90a","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"47959a55-d415-4239-9165-8d14b30e4c0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e87c7de-cdff-47bf-96b3-cad002b4363b","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3087887e-9229-4ec6-aab9-44dab08d0e06","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e3f26ebe-b42a-4139-88ac-f068de21d90a","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rhyhorn_baby","path":"sprites/spr_rhyhorn_baby/spr_rhyhorn_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_rhyhorn_baby",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b96af35b-7e16-43aa-afdf-3b42c98c0faf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b96af35b-7e16-43aa-afdf-3b42c98c0faf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Rhyhorn",
     "path": "folders/Sprites/Pokemon/Rock/Rhyhorn.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_rhyhorn_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

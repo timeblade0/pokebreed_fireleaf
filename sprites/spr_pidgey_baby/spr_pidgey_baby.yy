@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_pidgey_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3c5e494d-33d5-4770-84c7-e67312fa067b","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3c5e494d-33d5-4770-84c7-e67312fa067b","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"LayerId":{"name":"483d9f1f-646f-4b70-a9f7-cb6ec24696e6","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pidgey_baby","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","name":"3c5e494d-33d5-4770-84c7-e67312fa067b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7e92e34c-78d1-49ed-bbe2-bde7453b1c53","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e92e34c-78d1-49ed-bbe2-bde7453b1c53","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"LayerId":{"name":"483d9f1f-646f-4b70-a9f7-cb6ec24696e6","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pidgey_baby","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","name":"7e92e34c-78d1-49ed-bbe2-bde7453b1c53","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c5e494d-33d5-4770-84c7-e67312fa067b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e92e34c-78d1-49ed-bbe2-bde7453b1c53",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_pidgey_baby","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"66dc9f02-4c02-49e2-9de6-621f5963e6b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c5e494d-33d5-4770-84c7-e67312fa067b","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"a76aeb01-5df6-4809-abfa-d19424869443","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e92e34c-78d1-49ed-bbe2-bde7453b1c53","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"66dc9f02-4c02-49e2-9de6-621f5963e6b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c5e494d-33d5-4770-84c7-e67312fa067b","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a76aeb01-5df6-4809-abfa-d19424869443","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e92e34c-78d1-49ed-bbe2-bde7453b1c53","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 9,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_pidgey_baby","path":"sprites/spr_pidgey_baby/spr_pidgey_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"483d9f1f-646f-4b70-a9f7-cb6ec24696e6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"483d9f1f-646f-4b70-a9f7-cb6ec24696e6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Pidgy",
     "path": "folders/Sprites/Pokemon/Flying/Pidgy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_pidgey_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bulbasaur",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cce4d794-16a1-483a-896f-30315faa9bd8","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cce4d794-16a1-483a-896f-30315faa9bd8","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"LayerId":{"name":"2f58d3a0-648a-41b1-adbb-5695c84dd038","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bulbasaur","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","name":"cce4d794-16a1-483a-896f-30315faa9bd8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e84c177b-7e57-43f0-a248-eb8e70989abf","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e84c177b-7e57-43f0-a248-eb8e70989abf","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"LayerId":{"name":"2f58d3a0-648a-41b1-adbb-5695c84dd038","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bulbasaur","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","name":"e84c177b-7e57-43f0-a248-eb8e70989abf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cce4d794-16a1-483a-896f-30315faa9bd8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e84c177b-7e57-43f0-a248-eb8e70989abf",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bulbasaur","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2fc093bc-8f63-4abe-a9ca-a4883e136551","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cce4d794-16a1-483a-896f-30315faa9bd8","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"be17a26d-e9a8-4d24-bc20-116fe6b4dcd4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e84c177b-7e57-43f0-a248-eb8e70989abf","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"2fc093bc-8f63-4abe-a9ca-a4883e136551","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cce4d794-16a1-483a-896f-30315faa9bd8","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"be17a26d-e9a8-4d24-bc20-116fe6b4dcd4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e84c177b-7e57-43f0-a248-eb8e70989abf","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 19,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bulbasaur","path":"sprites/spr_bulbasaur/spr_bulbasaur.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f58d3a0-648a-41b1-adbb-5695c84dd038","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2f58d3a0-648a-41b1-adbb-5695c84dd038","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bulbasaur",
     "path": "folders/Sprites/Pokemon/Grass/Bulbasaur.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bulbasaur",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

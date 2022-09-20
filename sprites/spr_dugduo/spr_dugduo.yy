@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_dugduo",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2469a89b-7c28-4d78-a316-d065af77fa90","path":"sprites/spr_dugduo/spr_dugduo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2469a89b-7c28-4d78-a316-d065af77fa90","path":"sprites/spr_dugduo/spr_dugduo.yy",},"LayerId":{"name":"0b5c5db7-ca42-4f5c-941e-f4d31d803717","path":"sprites/spr_dugduo/spr_dugduo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dugduo","path":"sprites/spr_dugduo/spr_dugduo.yy",},"resourceVersion":"1.0","name":"2469a89b-7c28-4d78-a316-d065af77fa90","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"43a7fc18-9db8-486c-a658-9e4804af6be9","path":"sprites/spr_dugduo/spr_dugduo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"43a7fc18-9db8-486c-a658-9e4804af6be9","path":"sprites/spr_dugduo/spr_dugduo.yy",},"LayerId":{"name":"0b5c5db7-ca42-4f5c-941e-f4d31d803717","path":"sprites/spr_dugduo/spr_dugduo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dugduo","path":"sprites/spr_dugduo/spr_dugduo.yy",},"resourceVersion":"1.0","name":"43a7fc18-9db8-486c-a658-9e4804af6be9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2469a89b-7c28-4d78-a316-d065af77fa90",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43a7fc18-9db8-486c-a658-9e4804af6be9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_dugduo","path":"sprites/spr_dugduo/spr_dugduo.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"72174d85-3b25-4e7c-b224-cf33780565de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2469a89b-7c28-4d78-a316-d065af77fa90","path":"sprites/spr_dugduo/spr_dugduo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"47621031-9404-401b-8e39-c9855e5864c6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"43a7fc18-9db8-486c-a658-9e4804af6be9","path":"sprites/spr_dugduo/spr_dugduo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_dugduo","path":"sprites/spr_dugduo/spr_dugduo.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b5c5db7-ca42-4f5c-941e-f4d31d803717","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0b5c5db7-ca42-4f5c-941e-f4d31d803717","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Diglett",
     "path": "folders/Sprites/Pokemon/Ground/Diglett.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_dugduo",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

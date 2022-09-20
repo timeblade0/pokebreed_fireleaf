@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_shellder",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d096eb13-6f68-4f1d-8982-1ec5bdcf3ee8","path":"sprites/spr_shellder/spr_shellder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d096eb13-6f68-4f1d-8982-1ec5bdcf3ee8","path":"sprites/spr_shellder/spr_shellder.yy",},"LayerId":{"name":"3e707810-cc63-4060-9388-b7ae881860e0","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shellder","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","name":"d096eb13-6f68-4f1d-8982-1ec5bdcf3ee8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c493d7b8-bf56-4242-90ae-ccd20da11831","path":"sprites/spr_shellder/spr_shellder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c493d7b8-bf56-4242-90ae-ccd20da11831","path":"sprites/spr_shellder/spr_shellder.yy",},"LayerId":{"name":"3e707810-cc63-4060-9388-b7ae881860e0","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shellder","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","name":"c493d7b8-bf56-4242-90ae-ccd20da11831","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d096eb13-6f68-4f1d-8982-1ec5bdcf3ee8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c493d7b8-bf56-4242-90ae-ccd20da11831",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_shellder","path":"sprites/spr_shellder/spr_shellder.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cb92086b-4511-4023-966d-0c6b890a7c62","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d096eb13-6f68-4f1d-8982-1ec5bdcf3ee8","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"15fda3c4-3976-4c41-a0f7-2095bb77604e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c493d7b8-bf56-4242-90ae-ccd20da11831","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"cb92086b-4511-4023-966d-0c6b890a7c62","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d096eb13-6f68-4f1d-8982-1ec5bdcf3ee8","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"15fda3c4-3976-4c41-a0f7-2095bb77604e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c493d7b8-bf56-4242-90ae-ccd20da11831","path":"sprites/spr_shellder/spr_shellder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_shellder","path":"sprites/spr_shellder/spr_shellder.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e707810-cc63-4060-9388-b7ae881860e0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3e707810-cc63-4060-9388-b7ae881860e0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Shelder",
     "path": "folders/Sprites/Pokemon/Water/Shelder.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_shellder",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

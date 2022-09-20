@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_growlith_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"52fe8b64-2797-497a-ad6b-84c1439b6a47","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"52fe8b64-2797-497a-ad6b-84c1439b6a47","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"LayerId":{"name":"7411fc38-b999-4926-bc28-68fd0b1962cf","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_growlith_baby","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","name":"52fe8b64-2797-497a-ad6b-84c1439b6a47","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"448ae885-a8e4-420a-8bb7-85b6936b982b","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"448ae885-a8e4-420a-8bb7-85b6936b982b","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"LayerId":{"name":"7411fc38-b999-4926-bc28-68fd0b1962cf","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_growlith_baby","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","name":"448ae885-a8e4-420a-8bb7-85b6936b982b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52fe8b64-2797-497a-ad6b-84c1439b6a47",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"448ae885-a8e4-420a-8bb7-85b6936b982b",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_growlith_baby","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3d1a85af-d802-43ee-bf89-9d14593381ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52fe8b64-2797-497a-ad6b-84c1439b6a47","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"f408416c-f162-4c19-81ba-88a2105deddd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"448ae885-a8e4-420a-8bb7-85b6936b982b","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"3d1a85af-d802-43ee-bf89-9d14593381ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52fe8b64-2797-497a-ad6b-84c1439b6a47","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f408416c-f162-4c19-81ba-88a2105deddd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"448ae885-a8e4-420a-8bb7-85b6936b982b","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 11,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_growlith_baby","path":"sprites/spr_growlith_baby/spr_growlith_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7411fc38-b999-4926-bc28-68fd0b1962cf","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7411fc38-b999-4926-bc28-68fd0b1962cf","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Growlith",
     "path": "folders/Sprites/Pokemon/Fire/Growlith.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_growlith_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

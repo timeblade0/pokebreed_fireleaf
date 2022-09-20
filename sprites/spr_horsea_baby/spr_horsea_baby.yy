@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_horsea_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2cfea5fb-9518-4bfc-8632-e43b6a65f362","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2cfea5fb-9518-4bfc-8632-e43b6a65f362","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"LayerId":{"name":"37b1a717-cd25-42a8-9444-3a8ba79587d0","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_horsea_baby","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","name":"2cfea5fb-9518-4bfc-8632-e43b6a65f362","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c04e177a-2d1e-4049-92a0-a8d810d522bd","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c04e177a-2d1e-4049-92a0-a8d810d522bd","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"LayerId":{"name":"37b1a717-cd25-42a8-9444-3a8ba79587d0","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_horsea_baby","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","name":"c04e177a-2d1e-4049-92a0-a8d810d522bd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cfea5fb-9518-4bfc-8632-e43b6a65f362",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c04e177a-2d1e-4049-92a0-a8d810d522bd",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_horsea_baby","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_horsea_baby",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"91537bc2-68b5-44ce-a1d6-5f436d51907b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2cfea5fb-9518-4bfc-8632-e43b6a65f362","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"b218c9a8-df90-4a03-9f80-0e8c99626083","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c04e177a-2d1e-4049-92a0-a8d810d522bd","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"91537bc2-68b5-44ce-a1d6-5f436d51907b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2cfea5fb-9518-4bfc-8632-e43b6a65f362","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b218c9a8-df90-4a03-9f80-0e8c99626083","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c04e177a-2d1e-4049-92a0-a8d810d522bd","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_horsea_baby","path":"sprites/spr_horsea_baby/spr_horsea_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_horsea_baby",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"37b1a717-cd25-42a8-9444-3a8ba79587d0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"37b1a717-cd25-42a8-9444-3a8ba79587d0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Horsea",
     "path": "folders/Sprites/Pokemon/Water/Horsea.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_horsea_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

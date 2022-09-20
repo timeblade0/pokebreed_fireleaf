@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_machamp",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8dcbd5d4-7ed6-4dd6-b01d-0dfdf486c78f","path":"sprites/spr_machamp/spr_machamp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8dcbd5d4-7ed6-4dd6-b01d-0dfdf486c78f","path":"sprites/spr_machamp/spr_machamp.yy",},"LayerId":{"name":"b1be66ba-a655-4126-a643-01b36392a00b","path":"sprites/spr_machamp/spr_machamp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_machamp","path":"sprites/spr_machamp/spr_machamp.yy",},"resourceVersion":"1.0","name":"8dcbd5d4-7ed6-4dd6-b01d-0dfdf486c78f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e7830610-35cc-4afd-9a1d-aea4562180a9","path":"sprites/spr_machamp/spr_machamp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e7830610-35cc-4afd-9a1d-aea4562180a9","path":"sprites/spr_machamp/spr_machamp.yy",},"LayerId":{"name":"b1be66ba-a655-4126-a643-01b36392a00b","path":"sprites/spr_machamp/spr_machamp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_machamp","path":"sprites/spr_machamp/spr_machamp.yy",},"resourceVersion":"1.0","name":"e7830610-35cc-4afd-9a1d-aea4562180a9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8dcbd5d4-7ed6-4dd6-b01d-0dfdf486c78f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7830610-35cc-4afd-9a1d-aea4562180a9",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_machamp","path":"sprites/spr_machamp/spr_machamp.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ddd33c31-82bd-47eb-bea9-ef9704f195dd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8dcbd5d4-7ed6-4dd6-b01d-0dfdf486c78f","path":"sprites/spr_machamp/spr_machamp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"716b6b28-40ed-407a-b9bf-742fe4509605","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e7830610-35cc-4afd-9a1d-aea4562180a9","path":"sprites/spr_machamp/spr_machamp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_machamp","path":"sprites/spr_machamp/spr_machamp.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b1be66ba-a655-4126-a643-01b36392a00b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b1be66ba-a655-4126-a643-01b36392a00b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Machop",
     "path": "folders/Sprites/Pokemon/Fighting/Machop.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_machamp",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

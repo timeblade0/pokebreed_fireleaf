@@ -1,3 +1,7 @@
+#20220919 SMW
+	added gastly family to shop genderless
+	addd drowsey = alakazam + slowking
+
 #20220909 SMW
 	added togepi family = wigglytuff + pidgeot
 	alphabatized breed lists

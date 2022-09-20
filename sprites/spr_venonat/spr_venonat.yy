@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_venonat",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4d0bccbd-535f-44de-a2f6-181d58c75185","path":"sprites/spr_venonat/spr_venonat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d0bccbd-535f-44de-a2f6-181d58c75185","path":"sprites/spr_venonat/spr_venonat.yy",},"LayerId":{"name":"a1540bf9-816b-485a-8bf4-792ff619f85c","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venonat","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","name":"4d0bccbd-535f-44de-a2f6-181d58c75185","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"864d635e-2d27-4549-9138-f25d9df14b8f","path":"sprites/spr_venonat/spr_venonat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"864d635e-2d27-4549-9138-f25d9df14b8f","path":"sprites/spr_venonat/spr_venonat.yy",},"LayerId":{"name":"a1540bf9-816b-485a-8bf4-792ff619f85c","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venonat","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","name":"864d635e-2d27-4549-9138-f25d9df14b8f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d0bccbd-535f-44de-a2f6-181d58c75185",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"864d635e-2d27-4549-9138-f25d9df14b8f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_venonat","path":"sprites/spr_venonat/spr_venonat.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"db8d422c-c71a-44a7-a5da-f552d730756c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d0bccbd-535f-44de-a2f6-181d58c75185","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"5b418fdf-70c6-458d-830f-eb4ad1400dd9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"864d635e-2d27-4549-9138-f25d9df14b8f","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"db8d422c-c71a-44a7-a5da-f552d730756c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d0bccbd-535f-44de-a2f6-181d58c75185","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5b418fdf-70c6-458d-830f-eb4ad1400dd9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"864d635e-2d27-4549-9138-f25d9df14b8f","path":"sprites/spr_venonat/spr_venonat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_venonat","path":"sprites/spr_venonat/spr_venonat.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a1540bf9-816b-485a-8bf4-792ff619f85c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a1540bf9-816b-485a-8bf4-792ff619f85c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Venonat",
     "path": "folders/Sprites/Pokemon/Bug/Venonat.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_venonat",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

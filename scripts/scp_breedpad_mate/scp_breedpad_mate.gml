@@ -35,6 +35,7 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("gender", "same", charizard[0],	charizard[1], , ,								"charmander",	spr_egg_orange);
 		scp_breedpad_mate_function("gender", "same", dugtrio[0],	dugtrio[1], , ,									"diglett",		spr_egg_brown);
 		scp_breedpad_mate_function("gender", "same", dodrio[0],		dodrio[1], , ,									"doduo",		spr_egg_white);
+		scp_breedpad_mate_function("gender", "same", hypno[0],		hypno[1], , ,									"drowzee",		spr_egg_purple);
 		scp_breedpad_mate_function("gender", "same", eevee[0],		eevee[1], , ,									"eevee",		spr_egg_white);
 		scp_breedpad_mate_function("gender", "same", arbok[0],		arbok[1], , ,									"ekans",		spr_egg_purple);
 		scp_breedpad_mate_function("gender", "same", farfetched[0],	farfetched[1], , ,								"farfetched",	spr_egg_white);
@@ -74,6 +75,7 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("gender", "same", crobat[0],		crobat[1], , ,									"zubat",		spr_egg_purple);
     
 		//genderless - same species
+		scp_breedpad_mate_function("genderless", "same", gengar, , , ,												"gastly",		spr_egg_purple);
 		scp_breedpad_mate_function("genderless", "same", golem, , , ,												"geodude",		spr_egg_grey);
 		scp_breedpad_mate_function("genderless", "same", magnezone, , , ,											"magnemite",	spr_egg_yellow);
 		scp_breedpad_mate_function("genderless", "same", muk, , , ,													"grimer",		spr_egg_purple);
@@ -81,6 +83,7 @@ function scp_breedpad_mate() {
 
 		//crossbreed - gender + gender
 		scp_breedpad_mate_function("gender", "cross", dugtrio[0],	fearow[1],		dugtrio[1],		fearow[0],		"doduo",		spr_egg_white);
+		scp_breedpad_mate_function("gender", "cross", alakazam[0],	slowking[1],	alakazam[1],	slowking[0],	"drowzee",		spr_egg_purple);
 		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	fearow[1],		pidgeot[1],		fearow[0],		"farfetched",	spr_egg_blue);
 		scp_breedpad_mate_function("gender", "cross", charizard[0],	houndoom[1],	charizard[1],	houndoom[0],	"growlith",		spr_egg_orange);
 		scp_breedpad_mate_function("gender", "cross", goldeen[0],	rapidash[1],	goldeen[1],		rapidash[0],	"horsea",		spr_egg_blue);

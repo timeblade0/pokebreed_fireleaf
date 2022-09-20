@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_bellsprout",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"66ac784a-9240-4eb7-bea9-96160b0f6ac7","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66ac784a-9240-4eb7-bea9-96160b0f6ac7","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"LayerId":{"name":"34a215a4-bceb-4dd8-b7a3-ee82d791c9e1","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bellsprout","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","name":"66ac784a-9240-4eb7-bea9-96160b0f6ac7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"94ff24a8-cc1b-4660-a9ae-d3a4a8cd7e25","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"94ff24a8-cc1b-4660-a9ae-d3a4a8cd7e25","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"LayerId":{"name":"34a215a4-bceb-4dd8-b7a3-ee82d791c9e1","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bellsprout","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","name":"94ff24a8-cc1b-4660-a9ae-d3a4a8cd7e25","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"66ac784a-9240-4eb7-bea9-96160b0f6ac7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94ff24a8-cc1b-4660-a9ae-d3a4a8cd7e25",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bellsprout","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3bb23b57-4c23-491a-a95c-81356f9154e3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66ac784a-9240-4eb7-bea9-96160b0f6ac7","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"5393f605-0b5b-46dd-822c-df1f97e81230","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94ff24a8-cc1b-4660-a9ae-d3a4a8cd7e25","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"3bb23b57-4c23-491a-a95c-81356f9154e3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66ac784a-9240-4eb7-bea9-96160b0f6ac7","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5393f605-0b5b-46dd-822c-df1f97e81230","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94ff24a8-cc1b-4660-a9ae-d3a4a8cd7e25","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bellsprout","path":"sprites/spr_bellsprout/spr_bellsprout.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34a215a4-bceb-4dd8-b7a3-ee82d791c9e1","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"34a215a4-bceb-4dd8-b7a3-ee82d791c9e1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Bellsprout",
     "path": "folders/Sprites/Pokemon/Grass/Bellsprout.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_bellsprout",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

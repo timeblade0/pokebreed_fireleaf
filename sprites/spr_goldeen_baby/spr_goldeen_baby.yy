@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_goldeen_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ae3441ef-02df-478f-a257-66efbfbb7a75","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ae3441ef-02df-478f-a257-66efbfbb7a75","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"LayerId":{"name":"2156efd0-4c0e-4fb2-8110-a7b2a3f8812c","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goldeen_baby","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","name":"ae3441ef-02df-478f-a257-66efbfbb7a75","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5c16326e-1ff0-4424-ac46-05794ff69df6","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5c16326e-1ff0-4424-ac46-05794ff69df6","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"LayerId":{"name":"2156efd0-4c0e-4fb2-8110-a7b2a3f8812c","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goldeen_baby","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","name":"5c16326e-1ff0-4424-ac46-05794ff69df6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae3441ef-02df-478f-a257-66efbfbb7a75",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c16326e-1ff0-4424-ac46-05794ff69df6",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_goldeen_baby","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_goldeen_baby",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3b4073fc-4378-4232-b295-15b072ebb721","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ae3441ef-02df-478f-a257-66efbfbb7a75","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"eb5800a4-e821-460c-9b4d-d8049a3b970c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c16326e-1ff0-4424-ac46-05794ff69df6","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"3b4073fc-4378-4232-b295-15b072ebb721","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ae3441ef-02df-478f-a257-66efbfbb7a75","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eb5800a4-e821-460c-9b4d-d8049a3b970c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5c16326e-1ff0-4424-ac46-05794ff69df6","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_goldeen_baby","path":"sprites/spr_goldeen_baby/spr_goldeen_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_goldeen_baby",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2156efd0-4c0e-4fb2-8110-a7b2a3f8812c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2156efd0-4c0e-4fb2-8110-a7b2a3f8812c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Goldeen",
     "path": "folders/Sprites/Pokemon/Water/Goldeen.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_goldeen_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

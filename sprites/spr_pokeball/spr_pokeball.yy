@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_pokeball",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4e59a808-146e-4f95-8cd2-60824428ec57","path":"sprites/spr_pokeball/spr_pokeball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4e59a808-146e-4f95-8cd2-60824428ec57","path":"sprites/spr_pokeball/spr_pokeball.yy",},"LayerId":{"name":"6f2b3e92-eb59-4021-b0e9-269d988f2d16","path":"sprites/spr_pokeball/spr_pokeball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pokeball","path":"sprites/spr_pokeball/spr_pokeball.yy",},"resourceVersion":"1.0","name":"4e59a808-146e-4f95-8cd2-60824428ec57","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f7b0d4bc-e239-4e4e-a222-651b7ee63e5f","path":"sprites/spr_pokeball/spr_pokeball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7b0d4bc-e239-4e4e-a222-651b7ee63e5f","path":"sprites/spr_pokeball/spr_pokeball.yy",},"LayerId":{"name":"6f2b3e92-eb59-4021-b0e9-269d988f2d16","path":"sprites/spr_pokeball/spr_pokeball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pokeball","path":"sprites/spr_pokeball/spr_pokeball.yy",},"resourceVersion":"1.0","name":"f7b0d4bc-e239-4e4e-a222-651b7ee63e5f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e59a808-146e-4f95-8cd2-60824428ec57",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7b0d4bc-e239-4e4e-a222-651b7ee63e5f",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_pokeball","path":"sprites/spr_pokeball/spr_pokeball.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"05f159af-a7fe-4375-a1fb-2c0f47bb5e86","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4e59a808-146e-4f95-8cd2-60824428ec57","path":"sprites/spr_pokeball/spr_pokeball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4686e04a-96a8-4fab-b404-b0637d6cbe82","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7b0d4bc-e239-4e4e-a222-651b7ee63e5f","path":"sprites/spr_pokeball/spr_pokeball.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_pokeball","path":"sprites/spr_pokeball/spr_pokeball.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6f2b3e92-eb59-4021-b0e9-269d988f2d16","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6f2b3e92-eb59-4021-b0e9-269d988f2d16","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Items",
     "path": "folders/Sprites/Items.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_pokeball",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_psyduck_baby",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0c718664-a425-4120-b359-b47ecdabba6e","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0c718664-a425-4120-b359-b47ecdabba6e","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"LayerId":{"name":"3c0392f7-cdb1-4382-8de1-3456a8a379b3","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_psyduck_baby","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","name":"0c718664-a425-4120-b359-b47ecdabba6e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"143be93b-f0e8-44b5-b381-4d794b30b72c","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"143be93b-f0e8-44b5-b381-4d794b30b72c","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"LayerId":{"name":"3c0392f7-cdb1-4382-8de1-3456a8a379b3","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_psyduck_baby","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","name":"143be93b-f0e8-44b5-b381-4d794b30b72c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c718664-a425-4120-b359-b47ecdabba6e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"143be93b-f0e8-44b5-b381-4d794b30b72c",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_psyduck_baby","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8a222c10-c688-4ea8-9714-a8ab23ad8c90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c718664-a425-4120-b359-b47ecdabba6e","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"d0c411f1-134b-4d27-9abd-13fa2e7cc039","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"143be93b-f0e8-44b5-b381-4d794b30b72c","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"8a222c10-c688-4ea8-9714-a8ab23ad8c90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c718664-a425-4120-b359-b47ecdabba6e","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0c411f1-134b-4d27-9abd-13fa2e7cc039","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"143be93b-f0e8-44b5-b381-4d794b30b72c","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_psyduck_baby","path":"sprites/spr_psyduck_baby/spr_psyduck_baby.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3c0392f7-cdb1-4382-8de1-3456a8a379b3","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3c0392f7-cdb1-4382-8de1-3456a8a379b3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Psyduck",
     "path": "folders/Sprites/Pokemon/Water/Psyduck.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_psyduck_baby",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

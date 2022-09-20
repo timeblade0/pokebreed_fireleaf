@@ -1,14 +1,34 @@
-gastly - shop genderless
-koffing - shop genderless
-
+kingler =
 voltorb = pokeball + electric type
-add rubber ball for electric pokemon
 eggsecute = bulbasaur + abra
 cubone/marowak/kangashkahn
 tyrouge/hitmonlee/hitmonchan/hitmontop
+likitoung
+koffing - shop genderless. same split as grimer
+chancey
+tangela
+mr mime/jynx
+scizor
+electavire
+magmortar
 pinser F / heriacross M
 miltank F / tauros M
+gyrados
+lapras
+ditto
+umbreon / espeon / leafeon / glacion
 porygon - genderless in shop
+omastar - squirtle + cloyster
+kabutops - scizor + golem
+snorlax - gender in shop
+articuno
+zapdos
+moltres
+dragonite
+mewtwo
+mew
+
+add rubber ball for electric pokemon
 
 badge acquired sound
 

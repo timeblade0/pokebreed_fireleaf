@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_golduck",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"73b320c7-b84e-4c10-8601-47afc9dc398b","path":"sprites/spr_golduck/spr_golduck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"73b320c7-b84e-4c10-8601-47afc9dc398b","path":"sprites/spr_golduck/spr_golduck.yy",},"LayerId":{"name":"566240df-b3dc-4f1a-ae88-629dd1783790","path":"sprites/spr_golduck/spr_golduck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_golduck","path":"sprites/spr_golduck/spr_golduck.yy",},"resourceVersion":"1.0","name":"73b320c7-b84e-4c10-8601-47afc9dc398b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4cb7d1e3-1cb9-4d59-a89e-26b14f470eec","path":"sprites/spr_golduck/spr_golduck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4cb7d1e3-1cb9-4d59-a89e-26b14f470eec","path":"sprites/spr_golduck/spr_golduck.yy",},"LayerId":{"name":"566240df-b3dc-4f1a-ae88-629dd1783790","path":"sprites/spr_golduck/spr_golduck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_golduck","path":"sprites/spr_golduck/spr_golduck.yy",},"resourceVersion":"1.0","name":"4cb7d1e3-1cb9-4d59-a89e-26b14f470eec","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73b320c7-b84e-4c10-8601-47afc9dc398b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4cb7d1e3-1cb9-4d59-a89e-26b14f470eec",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_golduck","path":"sprites/spr_golduck/spr_golduck.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1ed4e282-86aa-432e-a7c7-4f60e6d472f2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"73b320c7-b84e-4c10-8601-47afc9dc398b","path":"sprites/spr_golduck/spr_golduck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"353b04a4-2e38-4273-a174-8a8bfb2fada4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4cb7d1e3-1cb9-4d59-a89e-26b14f470eec","path":"sprites/spr_golduck/spr_golduck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_golduck","path":"sprites/spr_golduck/spr_golduck.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"566240df-b3dc-4f1a-ae88-629dd1783790","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"566240df-b3dc-4f1a-ae88-629dd1783790","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Psyduck",
     "path": "folders/Sprites/Pokemon/Water/Psyduck.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_golduck",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

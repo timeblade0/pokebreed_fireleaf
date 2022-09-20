@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_venomoth",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fcb0a436-ffb7-4676-b34b-fe4875ac45c4","path":"sprites/spr_venomoth/spr_venomoth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fcb0a436-ffb7-4676-b34b-fe4875ac45c4","path":"sprites/spr_venomoth/spr_venomoth.yy",},"LayerId":{"name":"1ed22248-0ac0-449c-87a0-d76b186a5cf2","path":"sprites/spr_venomoth/spr_venomoth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venomoth","path":"sprites/spr_venomoth/spr_venomoth.yy",},"resourceVersion":"1.0","name":"fcb0a436-ffb7-4676-b34b-fe4875ac45c4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"08081298-32a8-4054-96b3-1cdfe51d9b90","path":"sprites/spr_venomoth/spr_venomoth.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08081298-32a8-4054-96b3-1cdfe51d9b90","path":"sprites/spr_venomoth/spr_venomoth.yy",},"LayerId":{"name":"1ed22248-0ac0-449c-87a0-d76b186a5cf2","path":"sprites/spr_venomoth/spr_venomoth.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_venomoth","path":"sprites/spr_venomoth/spr_venomoth.yy",},"resourceVersion":"1.0","name":"08081298-32a8-4054-96b3-1cdfe51d9b90","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcb0a436-ffb7-4676-b34b-fe4875ac45c4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08081298-32a8-4054-96b3-1cdfe51d9b90",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_venomoth","path":"sprites/spr_venomoth/spr_venomoth.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"915a5d29-3384-4e66-be5c-b37f0ee94238","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcb0a436-ffb7-4676-b34b-fe4875ac45c4","path":"sprites/spr_venomoth/spr_venomoth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"049df9e0-b60b-4858-bac2-4b795c18d1fd","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08081298-32a8-4054-96b3-1cdfe51d9b90","path":"sprites/spr_venomoth/spr_venomoth.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 30,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_venomoth","path":"sprites/spr_venomoth/spr_venomoth.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1ed22248-0ac0-449c-87a0-d76b186a5cf2","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1ed22248-0ac0-449c-87a0-d76b186a5cf2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Venonat",
     "path": "folders/Sprites/Pokemon/Bug/Venonat.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_venomoth",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

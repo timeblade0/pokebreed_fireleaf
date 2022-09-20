@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_sandshrew",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"efd89947-ce7a-4b84-8951-dbaa703d2a37","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"efd89947-ce7a-4b84-8951-dbaa703d2a37","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"LayerId":{"name":"7138f16d-0cf5-4cbd-a3e7-3923f8046970","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sandshrew","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","name":"efd89947-ce7a-4b84-8951-dbaa703d2a37","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"82f7c307-a983-42cf-b3ed-b2bc8e3d3344","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"82f7c307-a983-42cf-b3ed-b2bc8e3d3344","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"LayerId":{"name":"7138f16d-0cf5-4cbd-a3e7-3923f8046970","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sandshrew","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","name":"82f7c307-a983-42cf-b3ed-b2bc8e3d3344","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efd89947-ce7a-4b84-8951-dbaa703d2a37",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82f7c307-a983-42cf-b3ed-b2bc8e3d3344",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_sandshrew","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -40,13 +41,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"88c4c5e7-b494-42e5-b795-2c904b3d60cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efd89947-ce7a-4b84-8951-dbaa703d2a37","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"7694f531-d414-4b81-95cb-982b14178a55","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82f7c307-a983-42cf-b3ed-b2bc8e3d3344","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"88c4c5e7-b494-42e5-b795-2c904b3d60cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"efd89947-ce7a-4b84-8951-dbaa703d2a37","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7694f531-d414-4b81-95cb-982b14178a55","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82f7c307-a983-42cf-b3ed-b2bc8e3d3344","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_sandshrew","path":"sprites/spr_sandshrew/spr_sandshrew.yy",},
-    "resourceVersion": "1.4",
-    "name": "",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7138f16d-0cf5-4cbd-a3e7-3923f8046970","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7138f16d-0cf5-4cbd-a3e7-3923f8046970","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sandshrew",
     "path": "folders/Sprites/Pokemon/Ground/Sandshrew.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_sandshrew",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
