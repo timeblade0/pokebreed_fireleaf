@@ -18,13 +18,16 @@ function scp_breedpad_collision() {
 	if(other.name=="dewgong")		{dewgong[other.gender]=1; }
 	if(other.name=="dodrio")		{dodrio[other.gender]=1; }
 	if(other.name=="dugtrio")       {dugtrio[other.gender]=1; }
+	if(other.name=="exeggutor2")    {exeggutor[other.gender]=1; }
 	if(other.name=="farfetched")	{farfetched[other.gender]=1; }
 	if(other.name=="fearow")        {fearow[other.gender]=1; }
 	if(other.name=="goldeen")       {goldeen[other.gender]=1; }
 	if(other.name=="golduck")       {golduck[other.gender]=1; }
 	if(other.name=="houndoom")		{houndoom[other.gender]=1; }
 	if(other.name=="hypno")			{hypno[other.gender]=1; }
+	if(other.name=="kangaskhan")	{kangaskhan[other.gender]=1; }
 	if(other.name=="kingdra")		{kingdra[other.gender]=1; }
+	if(other.name=="kingler")		{kingler[other.gender]=1; }
 	if(other.name=="machamp")       {machamp[other.gender]=1; }
 	if(other.name=="nidoqueen")     {nidoqueen[other.gender]=1; }
 	if(other.name=="ninetails")     {ninetails[other.gender]=1; }
@@ -52,8 +55,12 @@ function scp_breedpad_collision() {
 	if(other.name=="wigglytuff")    {wigglytuff[other.gender]=1; }	
 	
 	//genderless
+	if(other.name=="electrode")     {electrode+=0.2;	}
 	if(other.name=="gengar")        {gengar+=0.2;		}
 	if(other.name=="golem")         {golem+=0.2;		}
+	if(other.name=="hitmonchan")    {hitmon+=0.2;		}
+	if(other.name=="hitmonlee")		{hitmon+=0.2;		}
+	if(other.name=="hitmontop")		{hitmon+=0.2;		}
 	if(other.name=="magnezone")		{magnezone+=0.2;	}
 	if(other.name=="muk")			{muk+=0.2;			}
 	if(other.name=="steelix")       {steelix+=0.2;		}

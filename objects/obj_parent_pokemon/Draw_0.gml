@@ -1,7 +1,7 @@
 //draw self
 draw_self()
 
-//attributes
+///@desc attributes
 if(global.terrain_mode==0){ scp_deletable() }
 if(global.terrain_mode==0){ scp_mouse_drag_pokemon() }
 scp_resizable(0.25)

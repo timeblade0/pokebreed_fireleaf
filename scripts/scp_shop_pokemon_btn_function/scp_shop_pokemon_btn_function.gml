@@ -10,11 +10,13 @@ function scp_shop_pokemon_btn_function(col,row,pokemon_name,button_bkg) {
 	scp_shop_define_col_row()
 
 	//create pokemon
-	aa=instance_create_depth(menu_col[col],menu_row[row],0,obj_button_pokemon_buy_parent)
-	aa.cost=1000;
-	aa.name=pokemon_name
-	aa.sprite=asset_get_index("spr_"+aa.name)
-	aa.object=asset_get_index("obj_"+aa.name)    
-	aa.gender=gender; 
-	aa.sprite_index=button_bkg;
+	AA=instance_create_depth(menu_col[col],menu_row[row],0,obj_button_pokemon_buy_parent)
+	AA.cost=1000;
+	AA.name=pokemon_name
+	AA.sprite=asset_get_index("spr_"+AA.name)
+	AA.object=asset_get_index("obj_"+AA.name)    
+	AA.gender=gender; 
+	AA.sprite_index=button_bkg;
+	AA.image_xscale=1.75
+	AA.image_yscale=1.75
 }

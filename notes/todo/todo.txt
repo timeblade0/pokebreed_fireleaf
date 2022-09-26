@@ -1,8 +1,5 @@
-kingler =
-voltorb = pokeball + electric type
-eggsecute = bulbasaur + abra
-cubone/marowak/kangashkahn
-tyrouge/hitmonlee/hitmonchan/hitmontop
+add coin to shop items
+
 likitoung
 koffing - shop genderless. same split as grimer
 chancey
@@ -28,8 +25,7 @@ dragonite
 mewtwo
 mew
 
-add rubber ball for electric pokemon
-
+replace temp hitmonchan sprite
 badge acquired sound
 
 terrain objects
@@ -41,4 +37,3 @@ long term:
 	screenshot of game behind shop menu
 	fix not enough money in shop message exiting from full screen
 	fix evolution stuck on fence
-	evolution wheel change to clockwise spinning instead of color change

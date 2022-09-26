@@ -8,6 +8,7 @@ scp_shop_define_col_row()
 scp_shop_pokemon_btn_function(1,1,"geodude",spr_button_brown)
 scp_shop_pokemon_btn_function(2,1,"grimer",spr_button_purple)
 scp_shop_pokemon_btn_function(3,1,"gastly",spr_button_purple)
+scp_shop_pokemon_btn_function(4,1,"tyrogue",spr_button_orange)
 
 //row 2
 

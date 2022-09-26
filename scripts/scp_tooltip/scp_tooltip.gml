@@ -6,6 +6,7 @@
 function scp_tooltip(text) {	
 	bezel=10	//boarder box around text
 	offset=5	//pixels away from mouse
+	draw_set_font(font_consolas_16)
 	
 	if(position_meeting(mouse_x,mouse_y,self)==1){
 		//background of tooltip

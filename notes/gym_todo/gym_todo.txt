@@ -3,18 +3,20 @@
 surge gym
 ----------
 raichu
-*magneton
-*electrode
+magneton
+electrode
 *electavire
 jolteon
+*ampharos
+
 
 erika gym
 ----------
 vileplume
 victorybell
-*Eggsecute
+Exggsicute
 Sceptile
-*Maganium
+tangela evolution
 *leafeon
 
 koga gym
@@ -22,7 +24,7 @@ koga gym
 arbok
 *weezing
 crobat
-*muk
+muk
 venomoth
 *spinerak
 
@@ -30,10 +32,10 @@ sabrina gym
 ------------
 ralts
 jynx
-*gengar
-*hypno
+gengar
+hypno
 slowking
-espeon
+*espeon
 
 blane gym
 ------------
@@ -41,8 +43,8 @@ ninetails
 rapidash
 arcanine
 *magmortar
-*moltres
 flareon
+torkoal
 
 giovani gym
 -----------
@@ -50,5 +52,5 @@ nidoking
 dugrio
 sandslash
 persian
-*kanghaskan
+kanghaskan
 mewtwo

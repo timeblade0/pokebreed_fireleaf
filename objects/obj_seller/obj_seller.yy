@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_seller",
   "spriteId": {
     "name": "spr_seller",
     "path": "sprites/spr_seller/spr_seller.yy",
@@ -27,15 +30,13 @@
     {"x":0.0,"y":0.0,},
     {"x":56.0,"y":56.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":5,"eventType":6,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Items",
     "path": "folders/Objects/Items.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_seller",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_parent_fire",
   "spriteId": {
     "name": "spr_charmander",
     "path": "sprites/spr_charmander/spr_charmander.yy",
@@ -28,7 +31,7 @@
     {"x":42.0,"y":42.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,8 +39,4 @@
     "name": "Parents",
     "path": "folders/Objects/Pokemon/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_parent_fire",
-  "tags": [],
-  "resourceType": "GMObject",
 }

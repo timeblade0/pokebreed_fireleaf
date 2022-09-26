@@ -1,3 +1,16 @@
+#20220924 SMW
+	added exeggsicute family = venusaur + alakazam
+	fire pokemon now burn plants
+	added cubone/marowak/kangashkahn family = dugtrio + charizard
+	minor updats to shop and font
+	updated evolution timer wheel sprites
+	added tyrogue family = genderless in shop
+
+#20220922 SMW
+	added krabby family = goldeen + parasect
+	added rubberball
+	added voltorb family = electric + pokeball
+
 #20220919 SMW
 	added gastly family to shop genderless
 	addd drowsey = alakazam + slowking

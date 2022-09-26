@@ -1,4 +1,4 @@
-//init var
+///@desc init var
 gender = 0;
 tooltip="Pokemon Female"
 image_xscale=2

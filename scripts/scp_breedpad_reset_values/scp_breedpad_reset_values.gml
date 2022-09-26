@@ -15,13 +15,16 @@ function scp_breedpad_reset_values() {
 		dewgong[aa]=0
 		dodrio[aa]=0
 		dugtrio[aa]=0
+		exeggutor[aa]=0
 		farfetched[aa]=0
 	    fearow[aa]=0
 		goldeen[aa]=0
 	    golduck[aa]=0
 		houndoom[aa]=0
 		hypno[aa]=0
+		kangaskhan[aa]=0
 		kingdra[aa]=0
+		kingler[aa]=0
 	    machamp[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
@@ -57,10 +60,12 @@ function scp_breedpad_reset_values() {
 	        umbreon[aa]=0; 
 			
 		//genderless
+	    electrode=0;
 	    gengar=0;
 		golem=0;
 		magnezone=0;
 		muk=0;
 	    steelix=0;
+		hitmon=0;
 	}
 }

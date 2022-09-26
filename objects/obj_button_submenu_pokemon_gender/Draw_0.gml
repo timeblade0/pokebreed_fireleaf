@@ -1,6 +1,7 @@
-//draw background and picture
+///@desc background and picture
 draw_self()
-draw_sprite(spr_nidoran, gender, x+sprite_width/2, y+sprite_height/2);
+if(gender==0) draw_sprite_ext(spr_gender_female, 0, x+sprite_width/2, y+sprite_height/2,2,2,0,c_white,1);
+if(gender==1) draw_sprite_ext(spr_gender_male, 0, x+sprite_width/2, y+sprite_height/2,2,2,0,c_white,1);
 
 //set tooltip
 scp_tooltip(tooltip)

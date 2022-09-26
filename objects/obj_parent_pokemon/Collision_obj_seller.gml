@@ -1,4 +1,4 @@
-//sell pokemon
+///@desc sell pokemon
 global.money += money;
 if(other.object_index==obj_seller){
 	instance_destroy(other);
