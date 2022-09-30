@@ -453,6 +453,7 @@
     {"roomId":{"name":"room_main_ranch","path":"rooms/room_main_ranch/room_main_ranch.yy",},},
   ],
   "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Archives","folderPath":"folders/Objects/Archives.yy","order":17,},
@@ -524,6 +525,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fighting","folderPath":"folders/Sprites/Pokemon/Fighting.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Machop","folderPath":"folders/Sprites/Pokemon/Fighting/Machop.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mankey","folderPath":"folders/Sprites/Pokemon/Fighting/Mankey.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tyrogue","folderPath":"folders/Sprites/Pokemon/Fighting/Tyrogue.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fire","folderPath":"folders/Sprites/Pokemon/Fire.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Charmander","folderPath":"folders/Sprites/Pokemon/Fire/Charmander.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Growlith","folderPath":"folders/Sprites/Pokemon/Fire/Growlith.yy","order":4,},
@@ -545,6 +547,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Oddish","folderPath":"folders/Sprites/Pokemon/Grass/Oddish.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Treeko","folderPath":"folders/Sprites/Pokemon/Grass/Treeko.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ground","folderPath":"folders/Sprites/Pokemon/Ground.yy","order":10,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cubone","folderPath":"folders/Sprites/Pokemon/Ground/Cubone.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Diglett","folderPath":"folders/Sprites/Pokemon/Ground/Diglett.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sandshrew","folderPath":"folders/Sprites/Pokemon/Ground/Sandshrew.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Normal","folderPath":"folders/Sprites/Pokemon/Normal.yy","order":1,},
@@ -582,9 +585,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Terrain","folderPath":"folders/Sprites/Terrain.yy","order":21,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fence","folderPath":"folders/Sprites/Terrain/Fence.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tilesets","folderPath":"folders/Sprites/tilesets.yy","order":23,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cubone","folderPath":"folders/Sprites/Pokemon/Ground/Cubone.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tyrogue","folderPath":"folders/Sprites/Pokemon/Fighting/Tyrogue.yy","order":2,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
