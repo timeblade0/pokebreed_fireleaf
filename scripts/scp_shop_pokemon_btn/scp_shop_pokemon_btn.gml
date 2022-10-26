@@ -44,7 +44,7 @@ scp_shop_define_col_row()
 		scp_shop_pokemon_btn_function(3,4,"tentacool",spr_button_blue_dark)
 		scp_shop_pokemon_btn_function(4,4,"ponyta",spr_button_red)
 		scp_shop_pokemon_btn_function(5,4,"goldeen",spr_button_blue_light)
-		//scp_shop_pokemon_btn_function(6,4,"",spr_button_purple)
+		scp_shop_pokemon_btn_function(6,4,"lickitung",spr_button_white)
 		//scp_shop_pokemon_btn_function(7,4,"",spr_button_yellow)
 		//scp_shop_pokemon_btn_function(8,4,"",spr_button_yellow)
 

@@ -1,6 +1,5 @@
 add coin to shop items
 
-likitoung
 koffing - shop genderless. same split as grimer
 chancey
 tangela

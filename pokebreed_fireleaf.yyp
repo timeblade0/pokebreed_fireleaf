@@ -16,6 +16,7 @@
     {"id":{"name":"spr_badge_7","path":"sprites/spr_badge_7/spr_badge_7.yy",},"order":13,},
     {"id":{"name":"spr_rhydon","path":"sprites/spr_rhydon/spr_rhydon.yy",},"order":2,},
     {"id":{"name":"spr_badge_8","path":"sprites/spr_badge_8/spr_badge_8.yy",},"order":15,},
+    {"id":{"name":"obj_lickitung","path":"objects/obj_lickitung/obj_lickitung.yy",},"order":5,},
     {"id":{"name":"spr_egg_blue","path":"sprites/spr_egg_blue/spr_egg_blue.yy",},"order":1,},
     {"id":{"name":"spr_egg_pink","path":"sprites/spr_egg_pink/spr_egg_pink.yy",},"order":3,},
     {"id":{"name":"spr_egg_green","path":"sprites/spr_egg_green/spr_egg_green.yy",},"order":5,},
@@ -262,6 +263,7 @@
     {"id":{"name":"spr_breedpad_end","path":"sprites/spr_breedpad_end/spr_breedpad_end.yy",},"order":2,},
     {"id":{"name":"spr_fence4_h","path":"sprites/spr_fence4_h/spr_fence4_h.yy",},"order":1,},
     {"id":{"name":"spr_haunter","path":"sprites/spr_haunter/spr_haunter.yy",},"order":2,},
+    {"id":{"name":"spr_lickitung","path":"sprites/spr_lickitung/spr_lickitung.yy",},"order":0,},
     {"id":{"name":"spr_fence4_v","path":"sprites/spr_fence4_v/spr_fence4_v.yy",},"order":3,},
     {"id":{"name":"spr_dodrio","path":"sprites/spr_dodrio/spr_dodrio.yy",},"order":1,},
     {"id":{"name":"spr_cubone","path":"sprites/spr_cubone/spr_cubone.yy",},"order":0,},
@@ -326,6 +328,7 @@
     {"id":{"name":"obj_parent_electic","path":"objects/obj_parent_electic/obj_parent_electic.yy",},"order":0,},
     {"id":{"name":"obj_parent_ground","path":"objects/obj_parent_ground/obj_parent_ground.yy",},"order":4,},
     {"id":{"name":"spr_magnemite","path":"sprites/spr_magnemite/spr_magnemite.yy",},"order":0,},
+    {"id":{"name":"spr_lickilicky","path":"sprites/spr_lickilicky/spr_lickilicky.yy",},"order":1,},
     {"id":{"name":"obj_parent_evolution","path":"objects/obj_parent_evolution/obj_parent_evolution.yy",},"order":5,},
     {"id":{"name":"spr_starmie","path":"sprites/spr_starmie/spr_starmie.yy",},"order":1,},
     {"id":{"name":"obj_button_shop_parent","path":"objects/obj_button_shop_parent/obj_button_shop_parent.yy",},"order":2,},
@@ -585,15 +588,16 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Terrain","folderPath":"folders/Sprites/Terrain.yy","order":21,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fence","folderPath":"folders/Sprites/Terrain/Fence.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tilesets","folderPath":"folders/Sprites/tilesets.yy","order":23,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lickitung","folderPath":"folders/Sprites/Pokemon/Normal/Lickitung.yy","order":4,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":false,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":false,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.9.1.51",
   },
 }

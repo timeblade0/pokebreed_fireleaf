@@ -25,6 +25,7 @@ function scp_breedpad_reset_values() {
 		kangaskhan[aa]=0
 		kingdra[aa]=0
 		kingler[aa]=0
+		lickilicky[aa]=0
 	    machamp[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0

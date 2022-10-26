@@ -28,6 +28,7 @@ function scp_breedpad_collision() {
 	if(other.name=="kangaskhan")	{kangaskhan[other.gender]=1; }
 	if(other.name=="kingdra")		{kingdra[other.gender]=1; }
 	if(other.name=="kingler")		{kingler[other.gender]=1; }
+	if(other.name=="lickilicky")	{lickilicky[other.gender]=1; }	
 	if(other.name=="machamp")       {machamp[other.gender]=1; }
 	if(other.name=="nidoqueen")     {nidoqueen[other.gender]=1; }
 	if(other.name=="ninetails")     {ninetails[other.gender]=1; }
