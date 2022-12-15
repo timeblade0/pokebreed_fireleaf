@@ -9,6 +9,7 @@ scp_shop_pokemon_btn_function(1,1,"geodude",spr_button_brown)
 scp_shop_pokemon_btn_function(2,1,"grimer",spr_button_purple)
 scp_shop_pokemon_btn_function(3,1,"gastly",spr_button_purple)
 scp_shop_pokemon_btn_function(4,1,"tyrogue",spr_button_orange)
+scp_shop_pokemon_btn_function(5,1,"koffing",spr_button_purple)
 
 //row 2
 

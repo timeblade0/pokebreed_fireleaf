@@ -1,7 +1,5 @@
-add coin to shop items
 
-koffing - shop genderless. same split as grimer
-chancey
+chancey = wigglytuff + clefable
 tangela
 mr mime/jynx
 scizor
@@ -9,7 +7,7 @@ electavire
 magmortar
 pinser F / heriacross M
 miltank F / tauros M
-gyrados
+gyrados = goldeen + dratini
 lapras
 ditto
 umbreon / espeon / leafeon / glacion
@@ -20,10 +18,11 @@ snorlax - gender in shop
 articuno
 zapdos
 moltres
-dragonite
+dragonite = ekans + charmander ?
 mewtwo
 mew
 
+page up and down change number, but not actual game speed
 replace temp hitmonchan sprite
 badge acquired sound
 

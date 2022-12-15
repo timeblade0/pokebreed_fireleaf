@@ -1,3 +1,5 @@
+/// @desc init var
+
 //allow time for variables to initialize
 alarm[0]=1
 
@@ -9,12 +11,12 @@ room_speed=60
 #region badge variables
 	global.badge[1]=0
 	global.badge[2]=0
-	//global.badge[3]=0
-	//global.badge[4]=0
-	//global.badge[5]=0
-	//global.badge[6]=0
-	//global.badge[7]=0
-	//global.badge[8]=0
+	global.badge[3]=0
+	global.badge[4]=0
+	global.badge[5]=0
+	global.badge[6]=0
+	global.badge[7]=0
+	global.badge[8]=0
 #endregion
 
 #region Zoom Variables

@@ -68,5 +68,6 @@ function scp_breedpad_reset_values() {
 		muk=0;
 	    steelix=0;
 		hitmon=0;
+		weezing=0;
 	}
 }

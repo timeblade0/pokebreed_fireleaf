@@ -12,7 +12,7 @@
 #endregion
 #region draw speed in top right
 	text=string("Speed: ")+string(room_speed)+string("/60")
-	draw_roundrect_colour(view_left()+view_width()-string_width(text), view_top(), view_left()+view_width(), +string_height(text)+bezel, c_white, c_white, false);
+	draw_roundrect_colour(view_left()+view_width()-string_width(text), view_top(), view_left()+view_width(), view_top()+string_height(text)+bezel, c_white, c_white, false);
 	draw_text(view_left()+view_width()-string_width(text), view_top()+bezel, text);
 #endregion
 #region draw terrain mode in bottom right

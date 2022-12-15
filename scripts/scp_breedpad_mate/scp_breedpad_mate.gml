@@ -85,6 +85,7 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("genderless", "same", muk, , , ,													"grimer",		spr_egg_purple);
 		scp_breedpad_mate_function("genderless", "same", steelix, , , ,												"onix",			spr_egg_grey);
 		scp_breedpad_mate_function("genderless", "same", hitmon, , , ,												"tyrogue",		spr_egg_orange);
+		scp_breedpad_mate_function("genderless", "same", weezing, , , ,												"koffing",		spr_egg_purple);
 		scp_breedpad_mate_function("genderless", "same", electrode, , , ,											"voltorb",		spr_egg_yellow);
 
 		//crossbreed - gender + gender
