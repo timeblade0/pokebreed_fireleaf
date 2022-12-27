@@ -2,8 +2,25 @@
 	if(instance_number(obj_shop_main) == 0){ scp_zoom() }
 #endregion
 
-#region Esc, F2, Page Up, Page Down
-	scp_game_control_keys()
+#region Exit Game with Esc
+	if(keyboard_check_pressed(vk_escape) && instance_number(obj_shop_main)==0){
+		if(show_question("Exit the game?")==1){ game_end(); }
+	}
+#endregion
+#region Restart Game with F2
+	if(keyboard_check_pressed(vk_f2)){
+		if(show_question("Restart the game?")==1){ game_restart(); }
+	}
+#endregion
+#region game speed up with PGUP
+	if(keyboard_check_pressed(vk_pageup)){
+		game_set_speed(game_get_speed(gamespeed_fps)+30, gamespeed_fps);
+	}
+#endregion
+#region game speed down with PGDOWN
+	if(keyboard_check_pressed(vk_pagedown) && game_get_speed(gamespeed_fps)>30 ){
+		game_set_speed(game_get_speed(gamespeed_fps)-30, gamespeed_fps);
+	}
 #endregion
 
 #region open shop with E
@@ -15,12 +32,19 @@
 		exit
 	}
 #endregion
-#region close menu with E
+#region close shop with E
 	if(keyboard_check_pressed(ord("E")) && instance_number(obj_shop_main)==1 && instance_number(obj_button_submenu_badges)==1){  
 		instance_destroy(obj_shop_main)
 		instance_destroy(obj_button_shop_parent)
 		global.zoom=global.zoom_preshop
 		exit
+	}
+#endregion
+#region Close Shop with Esc
+	if(keyboard_check_pressed(vk_escape) && instance_number(obj_shop_main)==1){
+		instance_destroy(obj_shop_main)
+		instance_destroy(obj_button_shop_parent)
+		global.zoom=global.zoom_preshop
 	}
 #endregion
 #region go up in menu with E

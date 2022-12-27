@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_parent_normal",
   "spriteId": {
-    "name": "spr_wigglytuff",
-    "path": "sprites/spr_wigglytuff/spr_wigglytuff.yy",
+    "name": "spr_persian",
+    "path": "sprites/spr_persian/spr_persian.yy",
   },
   "solid": false,
   "visible": true,

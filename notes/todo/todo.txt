@@ -1,5 +1,4 @@
 
-chancey = wigglytuff + clefable
 tangela
 mr mime/jynx
 scizor
@@ -8,8 +7,8 @@ magmortar
 pinser F / heriacross M
 miltank F / tauros M
 gyrados = goldeen + dratini
-lapras
-ditto
+lapras - blastoise + cloyster
+ditto - shop
 umbreon / espeon / leafeon / glacion
 porygon - genderless in shop
 omastar - squirtle + cloyster
@@ -23,7 +22,6 @@ mewtwo
 mew
 
 page up and down change number, but not actual game speed
-replace temp hitmonchan sprite
 badge acquired sound
 
 terrain objects
@@ -34,4 +32,5 @@ long term:
 	save / load buttons in shop
 	screenshot of game behind shop menu
 	fix not enough money in shop message exiting from full screen
+	fix exit game messages from exiting full screen
 	fix evolution stuck on fence

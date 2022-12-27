@@ -6,6 +6,7 @@ function scp_breedpad_reset_values() {
 	    alakazam[aa]=0
 	    arcanine[aa]=0
 		arbok[aa]=0
+		blissey[aa]=0
 		beedrill[aa]=0
 	    blastoise[aa]=0
 	    butterfree[aa]=0

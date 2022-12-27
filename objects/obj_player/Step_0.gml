@@ -34,4 +34,3 @@ action_bounce(0, 0);
 		image_speed=0	
 	}
 #endregion
-

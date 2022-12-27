@@ -1,3 +1,8 @@
+20221227
+	added chansey family = wigglytuff + togekiss
+		Chanset family can make eggs hatch faster by touching them
+	esc now closes the shop instead of the game when shop is open
+
 20221215 SMW
 	added koffing family
 

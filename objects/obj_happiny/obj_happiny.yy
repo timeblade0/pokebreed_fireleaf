@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_parent_fairy",
+  "name": "obj_happiny",
   "spriteId": {
-    "name": "spr_wigglytuff",
-    "path": "sprites/spr_wigglytuff/spr_wigglytuff.yy",
+    "name": "spr_happiny",
+    "path": "sprites/spr_happiny/spr_happiny.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_pokemon",
-    "path": "objects/obj_parent_pokemon/obj_parent_pokemon.yy",
+    "name": "obj_parent_fairy",
+    "path": "objects/obj_parent_fairy/obj_parent_fairy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -32,11 +32,13 @@
   ],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_egg","path":"objects/obj_parent_egg/obj_parent_egg.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/Pokemon/Parents.yy",
+    "name": "Fairy",
+    "path": "folders/Objects/Pokemon/Fairy.yy",
   },
 }

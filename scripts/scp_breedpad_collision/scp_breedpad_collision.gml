@@ -11,6 +11,7 @@ function scp_breedpad_collision() {
 	if(other.name=="arcanine")      {arcanine[other.gender]=1; }
 	if(other.name=="beedrill")      {beedrill[other.gender]=1; }
 	if(other.name=="blastoise")     {blastoise[other.gender]=1; }
+	if(other.name=="blissey")		{blissey[other.gender]=1; }
 	if(other.name=="butterfree")    {butterfree[other.gender]=1; }
 	if(other.name=="charizard")     {charizard[other.gender]=1; }
 	if(other.name=="cloyster")      {cloyster[other.gender]=1; }
