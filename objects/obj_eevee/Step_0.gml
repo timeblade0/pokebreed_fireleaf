@@ -1,4 +1,4 @@
 event_inherited();
 
-//evolve
+/// @desc evolve
 if(form==0){xp=0}	//stone

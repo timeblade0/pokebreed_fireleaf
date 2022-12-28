@@ -1,30 +1,28 @@
 
-tangela
-mr mime/jynx
-scizor
-electavire
-magmortar
-pinser F / heriacross M
-miltank F / tauros M
-gyrados = goldeen + dratini
+scizor - parasect + venomoth
+electavire - raichu + machamp
+magmortar - charizard + machamp
+pinser F / heriacross M - paraect + krabby
+miltank F / tauros M - shop
+gyrados = goldeen + charmander
 lapras - blastoise + cloyster
-ditto - shop
-umbreon / espeon / leafeon / glacion
+leafeon
+glacion
+sylveon
 porygon - genderless in shop
 omastar - squirtle + cloyster
 kabutops - scizor + golem
 snorlax - gender in shop
-articuno
-zapdos
-moltres
+articuno - pidgeot + glaceon
+zapdos - raichu + fearow
+moltres - charizard + fearow
 dragonite = ekans + charmander ?
-mewtwo
-mew
 
 page up and down change number, but not actual game speed
 badge acquired sound
 
 terrain objects
+object to destroy all plants
 
 long term:
 	add exit game button in shop

@@ -1,3 +1,11 @@
+20221228
+	added tangela family
+	added jynx/mr mime family
+	added ditto to shop genderless
+	added mew = ditto + ditto
+	added mewtwo = alakazam + jynx
+	mew and mewtwo can breed
+
 20221227
 	added chansey family = wigglytuff + togekiss
 		Chanset family can make eggs hatch faster by touching them

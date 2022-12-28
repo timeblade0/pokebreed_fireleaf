@@ -23,11 +23,13 @@ function scp_breedpad_reset_values() {
 	    golduck[aa]=0
 		houndoom[aa]=0
 		hypno[aa]=0
+		jynx[aa]=0
 		kangaskhan[aa]=0
 		kingdra[aa]=0
 		kingler[aa]=0
 		lickilicky[aa]=0
 	    machamp[aa]=0
+		mew[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
 	    parasect[aa]=0
@@ -43,6 +45,7 @@ function scp_breedpad_reset_values() {
 		sceptile[aa]=0
 		slowking[aa]=0
 		starmie[aa]=0
+		tangrowth[aa]=0
 	    tentacruel[aa]=0
 		togekiss[aa]=0
 	    torkoal[aa]=0

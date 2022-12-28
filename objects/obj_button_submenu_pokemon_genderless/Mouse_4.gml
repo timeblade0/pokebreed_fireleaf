@@ -12,6 +12,7 @@ scp_shop_pokemon_btn_function(4,1,"tyrogue",spr_button_orange)
 scp_shop_pokemon_btn_function(5,1,"koffing",spr_button_purple)
 
 //row 2
+scp_shop_pokemon_btn_function(1,2,"ditto",spr_button_white)
 
 
 //row 9
