@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_parent_bug",
+  "name": "obj_scyther",
   "spriteId": {
-    "name": "spr_caterpie",
-    "path": "sprites/spr_caterpie/spr_caterpie.yy",
+    "name": "spr_scyther",
+    "path": "sprites/spr_scyther/spr_scyther.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_pokemon",
-    "path": "objects/obj_parent_pokemon/obj_parent_pokemon.yy",
+    "name": "obj_parent_bug",
+    "path": "objects/obj_parent_bug/obj_parent_bug.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -32,11 +32,13 @@
   ],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_evolution","path":"objects/obj_parent_evolution/obj_parent_evolution.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/Pokemon/Parents.yy",
+    "name": "Bug",
+    "path": "folders/Objects/Pokemon/Bug.yy",
   },
 }

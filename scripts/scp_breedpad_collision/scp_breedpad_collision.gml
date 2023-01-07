@@ -46,6 +46,7 @@ function scp_breedpad_collision() {
 	if(other.name=="rhyperior")     {rhyperior[other.gender]=1; }
 	if(other.name=="sandslash")     {sandslash[other.gender]=1; }
 	if(other.name=="sceptile")      {sceptile[other.gender]=1; }
+	if(other.name=="scizor")		{scizor[other.gender]=1; }
 	if(other.name=="slowking")		{slowking[other.gender]=1; }
 	if(other.name=="starmie")		{starmie[other.gender]=1; }
 	if(other.name=="tangrowth")     {tangrowth[other.gender]=1; }

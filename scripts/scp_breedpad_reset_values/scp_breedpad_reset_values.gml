@@ -43,6 +43,7 @@ function scp_breedpad_reset_values() {
 		rhyperior[aa]=0
 	    sandslash[aa]=0
 		sceptile[aa]=0
+		scizor[aa]=0
 		slowking[aa]=0
 		starmie[aa]=0
 		tangrowth[aa]=0

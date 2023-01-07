@@ -1,3 +1,6 @@
+20230106 
+	aded scyther - parasect + venomoth
+
 20221228
 	added tangela family
 	added jynx/mr mime family

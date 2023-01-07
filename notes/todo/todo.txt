@@ -1,17 +1,18 @@
 
-scizor - parasect + venomoth
 electavire - raichu + machamp
+	thudner stone
 magmortar - charizard + machamp
-pinser F / heriacross M - paraect + krabby
+	fire stone
+pinser F / heracross M - paraect + krabby
 miltank F / tauros M - shop
 gyrados = goldeen + charmander
 lapras - blastoise + cloyster
-leafeon
-glacion
-sylveon
+leafeon - leaf stone
+glacion - ice stone
+sylveon - fairy stone ?
 porygon - genderless in shop
-omastar - squirtle + cloyster
-kabutops - scizor + golem
+omastar - fossle + time
+kabutops - fossle + time
 snorlax - gender in shop
 articuno - pidgeot + glaceon
 zapdos - raichu + fearow
