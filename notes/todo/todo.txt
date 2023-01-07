@@ -1,6 +1,4 @@
 
-electavire - raichu + machamp
-	thudner stone
 magmortar - charizard + machamp
 	fire stone
 pinser F / heracross M - paraect + krabby
@@ -10,7 +8,7 @@ lapras - blastoise + cloyster
 leafeon - leaf stone
 glacion - ice stone
 sylveon - fairy stone ?
-porygon - genderless in shop
+porygon - geder in shop
 omastar - fossle + time
 kabutops - fossle + time
 snorlax - gender in shop

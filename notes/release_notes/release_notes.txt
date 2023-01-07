@@ -1,5 +1,10 @@
+20230107
+	added elekid = raichu + machamp
+	added rare candy
+	new pichu family sprites
+
 20230106 
-	aded scyther - parasect + venomoth
+	aded scyther = parasect + venomoth
 
 20221228
 	added tangela family

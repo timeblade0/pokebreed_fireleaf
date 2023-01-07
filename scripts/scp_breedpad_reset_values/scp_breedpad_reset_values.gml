@@ -16,6 +16,7 @@ function scp_breedpad_reset_values() {
 		dewgong[aa]=0
 		dodrio[aa]=0
 		dugtrio[aa]=0
+		electivire[aa]=0
 		exeggutor[aa]=0
 		farfetched[aa]=0
 	    fearow[aa]=0

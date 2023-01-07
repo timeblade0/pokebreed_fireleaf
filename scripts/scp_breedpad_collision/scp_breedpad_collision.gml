@@ -19,6 +19,7 @@ function scp_breedpad_collision() {
 	if(other.name=="dewgong")		{dewgong[other.gender]=1; }
 	if(other.name=="dodrio")		{dodrio[other.gender]=1; }
 	if(other.name=="dugtrio")       {dugtrio[other.gender]=1; }
+	if(other.name=="electivire")    {electivire[other.gender]=1; }
 	if(other.name=="exeggutor2")    {exeggutor[other.gender]=1; }
 	if(other.name=="farfetched")	{farfetched[other.gender]=1; }
 	if(other.name=="fearow")        {fearow[other.gender]=1; }
