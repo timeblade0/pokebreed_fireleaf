@@ -30,12 +30,14 @@ function scp_breedpad_reset_values() {
 		kingler[aa]=0
 		lickilicky[aa]=0
 	    machamp[aa]=0
+		magmortar[aa]=0
 		mew[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
 	    parasect[aa]=0
 	    persian[aa]=0
 	    pidgeot[aa]=0
+		pinsir[aa]=0
 	    poliwrath[aa]=0				
 	    primeape[aa]=0
 	    raichu[aa]=0

@@ -1,15 +1,22 @@
-//main function to create shop buttons. add new pokemon shop buttons here
+//function to simplify scp_shopp_pokemon_btn. DO NOT change this
+function scp_shop_pokemon_btn_function(col,row,pokemon_name,button_bkg) {
+	//define shop columns and rows
+	scp_shop_define_col_row()
+
+	//create pokemon buy button
+	AA=instance_create_depth(menu_col[col],menu_row[row],0,obj_button_pokemon_buy_parent)
+	AA.cost=1000;
+	AA.name=pokemon_name
+	AA.sprite=asset_get_index("spr_"+AA.name)
+	AA.object=asset_get_index("obj_"+AA.name)    
+	AA.gender=gender; 
+	AA.sprite_index=button_bkg;
+}
+
+//main function to create shop buttons. DO change this. Add new pokemon buttons here
 function scp_shop_pokemon_btn() {
 	//submenu for buying female pokemon. Male pokemon button uses the same script
 	instance_destroy(obj_button_shop_parent)   //remove old shop buttons
-
-	//scp_shop_pokemon_btn_function(column,row,pokemon name, button sprite)
-	//row 1 = 5 columns
-	//row 2 = 5 columns
-	//row 3+ = 8 columns
-
-//define shop columns and rows
-scp_shop_define_col_row()
 
 	#region row 1
 		scp_shop_pokemon_btn_function(1,1,"bulbasaur",spr_button_green_dark)
@@ -35,17 +42,17 @@ scp_shop_define_col_row()
 		scp_shop_pokemon_btn_function(5,3,"meowth",spr_button_white)
 		scp_shop_pokemon_btn_function(6,3,"mankey",spr_button_orange)
 		scp_shop_pokemon_btn_function(7,3,"abra",spr_button_purple)
-		scp_shop_pokemon_btn_function(8,3,"machop",spr_button_green_dark)
+
 
 	#endregion
 	#region row 4
-		scp_shop_pokemon_btn_function(1,4,"bellsprout",spr_button_orange)
-		scp_shop_pokemon_btn_function(2,4,"tentacool",spr_button_green_dark)
-		scp_shop_pokemon_btn_function(3,4,"ponyta",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(4,4,"goldeen",spr_button_red)
-		scp_shop_pokemon_btn_function(5,4,"lickitung",spr_button_blue_light)
-		//scp_shop_pokemon_btn_function(6,4,"",spr_button_white)
-		//scp_shop_pokemon_btn_function(7,4,"",spr_button_yellow)
+		scp_shop_pokemon_btn_function(1,4,"machop",spr_button_green_dark)
+		scp_shop_pokemon_btn_function(2,4,"bellsprout",spr_button_orange)
+		scp_shop_pokemon_btn_function(3,4,"tentacool",spr_button_green_dark)
+		scp_shop_pokemon_btn_function(4,4,"ponyta",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(5,4,"goldeen",spr_button_red)
+		scp_shop_pokemon_btn_function(6,4,"lickitung",spr_button_blue_light)
+		//scp_shop_pokemon_btn_function(7,4,"",spr_button_white)
 		//scp_shop_pokemon_btn_function(8,4,"",spr_button_yellow)
 
 	#endregion
@@ -75,6 +82,6 @@ scp_shop_define_col_row()
 		//scp_shop_pokemon_btn_function(10,6,"",spr_button_yellow)
 	#endregion
 
-//row 9
-scp_shop_create_buttons_bottom()
+	//bottom row
+	scp_shop_create_buttons_bottom()
 }

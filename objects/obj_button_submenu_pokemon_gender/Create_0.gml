@@ -1,5 +1,4 @@
 ///@desc init var
+event_inherited()
 gender = 0;
 tooltip="Pokemon Female"
-image_xscale=2
-image_yscale=2

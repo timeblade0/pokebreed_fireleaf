@@ -1,8 +1,6 @@
 
-magmortar - charizard + machamp
-	fire stone
-pinser F / heracross M - paraect + krabby
 miltank F / tauros M - shop
+change ponyta = charizard + miltank
 gyrados = goldeen + charmander
 lapras - blastoise + cloyster
 leafeon - leaf stone

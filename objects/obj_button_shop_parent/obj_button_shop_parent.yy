@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_button_shop_parent",
   "spriteId": {
     "name": "spr_exit_btn",
     "path": "sprites/spr_exit_btn/spr_exit_btn.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Shop",
     "path": "folders/Objects/Shop.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_button_shop_parent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

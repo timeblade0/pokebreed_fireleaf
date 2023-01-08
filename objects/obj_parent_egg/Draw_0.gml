@@ -10,5 +10,6 @@ if(xp>=xp_max){
 	bb.image_xscale=image_xscale
 	bb.image_yscale=image_yscale
 	bb.image_angle=image_angle
+	bb.name=name
 	instance_destroy()
 }

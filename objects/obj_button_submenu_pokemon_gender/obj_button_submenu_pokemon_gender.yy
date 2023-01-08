@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_submenu_pokemon_gender",
   "spriteId": {
-    "name": "spr_button_black",
-    "path": "sprites/spr_button_black/spr_button_black.yy",
+    "name": "spr_button_brown",
+    "path": "sprites/spr_button_brown/spr_button_brown.yy",
   },
   "solid": false,
   "visible": true,

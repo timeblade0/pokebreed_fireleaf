@@ -33,12 +33,14 @@ function scp_breedpad_collision() {
 	if(other.name=="kingler")		{kingler[other.gender]=1; }
 	if(other.name=="lickilicky")	{lickilicky[other.gender]=1; }	
 	if(other.name=="machamp")       {machamp[other.gender]=1; }
+	if(other.name=="magmortar")     {magmortar[other.gender]=1; }
 	if(other.name=="mew")			{mew[other.gender]=1; }
 	if(other.name=="nidoqueen")     {nidoqueen[other.gender]=1; }
 	if(other.name=="ninetails")     {ninetails[other.gender]=1; }
 	if(other.name=="parasect")      {parasect[other.gender]=1; }
 	if(other.name=="persian")       {persian[other.gender]=1; }
 	if(other.name=="pidgeot")       {pidgeot[other.gender]=1; }
+	if(other.name=="pinsir")        {pinsir[other.gender]=1; }
 	if(other.name=="poliwrath")     {poliwrath[other.gender]=1; }
 	if(other.name=="primeape")      {primeape[other.gender]=1; }
 	if(other.name=="raichu")        {raichu[other.gender]=1; }

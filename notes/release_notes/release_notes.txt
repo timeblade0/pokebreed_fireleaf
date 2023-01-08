@@ -1,3 +1,9 @@
+20230108
+	added magby = charizard + machamp
+	shop buttons are now 20% bigger
+	egg sprites are now 25% bigger
+	added pinser F / heracross M = parasect + krabby
+
 20230107
 	added elekid = raichu + machamp
 	added rare candy

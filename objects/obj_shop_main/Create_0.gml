@@ -36,5 +36,5 @@ AA=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_submenu_pokemon_ge
 	AA.gender=1; 	AA.tooltip="Pokemon Male";		AA.sprite_index=spr_button_black
 instance_create_depth(menu_col[3],menu_row[3],0,obj_button_submenu_pokemon_genderless)
 
-//row 9
+//row bottom
 scp_shop_create_buttons_bottom()
