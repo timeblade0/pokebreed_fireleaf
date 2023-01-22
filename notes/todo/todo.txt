@@ -1,7 +1,4 @@
 
-miltank F / tauros M - shop
-change ponyta = charizard + miltank
-gyrados = goldeen + charmander
 lapras - blastoise + cloyster
 leafeon - leaf stone
 glacion - ice stone
@@ -15,11 +12,14 @@ zapdos - raichu + fearow
 moltres - charizard + fearow
 dragonite = ekans + charmander ?
 
+new ponyta sprites
+
 page up and down change number, but not actual game speed
 badge acquired sound
 
 terrain objects
 object to destroy all plants
+everstone
 
 long term:
 	add exit game button in shop

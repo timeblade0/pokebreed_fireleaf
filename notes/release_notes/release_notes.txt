@@ -1,3 +1,9 @@
+20230122
+	added miltank F / tauros M to shop
+	changed ponyta = charizard + miltank
+	new charmander sprites
+	added gyrados = goldeen + charizard
+
 20230108
 	added magby = charizard + machamp
 	shop buttons are now 20% bigger

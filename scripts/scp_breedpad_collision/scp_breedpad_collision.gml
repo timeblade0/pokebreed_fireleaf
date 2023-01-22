@@ -25,6 +25,7 @@ function scp_breedpad_collision() {
 	if(other.name=="fearow")        {fearow[other.gender]=1; }
 	if(other.name=="goldeen")       {goldeen[other.gender]=1; }
 	if(other.name=="golduck")       {golduck[other.gender]=1; }
+	if(other.name=="gyarados")      {gyarados[other.gender]=1; }
 	if(other.name=="houndoom")		{houndoom[other.gender]=1; }
 	if(other.name=="hypno")			{hypno[other.gender]=1; }
 	if(other.name=="jynx")			{jynx[other.gender]=1; }
@@ -35,6 +36,7 @@ function scp_breedpad_collision() {
 	if(other.name=="machamp")       {machamp[other.gender]=1; }
 	if(other.name=="magmortar")     {magmortar[other.gender]=1; }
 	if(other.name=="mew")			{mew[other.gender]=1; }
+	if(other.name=="miltank")		{miltank[other.gender]=1; }
 	if(other.name=="nidoqueen")     {nidoqueen[other.gender]=1; }
 	if(other.name=="ninetails")     {ninetails[other.gender]=1; }
 	if(other.name=="parasect")      {parasect[other.gender]=1; }

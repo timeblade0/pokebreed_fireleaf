@@ -46,12 +46,12 @@ function scp_shop_pokemon_btn() {
 
 	#endregion
 	#region row 4
-		scp_shop_pokemon_btn_function(1,4,"machop",spr_button_green_dark)
-		scp_shop_pokemon_btn_function(2,4,"bellsprout",spr_button_orange)
-		scp_shop_pokemon_btn_function(3,4,"tentacool",spr_button_green_dark)
-		scp_shop_pokemon_btn_function(4,4,"ponyta",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(5,4,"goldeen",spr_button_red)
-		scp_shop_pokemon_btn_function(6,4,"lickitung",spr_button_blue_light)
+		scp_shop_pokemon_btn_function(1,4,"machop",spr_button_brown)
+		scp_shop_pokemon_btn_function(2,4,"bellsprout",spr_button_green_dark)
+		scp_shop_pokemon_btn_function(3,4,"tentacool",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(4,4,"lickitung",spr_button_white)
+		scp_shop_pokemon_btn_function(5,4,"goldeen",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(6,4,"miltank",spr_button_white)
 		//scp_shop_pokemon_btn_function(7,4,"",spr_button_white)
 		//scp_shop_pokemon_btn_function(8,4,"",spr_button_yellow)
 

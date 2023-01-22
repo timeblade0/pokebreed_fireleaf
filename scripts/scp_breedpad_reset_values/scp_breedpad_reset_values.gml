@@ -22,6 +22,7 @@ function scp_breedpad_reset_values() {
 	    fearow[aa]=0
 		goldeen[aa]=0
 	    golduck[aa]=0
+		gyarados[aa]=0
 		houndoom[aa]=0
 		hypno[aa]=0
 		jynx[aa]=0
@@ -32,6 +33,7 @@ function scp_breedpad_reset_values() {
 	    machamp[aa]=0
 		magmortar[aa]=0
 		mew[aa]=0
+		miltank[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
 	    parasect[aa]=0
