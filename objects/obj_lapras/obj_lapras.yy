@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_rhyhorn",
+  "name": "obj_lapras",
   "spriteId": {
-    "name": "spr_rhyhorn",
-    "path": "sprites/spr_rhyhorn/spr_rhyhorn.yy",
+    "name": "spr_lapras",
+    "path": "sprites/spr_lapras/spr_lapras.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_rock",
-    "path": "objects/obj_parent_rock/obj_parent_rock.yy",
+    "name": "obj_parent_water",
+    "path": "objects/obj_parent_water/obj_parent_water.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -37,7 +37,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rock",
-    "path": "folders/Objects/Pokemon/Rock.yy",
+    "name": "Water",
+    "path": "folders/Objects/Pokemon/Water.yy",
   },
 }

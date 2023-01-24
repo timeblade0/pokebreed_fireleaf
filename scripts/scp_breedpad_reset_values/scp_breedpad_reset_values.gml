@@ -20,6 +20,7 @@ function scp_breedpad_reset_values() {
 		exeggutor[aa]=0
 		farfetched[aa]=0
 	    fearow[aa]=0
+		golem[aa]=0
 		goldeen[aa]=0
 	    golduck[aa]=0
 		gyarados[aa]=0
@@ -29,6 +30,7 @@ function scp_breedpad_reset_values() {
 		kangaskhan[aa]=0
 		kingdra[aa]=0
 		kingler[aa]=0
+		lapras[aa]=0
 		lickilicky[aa]=0
 	    machamp[aa]=0
 		magmortar[aa]=0
@@ -73,7 +75,6 @@ function scp_breedpad_reset_values() {
 		//genderless
 	    electrode=0;
 	    gengar=0;
-		golem=0;
 		magnezone=0;
 		muk=0;
 	    steelix=0;

@@ -1,5 +1,7 @@
+onyx - genderless to gender
+new ponyta sprites
 
-lapras - blastoise + cloyster
+new eevee sprites
 leafeon - leaf stone
 glacion - ice stone
 sylveon - fairy stone ?
@@ -11,8 +13,6 @@ articuno - pidgeot + glaceon
 zapdos - raichu + fearow
 moltres - charizard + fearow
 dragonite = ekans + charmander ?
-
-new ponyta sprites
 
 page up and down change number, but not actual game speed
 badge acquired sound

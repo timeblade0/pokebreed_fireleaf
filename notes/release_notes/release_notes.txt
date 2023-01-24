@@ -1,3 +1,7 @@
+20230124
+	added lapras = blastoise + cloyster
+	geodude now has gender
+
 20230122
 	added miltank F / tauros M to shop
 	changed ponyta = charizard + miltank
