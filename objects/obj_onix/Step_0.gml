@@ -1,7 +1,4 @@
 event_inherited();
 
-//genderless
-gender=2;
-
-//evolve
+/// @desc stone evolution
 if(form=0){xp=0}

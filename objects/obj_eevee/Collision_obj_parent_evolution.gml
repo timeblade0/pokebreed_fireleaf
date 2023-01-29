@@ -25,5 +25,20 @@ if(form==0){
         form+=1;				            instance_destroy(other)
 		element="dark";
     }
+    if(other.sprite_index==spr_ice_stone){
+        sprite_index=spr_glaceon;	        name="glaceon"
+        form+=1;				            instance_destroy(other)
+		element="ice";
+    }
+    if(other.sprite_index==spr_leaf_stone){
+        sprite_index=spr_leafeon;	        name="leafeon"
+        form+=1;				            instance_destroy(other)
+		element="grass";
+    }
+    if(other.sprite_index==spr_ribbon){
+        sprite_index=spr_sylveon;	        name="sylveon"
+        form+=1;				            instance_destroy(other)
+		element="fairy";
+    }
 }
 

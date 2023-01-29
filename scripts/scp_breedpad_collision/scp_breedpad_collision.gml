@@ -46,6 +46,7 @@ function scp_breedpad_collision() {
 	if(other.name=="pidgeot")       {pidgeot[other.gender]=1; }
 	if(other.name=="pinsir")        {pinsir[other.gender]=1; }
 	if(other.name=="poliwrath")     {poliwrath[other.gender]=1; }
+	if(other.name=="porygonz")		{porygonz[other.gender]=1; }
 	if(other.name=="primeape")      {primeape[other.gender]=1; }
 	if(other.name=="raichu")        {raichu[other.gender]=1; }
 	if(other.name=="rapidash")      {rapidash[other.gender]=1; }
@@ -56,6 +57,7 @@ function scp_breedpad_collision() {
 	if(other.name=="scizor")		{scizor[other.gender]=1; }
 	if(other.name=="slowking")		{slowking[other.gender]=1; }
 	if(other.name=="starmie")		{starmie[other.gender]=1; }
+	if(other.name=="steelix")       {steelix[other.gender]=1;	}
 	if(other.name=="tangrowth")     {tangrowth[other.gender]=1; }
 	if(other.name=="tentacruel")    {tentacruel[other.gender]=1; }
 	if(other.name=="torkoal")       {torkoal[other.gender]=1; }
@@ -75,7 +77,6 @@ function scp_breedpad_collision() {
 	if(other.name=="hitmontop")		{hitmon+=0.2;		}
 	if(other.name=="magnezone")		{magnezone+=0.2;	}
 	if(other.name=="muk")			{muk+=0.2;			}
-	if(other.name=="steelix")       {steelix+=0.2;		}
 	if(other.name=="weezing")		{weezing+=0.2;		}
 
 	//eevees
@@ -84,4 +85,7 @@ function scp_breedpad_collision() {
 	if(other.name=="vaporeon")      {eevee[other.gender]=1; vaporeon[other.gender]=1;	}
 	if(other.name=="espeon")        {eevee[other.gender]=1; espeon[other.gender]=1;		}
 	if(other.name=="umbreon")       {eevee[other.gender]=1; umbreon[other.gender]=1;	}
+	if(other.name=="glaceon")       {eevee[other.gender]=1; glaceon[other.gender]=1;	}
+	if(other.name=="leafeon")       {eevee[other.gender]=1; leafeon[other.gender]=1;	}
+	if(other.name=="sylveon")       {eevee[other.gender]=1; sylveon[other.gender]=1;	}
 }

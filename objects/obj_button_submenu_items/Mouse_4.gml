@@ -25,9 +25,14 @@ aa=instance_create_depth(menu_col[2],menu_row[2],0,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Mushroom"; aa.sprite=spr_mushroom_1; aa.object=obj_mushroom; aa.sprite_index=spr_button_green_dark; aa.scale=1
 aa=instance_create_depth(menu_col[3],menu_row[2],0,obj_button_item_buy_parent)
     aa.cost=1; aa.name="Coin"; aa.sprite=spr_coin; aa.object=obj_coin; aa.sprite_index=spr_button_black; aa.scale=1
-aa=instance_create_depth(menu_col[4],menu_row[2],0,obj_button_item_buy_parent)
-    aa.cost=100; aa.name="Rare Candy"; aa.sprite=spr_rare_candy; aa.object=obj_rare_candy; aa.sprite_index=spr_button_black; aa.scale=1
+
 //row 3
+aa=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Time Pod"; aa.sprite=spr_pod_empty; aa.object=obj_pod; aa.sprite_index=spr_button_black; aa.scale=0.33
+aa=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Dome Fossil"; aa.sprite=spr_fossil_dome; aa.object=obj_fossil_dome; aa.sprite_index=spr_button_black; aa.scale=0.75
+aa=instance_create_depth(menu_col[3],menu_row[3],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Dome Fossil"; aa.sprite=spr_fossil_helix; aa.object=obj_fossil_helix; aa.sprite_index=spr_button_black; aa.scale=0.75
 
 
 //row 9

@@ -1,3 +1,19 @@
+20230129
+	onix/steelix now have gender
+	added galarean ponyta/rapidash
+	miltank/tauros are now 20% bigger
+	added porygon to shop
+	new squirtle sprites
+	new bulbasaur sprites
+	added ice stone
+	added ribbon
+	added glaceon
+	added leafeon
+	added sylveon
+	new sprites for all eevee forms
+	added helix and dome fossils
+	added time pod for fossils. need to add omanite and kabuto
+
 20230124
 	added lapras = blastoise + cloyster
 	geodude now has gender

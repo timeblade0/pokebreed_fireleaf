@@ -20,6 +20,8 @@ aa=instance_create_depth(menu_col[5],menu_row[1],0,obj_button_item_buy_parent)
 //row 2 - stones
 aa=instance_create_depth(menu_col[1],menu_row[2],0,obj_button_item_buy_parent)
     aa.cost=stone_cost; aa.name="Leaf Stone"; aa.sprite=spr_leaf_stone; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_green_dark; aa.scale=0.75
+aa=instance_create_depth(menu_col[2],menu_row[2],0,obj_button_item_buy_parent)
+    aa.cost=stone_cost; aa.name="Ice Stone"; aa.sprite=spr_ice_stone; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_blue_light; aa.scale=0.75
 
 //row 3 - other evolution items
 aa=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_item_buy_parent)
@@ -29,7 +31,13 @@ aa=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_item_buy_parent)
 aa=instance_create_depth(menu_col[3],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=stone_cost; aa.name="Dragon Scale"; aa.sprite=spr_dragon_scale; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_black; aa.scale=0.75
 aa=instance_create_depth(menu_col[4],menu_row[3],0,obj_button_item_buy_parent)
-    aa.cost=stone_cost; aa.name="Ever Stone"; aa.sprite=spr_ever_stone; aa.object=obj_ever_stone; aa.sprite_index=spr_button_black; aa.scale=0.75
+    aa.cost=stone_cost; aa.name="Ribbon"; aa.sprite=spr_ribbon; aa.object=obj_parent_evolution; aa.sprite_index=spr_button_pink; aa.scale=0.75
+
+//row 4 - evolution related items
+aa=instance_create_depth(menu_col[1],menu_row[4],0,obj_button_item_buy_parent)
+    aa.cost=100; aa.name="Ever Stone"; aa.sprite=spr_ever_stone; aa.object=obj_ever_stone; aa.sprite_index=spr_button_black; aa.scale=0.75
+aa=instance_create_depth(menu_col[2],menu_row[4],0,obj_button_item_buy_parent)
+    aa.cost=100; aa.name="Rare Candy"; aa.sprite=spr_rare_candy; aa.object=obj_rare_candy; aa.sprite_index=spr_button_black; aa.scale=1
 
 //row 9
 scp_shop_create_buttons_bottom()

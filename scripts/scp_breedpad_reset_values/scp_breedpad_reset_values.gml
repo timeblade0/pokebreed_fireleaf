@@ -42,7 +42,8 @@ function scp_breedpad_reset_values() {
 	    persian[aa]=0
 	    pidgeot[aa]=0
 		pinsir[aa]=0
-	    poliwrath[aa]=0				
+	    poliwrath[aa]=0
+		porygonz[aa]=0
 	    primeape[aa]=0
 	    raichu[aa]=0
 	    rapidash[aa]=0
@@ -53,6 +54,7 @@ function scp_breedpad_reset_values() {
 		scizor[aa]=0
 		slowking[aa]=0
 		starmie[aa]=0
+		steelix[aa]=0;
 		tangrowth[aa]=0
 	    tentacruel[aa]=0
 		togekiss[aa]=0
@@ -70,14 +72,16 @@ function scp_breedpad_reset_values() {
 	        jolteon[aa]=0;  
 	        vaporeon[aa]=0; 
 	        espeon[aa]=0;   
-	        umbreon[aa]=0; 
+	        umbreon[aa]=0;
+			glaceon[aa]=0;
+			leafeon[aa]=0;
+			sylveon[aa]=0;
 			
 		//genderless
 	    electrode=0;
 	    gengar=0;
 		magnezone=0;
 		muk=0;
-	    steelix=0;
 		hitmon=0;
 		weezing=0;
 	}

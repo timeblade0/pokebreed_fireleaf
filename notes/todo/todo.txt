@@ -1,13 +1,11 @@
-onyx - genderless to gender
-new ponyta sprites
+new ekans/arbok sprites
+gender for gengar
+new sprite for vulpix + ice vulpix
 
-new eevee sprites
-leafeon - leaf stone
-glacion - ice stone
-sylveon - fairy stone ?
-porygon - geder in shop
 omastar - fossle + time
 kabutops - fossle + time
+add amber fossile for aerodactyle
+
 snorlax - gender in shop
 articuno - pidgeot + glaceon
 zapdos - raichu + fearow

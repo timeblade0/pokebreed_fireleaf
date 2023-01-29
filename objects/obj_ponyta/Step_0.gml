@@ -1,5 +1,4 @@
 event_inherited();
 
-//evolve
+/// @desc evolve
 if(form==0){scp_evolve(spr_rapidash)}
-
