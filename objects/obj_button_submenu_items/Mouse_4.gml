@@ -28,11 +28,11 @@ aa=instance_create_depth(menu_col[3],menu_row[2],0,obj_button_item_buy_parent)
 
 //row 3
 aa=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_item_buy_parent)
-    aa.cost=0; aa.name="Time Pod"; aa.sprite=spr_pod_empty; aa.object=obj_pod; aa.sprite_index=spr_button_black; aa.scale=0.33
+    aa.cost=0; aa.name="Time Pod"; aa.sprite=spr_pod_empty; aa.object=obj_pod; aa.sprite_index=spr_button_black; aa.scale=0.50
 aa=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_item_buy_parent)
-    aa.cost=0; aa.name="Dome Fossil"; aa.sprite=spr_fossil_dome; aa.object=obj_fossil_dome; aa.sprite_index=spr_button_black; aa.scale=0.75
+    aa.cost=0; aa.name="Dome Fossil"; aa.sprite=spr_fossil_dome; aa.object=obj_fossil_dome; aa.sprite_index=spr_button_black; aa.scale=1
 aa=instance_create_depth(menu_col[3],menu_row[3],0,obj_button_item_buy_parent)
-    aa.cost=0; aa.name="Dome Fossil"; aa.sprite=spr_fossil_helix; aa.object=obj_fossil_helix; aa.sprite_index=spr_button_black; aa.scale=0.75
+    aa.cost=0; aa.name="Helix Fossil"; aa.sprite=spr_fossil_helix; aa.object=obj_fossil_helix; aa.sprite_index=spr_button_black; aa.scale=1
 
 
 //row 9

@@ -41,6 +41,7 @@ function scp_breedpad_collision() {
 	if(other.name=="miltank")		{miltank[other.gender]=1; }
 	if(other.name=="nidoqueen")     {nidoqueen[other.gender]=1; }
 	if(other.name=="ninetails")     {ninetails[other.gender]=1; }
+	if(other.name=="omastar")	    {omastar[other.gender]=1; }
 	if(other.name=="parasect")      {parasect[other.gender]=1; }
 	if(other.name=="persian")       {persian[other.gender]=1; }
 	if(other.name=="pidgeot")       {pidgeot[other.gender]=1; }

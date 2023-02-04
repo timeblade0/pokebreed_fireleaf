@@ -1,3 +1,10 @@
+20230204
+	new sprites for ekans/arbok
+	added omanyte = time pod + helix fossil
+	ditto now has gender
+	new sprites for mewoth/persian
+	new sprites for vulpix/ninetails including ice variant
+
 20230129
 	onix/steelix now have gender
 	added galarean ponyta/rapidash

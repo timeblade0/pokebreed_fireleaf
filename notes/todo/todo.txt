@@ -1,10 +1,6 @@
-new ekans/arbok sprites
-gender for gengar
-new sprite for vulpix + ice vulpix
-
-omastar - fossle + time
 kabutops - fossle + time
 add amber fossile for aerodactyle
+gender for gengar
 
 snorlax - gender in shop
 articuno - pidgeot + glaceon

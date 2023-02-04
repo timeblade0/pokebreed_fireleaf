@@ -38,6 +38,7 @@ function scp_breedpad_reset_values() {
 		miltank[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
+		omastar[aa]=0
 	    parasect[aa]=0
 	    persian[aa]=0
 	    pidgeot[aa]=0

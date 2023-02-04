@@ -61,6 +61,7 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("gender", "same", miltank[0],	miltank[1], , ,									"miltank",		spr_egg_white);
 		scp_breedpad_mate_function("gender", "same", nidoqueen[0],	nidoqueen[1], , ,								"nidoran",		spr_egg_purple);	
 		scp_breedpad_mate_function("gender", "same", vileplume[0],	vileplume[1], , ,								"oddish",		spr_egg_green);
+		scp_breedpad_mate_function("gender", "same", omastar[0],	omastar[1], , ,									"omanyte",		spr_egg_blue);
 		scp_breedpad_mate_function("gender", "same", steelix[0],	steelix[1], , ,									"onix",			spr_egg_grey);
 		scp_breedpad_mate_function("gender", "same", parasect[0],	parasect[1], , ,								"paris",		spr_egg_bug);
 		scp_breedpad_mate_function("gender", "same", raichu[0],		raichu[1], , ,									"pichu",		spr_egg_yellow);
