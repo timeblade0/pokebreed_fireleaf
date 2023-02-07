@@ -1,3 +1,10 @@
+20230206
+	added kabutops = dome fossle + time pod
+	added aerodactyl = amber fossil + time pod
+	added munchlax to shop
+	new sprite for torkoal
+	new sprites for mewtwo and mew
+
 20230204
 	new sprites for ekans/arbok
 	added omanyte = time pod + helix fossil

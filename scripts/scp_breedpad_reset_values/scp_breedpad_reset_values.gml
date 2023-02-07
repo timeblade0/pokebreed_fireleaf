@@ -27,6 +27,7 @@ function scp_breedpad_reset_values() {
 		houndoom[aa]=0
 		hypno[aa]=0
 		jynx[aa]=0
+		kabutops[aa]=0
 		kangaskhan[aa]=0
 		kingdra[aa]=0
 		kingler[aa]=0
@@ -54,6 +55,7 @@ function scp_breedpad_reset_values() {
 		sceptile[aa]=0
 		scizor[aa]=0
 		slowking[aa]=0
+		snorlax[aa]=0
 		starmie[aa]=0
 		steelix[aa]=0;
 		tangrowth[aa]=0

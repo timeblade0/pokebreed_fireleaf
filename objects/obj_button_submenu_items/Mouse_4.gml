@@ -33,7 +33,8 @@ aa=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Dome Fossil"; aa.sprite=spr_fossil_dome; aa.object=obj_fossil_dome; aa.sprite_index=spr_button_black; aa.scale=1
 aa=instance_create_depth(menu_col[3],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Helix Fossil"; aa.sprite=spr_fossil_helix; aa.object=obj_fossil_helix; aa.sprite_index=spr_button_black; aa.scale=1
-
+aa=instance_create_depth(menu_col[4],menu_row[3],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Amber Fossil"; aa.sprite=spr_fossil_amber; aa.object=obj_fossil_amber; aa.sprite_index=spr_button_black; aa.scale=1
 
 //row 9
 scp_shop_create_buttons_bottom()

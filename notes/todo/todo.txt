@@ -1,12 +1,12 @@
-kabutops - fossle + time
-add amber fossile for aerodactyle
-gender for gengar
-
-snorlax - gender in shop
 articuno - pidgeot + glaceon
 zapdos - raichu + fearow
 moltres - charizard + fearow
 dragonite = ekans + charmander ?
+
+gender for gengar
+gender for grimer
+gender for koffing
+gender for tyrouge
 
 page up and down change number, but not actual game speed
 badge acquired sound

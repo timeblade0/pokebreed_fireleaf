@@ -52,36 +52,20 @@ function scp_shop_pokemon_btn() {
 		scp_shop_pokemon_btn_function(4,4,"geodude",spr_button_brown)
 		scp_shop_pokemon_btn_function(5,4,"lickitung",spr_button_white)
 		scp_shop_pokemon_btn_function(6,4,"goldeen",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(7,4,"miltank",spr_button_white)
-		//scp_shop_pokemon_btn_function(8,4,"",spr_button_yellow)
+		scp_shop_pokemon_btn_function(7,4,"staryu",spr_button_white)
 
 	#endregion
-	#region row 5 - empty
-		//scp_shop_pokemon_btn_function(1,5,"",spr_button_brown)
-		//scp_shop_pokemon_btn_function(2,5,"",spr_button_pink)
-		//scp_shop_pokemon_btn_function(3,5,"",spr_button_blue_light)
-		//scp_shop_pokemon_btn_function(4,5,"",spr_button_purple)
-		//scp_shop_pokemon_btn_function(5,5,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(6,5,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(7,5,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(8,5,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(9,5,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(10,5,"",spr_button_yellow)
+	#region row 5
+		scp_shop_pokemon_btn_function(1,5,"miltank",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(2,5,"ditto",spr_button_white)
+		scp_shop_pokemon_btn_function(3,5,"eevee",spr_button_white)
+		scp_shop_pokemon_btn_function(4,5,"porygon",spr_button_white)
+		scp_shop_pokemon_btn_function(5,5,"munchlax",spr_button_black)
+		scp_shop_pokemon_btn_function(6,5,"houndour",spr_button_black)
+		scp_shop_pokemon_btn_function(7,5,"teddiursa",spr_button_white)
 	#endregion
-	#region row 6
-		scp_shop_pokemon_btn_function(1,6,"staryu",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(2,6,"ditto",spr_button_white)
-		scp_shop_pokemon_btn_function(3,6,"eevee",spr_button_white)
-		scp_shop_pokemon_btn_function(4,6,"porygon",spr_button_white)
-		scp_shop_pokemon_btn_function(5,6,"houndour",spr_button_black)
-		scp_shop_pokemon_btn_function(6,6,"teddiursa",spr_button_white)
-		//scp_shop_pokemon_btn_function(4,6,"",spr_button_purple)
-		//scp_shop_pokemon_btn_function(5,6,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(6,6,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(7,6,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(8,6,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(9,6,"",spr_button_yellow)
-		//scp_shop_pokemon_btn_function(10,6,"",spr_button_yellow)
+	#region row 6 - empty
+
 	#endregion
 
 	//bottom row

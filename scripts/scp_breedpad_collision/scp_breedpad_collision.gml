@@ -30,6 +30,7 @@ function scp_breedpad_collision() {
 	if(other.name=="houndoom")		{houndoom[other.gender]=1; }
 	if(other.name=="hypno")			{hypno[other.gender]=1; }
 	if(other.name=="jynx")			{jynx[other.gender]=1; }
+	if(other.name=="kabutops")		{kabutops[other.gender]=1; }
 	if(other.name=="kangaskhan")	{kangaskhan[other.gender]=1; }
 	if(other.name=="kingdra")		{kingdra[other.gender]=1; }
 	if(other.name=="kingler")		{kingler[other.gender]=1; }
@@ -57,6 +58,7 @@ function scp_breedpad_collision() {
 	if(other.name=="sceptile")      {sceptile[other.gender]=1; }
 	if(other.name=="scizor")		{scizor[other.gender]=1; }
 	if(other.name=="slowking")		{slowking[other.gender]=1; }
+	if(other.name=="snorlax")		{snorlax[other.gender]=1; }
 	if(other.name=="starmie")		{starmie[other.gender]=1; }
 	if(other.name=="steelix")       {steelix[other.gender]=1;	}
 	if(other.name=="tangrowth")     {tangrowth[other.gender]=1; }
