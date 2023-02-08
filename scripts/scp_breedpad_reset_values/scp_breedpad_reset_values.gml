@@ -6,6 +6,7 @@ function scp_breedpad_reset_values() {
 	    alakazam[aa]=0
 	    arcanine[aa]=0
 		arbok[aa]=0
+		articuno[aa]=0
 		blissey[aa]=0
 		beedrill[aa]=0
 	    blastoise[aa]=0
@@ -15,6 +16,7 @@ function scp_breedpad_reset_values() {
 		crobat[aa]=0
 		dewgong[aa]=0
 		dodrio[aa]=0
+		dragonite[aa]=0
 		dugtrio[aa]=0
 		electivire[aa]=0
 		exeggutor[aa]=0
@@ -36,6 +38,7 @@ function scp_breedpad_reset_values() {
 	    machamp[aa]=0
 		magmortar[aa]=0
 		mew[aa]=0
+		moltres[aa]=0
 		miltank[aa]=0
 	    nidoqueen[aa]=0
 	    ninetails[aa]=0
@@ -68,6 +71,7 @@ function scp_breedpad_reset_values() {
 	    victreebell[aa]=0
 		vileplume[aa]=0
 	    wigglytuff[aa]=0
+		zapdos[aa]=0
     
 		//eevee
 	    eevee[aa]=0;   

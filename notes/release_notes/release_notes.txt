@@ -1,3 +1,11 @@
+20230207
+	articuno - glaceon + pidgeot
+	zapdos - raichu + pidgeot
+	moltres - charizard + pidgeot
+	enhanced sprite for pidgy family
+	enhanced sprite for spearow family
+	dragonite = arbok + charizard
+
 20230206
 	added kabutops = dome fossle + time pod
 	added aerodactyl = amber fossil + time pod

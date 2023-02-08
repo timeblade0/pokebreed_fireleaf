@@ -12,16 +12,6 @@
 		if(show_question("Restart the game?")==1){ game_restart(); }
 	}
 #endregion
-#region game speed up with PGUP
-	if(keyboard_check_pressed(vk_pageup)){
-		game_set_speed(game_get_speed(gamespeed_fps)+30, gamespeed_fps);
-	}
-#endregion
-#region game speed down with PGDOWN
-	if(keyboard_check_pressed(vk_pagedown) && game_get_speed(gamespeed_fps)>30 ){
-		game_set_speed(game_get_speed(gamespeed_fps)-30, gamespeed_fps);
-	}
-#endregion
 
 #region open shop with E
 	if(keyboard_check_pressed(ord("E")) && instance_number(obj_shop_main) == 0){

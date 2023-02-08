@@ -3,11 +3,11 @@
 surge gym
 ----------
 raichu
-magneton
+magnezone
 electrode
-*electavire
 jolteon
-*ampharos
+electavire
+zapdos
 
 
 erika gym
@@ -17,34 +17,34 @@ victorybell
 Exggsicute
 Sceptile
 tangela evolution
-*leafeon
+leafeon
 
 koga gym
 ---------
 arbok
-*weezing
+weezing
 crobat
 muk
 venomoth
-*spinerak
+tentacruel
 
 sabrina gym
 ------------
-ralts
+gaurdavour
 jynx
 gengar
 hypno
 slowking
-*espeon
+espeon
 
 blane gym
 ------------
 ninetails
 rapidash
 arcanine
-*magmortar
+magmortar
 flareon
-torkoal
+moltres
 
 giovani gym
 -----------

@@ -9,6 +9,7 @@ function scp_breedpad_collision() {
 	if(other.name=="alakazam")      {alakazam[other.gender]=1; }
 	if(other.name=="arbok")         {arbok[other.gender]=1; }
 	if(other.name=="arcanine")      {arcanine[other.gender]=1; }
+	if(other.name=="articuno")      {articuno[other.gender]=1; }
 	if(other.name=="beedrill")      {beedrill[other.gender]=1; }
 	if(other.name=="blastoise")     {blastoise[other.gender]=1; }
 	if(other.name=="blissey")		{blissey[other.gender]=1; }
@@ -18,6 +19,7 @@ function scp_breedpad_collision() {
 	if(other.name=="crobat")        {crobat[other.gender]=1; }
 	if(other.name=="dewgong")		{dewgong[other.gender]=1; }
 	if(other.name=="dodrio")		{dodrio[other.gender]=1; }
+	if(other.name=="dragonite")		{dragonite[other.gender]=1; }
 	if(other.name=="dugtrio")       {dugtrio[other.gender]=1; }
 	if(other.name=="electivire")    {electivire[other.gender]=1; }
 	if(other.name=="exeggutor2")    {exeggutor[other.gender]=1; }
@@ -40,6 +42,7 @@ function scp_breedpad_collision() {
 	if(other.name=="magmortar")     {magmortar[other.gender]=1; }
 	if(other.name=="mew")			{mew[other.gender]=1; }
 	if(other.name=="miltank")		{miltank[other.gender]=1; }
+	if(other.name=="moltres")		{moltres[other.gender]=1; }
 	if(other.name=="nidoqueen")     {nidoqueen[other.gender]=1; }
 	if(other.name=="ninetails")     {ninetails[other.gender]=1; }
 	if(other.name=="omastar")	    {omastar[other.gender]=1; }
@@ -71,6 +74,7 @@ function scp_breedpad_collision() {
 	if(other.name=="venomoth")      {venomoth[other.gender]=1; }
 	if(other.name=="venusaur")      {venusaur[other.gender]=1; }
 	if(other.name=="wigglytuff")    {wigglytuff[other.gender]=1; }	
+	if(other.name=="zapdos")		{zapdos[other.gender]=1; }
 	
 	//genderless
 	if(other.name=="electrode")     {electrode+=0.2;	}

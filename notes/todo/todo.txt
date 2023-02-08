@@ -1,19 +1,19 @@
-articuno - pidgeot + glaceon
-zapdos - raichu + fearow
-moltres - charizard + fearow
-dragonite = ekans + charmander ?
+gym truck surge
+gym truck erika
+gym truck koga
+gym truck sabrina
+gym truck blane
+gym truck giovani
 
 gender for gengar
 gender for grimer
 gender for koffing
 gender for tyrouge
-
-page up and down change number, but not actual game speed
-badge acquired sound
+gender for voltorb
 
 terrain objects
 object to destroy all plants
-everstone
+ice skill for articuno
 
 long term:
 	add exit game button in shop
@@ -22,4 +22,3 @@ long term:
 	screenshot of game behind shop menu
 	fix not enough money in shop message exiting from full screen
 	fix exit game messages from exiting full screen
-	fix evolution stuck on fence
