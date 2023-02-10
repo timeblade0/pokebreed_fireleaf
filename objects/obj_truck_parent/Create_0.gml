@@ -11,5 +11,5 @@ with(object_index){
 }
 
 //delay change to badge if earned
-//this fixes a bug with setting sptrie image
+//this fixes a bug with setting sprite image
 alarm[0]=1

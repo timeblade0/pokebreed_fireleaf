@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_parent_badge",
   "spriteId": {
-    "name": "spr_badge_1",
-    "path": "sprites/spr_badge_1/spr_badge_1.yy",
+    "name": "spr_badge",
+    "path": "sprites/spr_badge/spr_badge.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,17 +31,13 @@
     {"x":19.0,"y":19.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Gym",
+    "path": "folders/Objects/Gym.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_parent_badge",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,3 +1,9 @@
+20230210
+	optimized gym truck and shop buttons
+	new sprite for seal and dewgong
+	new bagde sprites
+	new gym leader sprites
+
 20230207
 	articuno - glaceon + pidgeot
 	zapdos - raichu + pidgeot
