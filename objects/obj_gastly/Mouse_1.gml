@@ -1,1 +1,2 @@
-script_execute(scp_projectile_skill,obj_rock_1,0,0,0,0);
+/// @desc create steam
+instance_create_depth(x,y,-1,obj_steam)

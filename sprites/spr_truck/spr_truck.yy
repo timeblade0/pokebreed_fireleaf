@@ -28,7 +28,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd65a4c0-de67-42cc-a529-48349ec091ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"300f96af-46af-45b6-8cc1-577ac9d0457b",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db83e5ae-4378-4bbd-a40c-9612fdcc4c2d",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d1c2ce9-0afa-443c-9b74-df1f59c757af",},
   ],
@@ -47,7 +47,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"705f2f8f-2cec-44fb-afbf-1c27f507493c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd65a4c0-de67-42cc-a529-48349ec091ce","path":"sprites/spr_truck/spr_truck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"144ce51f-9590-4b75-8da3-4210250a1506","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"300f96af-46af-45b6-8cc1-577ac9d0457b","path":"sprites/spr_truck/spr_truck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e057e7d3-f06c-40ed-ad94-bb71187ca56a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db83e5ae-4378-4bbd-a40c-9612fdcc4c2d","path":"sprites/spr_truck/spr_truck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bb991913-1d96-4a8f-b55f-5094e8ecbad2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d1c2ce9-0afa-443c-9b74-df1f59c757af","path":"sprites/spr_truck/spr_truck.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},

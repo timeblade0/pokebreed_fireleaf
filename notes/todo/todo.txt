@@ -1,8 +1,9 @@
-gender for gengar
-gender for grimer
 gender for koffing
 gender for tyrouge
 gender for voltorb
+gender for magnemite
+new sprite for player
+new sprite for plant
 
 test gym truck surge
 test gym truck erika
@@ -10,7 +11,6 @@ test gym truck koga
 test gym truck sabrina
 test gym truck blane
 test gym truck giovani
-
 
 terrain objects
 object to destroy all plants

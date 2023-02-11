@@ -1,3 +1,9 @@
+20230211
+	added gender for gengar
+	added gender for grimer
+	multiple sprite upgrades
+	new sprites for all eggs
+
 20230210
 	optimized gym truck and shop buttons
 	new sprite for seal and dewgong
