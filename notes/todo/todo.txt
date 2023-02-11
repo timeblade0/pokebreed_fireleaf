@@ -1,15 +1,16 @@
-gym truck surge
-gym truck erika
-gym truck koga
-gym truck sabrina
-gym truck blane
-gym truck giovani
-
 gender for gengar
 gender for grimer
 gender for koffing
 gender for tyrouge
 gender for voltorb
+
+test gym truck surge
+test gym truck erika
+test gym truck koga
+test gym truck sabrina
+test gym truck blane
+test gym truck giovani
+
 
 terrain objects
 object to destroy all plants
@@ -19,6 +20,5 @@ long term:
 	add exit game button in shop
 	fullscreen toggle in shop
 	save / load buttons in shop
-	screenshot of game behind shop menu
 	fix not enough money in shop message exiting from full screen
 	fix exit game messages from exiting full screen

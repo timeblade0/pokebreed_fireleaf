@@ -3,6 +3,7 @@
 	new sprite for seal and dewgong
 	new bagde sprites
 	new gym leader sprites
+	added all badges to shop
 
 20230207
 	articuno - glaceon + pidgeot

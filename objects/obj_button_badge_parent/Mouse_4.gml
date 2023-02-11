@@ -29,7 +29,7 @@ if(global.badge[badge]==0){
 		AA.sprite_index=pokemon_sprite[6];		AA.image_index=gender
 		
 		//draw gym leader
-		AA=instance_create_depth(menu_col[7],menu_row[3],0,obj_shop_badge_sprite)
+		AA=instance_create_depth(menu_col[7]-25,menu_row[3]+25,0,obj_shop_badge_sprite)
 		AA.sprite_index=spr_gym_leader;		AA.image_index=badge;
 	#endregion
 
