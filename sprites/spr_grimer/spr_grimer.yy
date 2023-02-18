@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1595a0ce-a154-4dde-ac31-d1b910b933e5",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3269d210-fb4e-42ae-b820-b7b061e7818d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1595a0ce-a154-4dde-ac31-d1b910b933e5",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7bc936a9-db30-4147-ad1b-f81d9ea3d414","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1595a0ce-a154-4dde-ac31-d1b910b933e5","path":"sprites/spr_grimer/spr_grimer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0320bb56-da4d-4a98-afbb-6d5c07cec2e9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3269d210-fb4e-42ae-b820-b7b061e7818d","path":"sprites/spr_grimer/spr_grimer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0320bb56-da4d-4a98-afbb-6d5c07cec2e9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3269d210-fb4e-42ae-b820-b7b061e7818d","path":"sprites/spr_grimer/spr_grimer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7bc936a9-db30-4147-ad1b-f81d9ea3d414","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1595a0ce-a154-4dde-ac31-d1b910b933e5","path":"sprites/spr_grimer/spr_grimer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

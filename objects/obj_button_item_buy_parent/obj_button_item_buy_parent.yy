@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_button_item_buy_parent",
-  "spriteId": {
-    "name": "spr_button_teal",
-    "path": "sprites/spr_button_teal/spr_button_teal.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

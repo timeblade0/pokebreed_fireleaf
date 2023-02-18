@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Dragon",
-    "path": "folders/Sprites/Pokemon/Dragon.yy",
+    "name": "Dartini",
+    "path": "folders/Sprites/Pokemon/Dragon/Dartini.yy",
   },
 }

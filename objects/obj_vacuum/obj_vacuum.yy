@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_vacuum",
   "spriteId": {
     "name": "spr_vacuum",
     "path": "sprites/spr_vacuum/spr_vacuum.yy",
@@ -28,10 +31,12 @@
     {"x":56.0,"y":56.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_item","path":"objects/obj_parent_item/obj_parent_item.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_truck_parent","path":"objects/obj_truck_parent/obj_truck_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_badge","path":"objects/obj_parent_badge/obj_parent_badge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_item","path":"objects/obj_parent_item/obj_parent_item.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_truck_parent","path":"objects/obj_truck_parent/obj_truck_parent.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_badge","path":"objects/obj_parent_badge/obj_parent_badge.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -39,8 +44,4 @@
     "name": "Items",
     "path": "folders/Objects/Items.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_vacuum",
-  "tags": [],
-  "resourceType": "GMObject",
 }

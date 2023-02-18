@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_shop_parent",
   "spriteId": {
-    "name": "spr_exit_btn",
-    "path": "sprites/spr_exit_btn/spr_exit_btn.yy",
+    "name": "spr_button_black",
+    "path": "sprites/spr_button_black/spr_button_black.yy",
   },
   "solid": false,
   "visible": true,

@@ -121,6 +121,7 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("cross", charizard,	houndoom,	"growlith",		spr_egg_red);
 		scp_breedpad_mate_function("cross", wigglytuff, clefable,	"happiny",		spr_egg_pink);
 		scp_breedpad_mate_function("cross", goldeen,	rapidash,	"horsea",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", gengar,		muk,		"koffing",		spr_egg_purple);
 		scp_breedpad_mate_function("cross", goldeen,	parasect,	"krabby",		spr_egg_blue_dark);
 		scp_breedpad_mate_function("cross", blastoise,	cloyster,	"lapras",		spr_egg_blue_dark);
 		scp_breedpad_mate_function("cross", charizard,	golem,		"larvitar",		spr_egg_brown);
@@ -138,13 +139,14 @@ function scp_breedpad_mate() {
 		scp_breedpad_mate_function("cross", goldeen,	pidgeot,	"psyduck",		spr_egg_blue_dark);
 		scp_breedpad_mate_function("cross", wigglytuff, alakazam,	"ralts",		spr_egg_purple);
 		scp_breedpad_mate_function("cross", nidoqueen,	golem,		"rhyhorn",		spr_egg_grey);
-		scp_breedpad_mate_function("cross", raichu,		dugtrio,	"sandshrew",	spr_egg_brown);
+		scp_breedpad_mate_function("cross", dugtrio,	raticate,	"sandshrew",	spr_egg_brown);
 		scp_breedpad_mate_function("cross", parasect,	venomoth,	"scyther",		spr_egg_green);
 		scp_breedpad_mate_function("cross", goldeen,	ursaring,	"seel",			spr_egg_blue_dark);
 		scp_breedpad_mate_function("cross", blastoise,	golem,		"shellder",		spr_egg_blue_dark);
 		scp_breedpad_mate_function("cross", blastoise,	alakazam,	"slowpoke",		spr_egg_purple);
 		scp_breedpad_mate_function("cross", machamp,	alakazam,	"smoochum",		spr_egg_purple);
 		scp_breedpad_mate_function("cross", victreebell, vileplume,	"tangela",		spr_egg_green);
+		scp_breedpad_mate_function("cross", goldeen,	muk,		"tentacool",	spr_egg_blue_dark);
 		scp_breedpad_mate_function("cross", wigglytuff, pidgeot,	"togepi",		spr_egg_blue_light);
 		scp_breedpad_mate_function("cross", blastoise,	charizard,	"torkoal",		spr_egg_red);
 		scp_breedpad_mate_function("cross", venusaur,	charizard,	"treeko",		spr_egg_green);

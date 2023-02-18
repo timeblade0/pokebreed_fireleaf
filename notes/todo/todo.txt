@@ -1,22 +1,12 @@
-gym truck always shows brock truck sprite
+change shelder and lapris breeds
+cheaper prices overall
+change meowth coin to be worth money when pressing delete
+stone evolution pokemon still eat candy
+
 new sprite for plant
-
-test gym truck brock
-test gym truck misty
-test gym truck surge
-test gym truck erika
-test gym truck koga
-test gym truck sabrina
-test gym truck blane
-test gym truck giovani
-
 terrain objects
 object to destroy all plants
-ice skill for articuno
 
-long term:
-	add exit game button in shop
-	fullscreen toggle in shop
-	save / load buttons in shop
-	fix not enough money in shop message exiting from full screen
-	fix exit game messages from exiting full screen
+fix not enough money in shop message exiting from full screen
+fix exit game messages from exiting full screen
+update github wiki to include all crossbreeds

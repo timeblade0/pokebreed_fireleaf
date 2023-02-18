@@ -40,6 +40,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Gym",
-    "path": "folders/Objects/Gym.yy",
+    "path": "folders/Objects/Items/Gym.yy",
   },
 }

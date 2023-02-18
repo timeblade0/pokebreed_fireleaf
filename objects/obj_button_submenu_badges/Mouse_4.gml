@@ -154,7 +154,7 @@ scp_shop_define_col_row()
 
 	AA.pokemon[1]=obj_vulpix;		AA.form[1]=1
 	AA.pokemon[2]=obj_ponyta;		AA.form[2]=1
-	AA.pokemon[3]=obj_growlith;		AA.form[3]=2
+	AA.pokemon[3]=obj_growlith;		AA.form[3]=1
 	AA.pokemon[4]=obj_magby;		AA.form[4]=2
 	AA.pokemon[5]=obj_eevee;		AA.form[5]=3
 	AA.pokemon[6]=obj_moltres;		AA.form[6]=0

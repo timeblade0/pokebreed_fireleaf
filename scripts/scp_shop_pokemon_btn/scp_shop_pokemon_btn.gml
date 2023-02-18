@@ -46,26 +46,24 @@ function scp_shop_pokemon_btn() {
 		scp_shop_pokemon_btn_function(1,4,"abra",spr_button_purple)
 		scp_shop_pokemon_btn_function(2,4,"machop",spr_button_brown)
 		scp_shop_pokemon_btn_function(3,4,"bellsprout",spr_button_green_dark)
-		scp_shop_pokemon_btn_function(4,4,"tentacool",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(5,4,"geodude",spr_button_brown)
-		scp_shop_pokemon_btn_function(6,4,"grimer",spr_button_purple)
-		scp_shop_pokemon_btn_function(7,4,"gastly",spr_button_purple)
+		scp_shop_pokemon_btn_function(4,4,"geodude",spr_button_brown)
+		scp_shop_pokemon_btn_function(5,4,"grimer",spr_button_purple)
+		scp_shop_pokemon_btn_function(6,4,"gastly",spr_button_purple)
+		scp_shop_pokemon_btn_function(7,4,"tyrogue",spr_button_brown)
 	#endregion
 	#region row 5
-		scp_shop_pokemon_btn_function(1,5,"tyrogue",spr_button_brown)
-		scp_shop_pokemon_btn_function(2,5,"lickitung",spr_button_white)
-		scp_shop_pokemon_btn_function(3,5,"koffing",spr_button_purple)
-		scp_shop_pokemon_btn_function(4,5,"goldeen",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(5,5,"staryu",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(6,5,"miltank",spr_button_white)
-		scp_shop_pokemon_btn_function(7,5,"ditto",spr_button_white)
+		scp_shop_pokemon_btn_function(1,5,"lickitung",spr_button_white)
+		scp_shop_pokemon_btn_function(2,5,"goldeen",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(3,5,"staryu",spr_button_blue_dark)
+		scp_shop_pokemon_btn_function(4,5,"miltank",spr_button_white)
+		scp_shop_pokemon_btn_function(5,5,"ditto",spr_button_white)
+		scp_shop_pokemon_btn_function(6,5,"eevee",spr_button_white)
+		scp_shop_pokemon_btn_function(7,5,"porygon",spr_button_white)
 	#endregion
 	#region row 6
-		scp_shop_pokemon_btn_function(1,6,"eevee",spr_button_white)
-		scp_shop_pokemon_btn_function(2,6,"porygon",spr_button_white)
-		scp_shop_pokemon_btn_function(3,6,"munchlax",spr_button_white)
-		scp_shop_pokemon_btn_function(4,6,"houndour",spr_button_black)
-		scp_shop_pokemon_btn_function(5,6,"teddiursa",spr_button_white)
+		scp_shop_pokemon_btn_function(1,6,"munchlax",spr_button_white)
+		scp_shop_pokemon_btn_function(2,6,"houndour",spr_button_black)
+		scp_shop_pokemon_btn_function(3,6,"teddiursa",spr_button_white)
 	#endregion
 
 	//bottom row

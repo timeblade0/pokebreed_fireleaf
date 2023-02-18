@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_button_terrain_mode",
   "spriteId": {
-    "name": "spr_button_green_dark",
-    "path": "sprites/spr_button_green_dark/spr_button_green_dark.yy",
+    "name": "spr_button_black",
+    "path": "sprites/spr_button_black/spr_button_black.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,9 +28,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,8 +37,4 @@
     "name": "Bottom",
     "path": "folders/Objects/Shop/Bottom.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_button_terrain_mode",
-  "tags": [],
-  "resourceType": "GMObject",
 }

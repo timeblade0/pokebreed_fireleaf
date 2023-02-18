@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_flying",
-    "path": "objects/obj_parent_flying/obj_parent_flying.yy",
+    "name": "obj_parent_poison",
+    "path": "objects/obj_parent_poison/obj_parent_poison.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -38,7 +38,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Flying",
-    "path": "folders/Objects/Pokemon/Flying.yy",
+    "name": "Poison",
+    "path": "folders/Objects/Pokemon/Poison.yy",
   },
 }
