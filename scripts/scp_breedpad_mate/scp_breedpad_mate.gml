@@ -1,16 +1,13 @@
 //function to simplify breedpad_mate. DO NOT CHANGE THIS
-function scp_breedpad_mate_function(gender, category, parent1, parent2, parent3, parent4, baby, egg_color) {
+function scp_breedpad_mate_function(category, parent1, parent2, baby, egg_color) {
 	breed=0; //are breed requirements start as not met
 	
-	//check gender - same
-	if(gender=="gender" && category=="same" && parent1==1 && parent2==1){ breed=1 }
+	//check same species
+	if(category=="same" && parent1[0]==1 && parent1[1]==1){ breed=1 }
 	
-	//check gender - cross
-	if(gender=="gender" && category=="cross" && parent1==1 && parent2==1){ breed=1 }
-	if(gender=="gender" && category=="cross" && parent3==1 && parent4==1){ breed=1 }
-	
-	//check genderless
-	if(gender=="genderless" && parent1>1.8){ breed=1 }
+	//check cross breed
+	if(category=="cross" && parent1[0]==1 && parent2[1]==1){ breed=1 } //female and male
+	if(category=="cross" && parent1[1]==1 && parent2[0]==1){ breed=1 } //male and female
 	
 	//breed requirements met
 	if(breed==1){
@@ -26,128 +23,134 @@ function scp_breedpad_mate_function(gender, category, parent1, parent2, parent3,
 function scp_breedpad_mate() {
 	//breeding code
 	if(alarm[1]<=0){	//cooldown between breeds
-	    //Same Species - Female + Male
-		scp_breedpad_mate_function("gender", "same", aerodactyl[0],	aerodactyl[1], , ,								"aerodactyl",	spr_egg_grey);
-		scp_breedpad_mate_function("gender", "same", alakazam[0],	alakazam[1], , ,								"abra",			spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", articuno[0],	articuno[1], , ,								"articuno",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", victreebell[0],victreebell[1], , ,								"bellsprout",	spr_egg_green);	
-		scp_breedpad_mate_function("gender", "same", venusaur[0],	venusaur[1], , ,								"bulbasaur",	spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", butterfree[0],	butterfree[1], , ,								"caterpie",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", charizard[0],	charizard[1], , ,								"charmander",	spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", kangaskhan[0],	kangaskhan[1], , ,								"cubone",		spr_egg_brown);
-		scp_breedpad_mate_function("gender", "same", dugtrio[0],	dugtrio[1], , ,									"diglett",		spr_egg_brown);
-		scp_breedpad_mate_function("gender", "same", dodrio[0],		dodrio[1], , ,									"doduo",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", dragonite[0],	dragonite[1], , ,								"dratini",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", hypno[0],		hypno[1], , ,									"drowzee",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", eevee[0],		eevee[1], , ,									"eevee",		spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", electivire[0],	electivire[1], , ,								"elekid",		spr_egg_yellow);
-		scp_breedpad_mate_function("gender", "same", exeggutor[0],	exeggutor[1], , ,								"exeggsicute",	spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", arbok[0],		arbok[1], , ,									"ekans",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", farfetched[0],	farfetched[1], , ,								"farfetched",	spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", gengar[0],		gengar[1], , ,									"gastly",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", golem[0],		golem[1], , ,									"geodude",		spr_egg_grey);
-		scp_breedpad_mate_function("gender", "same", goldeen[0],	goldeen[1], , ,									"goldeen",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", muk[0],		muk[1], , ,										"grimer",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", arcanine[0],	arcanine[1], , ,								"growlith",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", blissey[0],	blissey[1], , ,									"happiny",		spr_egg_pink);
-		scp_breedpad_mate_function("gender", "same", kingdra[0],	kingdra[1], , ,									"horsea",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", houndoom[0],	houndoom[1], , ,								"houndour",		spr_egg_grey);
-		scp_breedpad_mate_function("gender", "same", wigglytuff[0],	wigglytuff[1], , ,								"igglybuff",	spr_egg_pink);
-		scp_breedpad_mate_function("gender", "same", kabutops[0],	kabutops[1], , ,								"kabuto",		spr_egg_brown);
-		scp_breedpad_mate_function("gender", "same", kingler[0],	kingler[1], , ,									"krabby",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", lapras[0],		lapras[1], , ,									"lapras",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", lickilicky[0],	lickilicky[1], , ,								"lickitung",	spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", machamp[0],	machamp[1], , ,									"machop",		spr_egg_brown);
-		scp_breedpad_mate_function("gender", "same", magmortar[0],	magmortar[1], , ,								"magby",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", gyarados[0],	gyarados[1], , ,								"magikarp",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", primeape[0],	primeape[1], , ,								"mankey",		spr_egg_brown);
-		scp_breedpad_mate_function("gender", "same", persian[0],	persian[1], , ,									"meowth",		spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", mew[0],		mew[1], , ,										"mew",			spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", miltank[0],	miltank[1], , ,									"miltank",		spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", moltres[0],	moltres[1], , ,									"moltres",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", snorlax[0],	snorlax[1], , ,									"munchlax",		spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", nidoqueen[0],	nidoqueen[1], , ,								"nidoran",		spr_egg_purple);	
-		scp_breedpad_mate_function("gender", "same", vileplume[0],	vileplume[1], , ,								"oddish",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", omastar[0],	omastar[1], , ,									"omanyte",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", steelix[0],	steelix[1], , ,									"onix",			spr_egg_grey);
-		scp_breedpad_mate_function("gender", "same", parasect[0],	parasect[1], , ,								"paris",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", raichu[0],		raichu[1], , ,									"pichu",		spr_egg_yellow);
-		scp_breedpad_mate_function("gender", "same", pidgeot[0],	pidgeot[1], , ,									"pidgey",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", pinsir[0],		pinsir[1], , ,									"pinsir",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", poliwrath[0],	poliwrath[1], , ,								"poliwag",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", rapidash[0],	rapidash[1], , ,								"ponyta",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", porygonz[0],	porygonz[1], , ,								"porygon",		spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", golduck[0],	golduck[1], , ,									"psyduck",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", raticate[0],	raticate[1], , ,								"rattata",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", rhyperior[0],	rhyperior[1], , ,								"rhyhorn",		spr_egg_grey);
-		scp_breedpad_mate_function("gender", "same", sandslash[0],	sandslash[1], , ,								"sandshrew",	spr_egg_brown);
-		scp_breedpad_mate_function("gender", "same", scizor[0],		scizor[1], , ,									"scyther",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", dewgong[0],	dewgong[1], , ,									"seel",			spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", cloyster[0],	cloyster[1], , ,								"shellder",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", slowking[0],	slowking[1], , ,								"slowpoke",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", jynx[0],		jynx[1], , ,									"smoochum",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", blastoise[0],	blastoise[1], , ,								"squirtle",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", fearow[0],		fearow[1], , ,									"spearow",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", starmie[0],	starmie[1], , ,									"staryu",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "same", tangrowth[0],	tangrowth[1], , ,								"tangela",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", ursaring[0],	ursaring[1], , ,								"teddiursa",	spr_egg_white);
-		scp_breedpad_mate_function("gender", "same", tentacruel[0],	tentacruel[1], , ,								"tentacool",	spr_egg_purple);
-		scp_breedpad_mate_function("gender", "same", togekiss[0],	togekiss[1], , ,								"togepi",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "same", torkoal[0],	torkoal[1], , ,									"torkoal",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", sceptile[0],	sceptile[1], , ,								"treeko",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", venomoth[0],	venomoth[1], , ,								"venonat",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", ninetails[0],	ninetails[1], , ,								"vulpix",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "same", beedrill[0],	beedrill[1], , ,								"weedle",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "same", zapdos[0],		zapdos[1], , ,									"zapdos",		spr_egg_yellow);
-		scp_breedpad_mate_function("gender", "same", crobat[0],		crobat[1], , ,									"zubat",		spr_egg_purple);
+	    //Same Species
+		scp_breedpad_mate_function("same", aerodactyl,	, 			"aerodactyl",	spr_egg_grey);
+		scp_breedpad_mate_function("same", alakazam,	, 			"abra",			spr_egg_purple);
+		scp_breedpad_mate_function("same", articuno,	, 			"articuno",		spr_egg_blue_light);
+		scp_breedpad_mate_function("same", azumarill,	, 			"azurill",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", victreebell, , 			"bellsprout",	spr_egg_green);	
+		scp_breedpad_mate_function("same", venusaur,	, 			"bulbasaur",	spr_egg_green);
+		scp_breedpad_mate_function("same", butterfree,	, 			"caterpie",		spr_egg_green);
+		scp_breedpad_mate_function("same", charizard,	, 			"charmander",	spr_egg_red);
+		scp_breedpad_mate_function("same", clefable,	, 			"cleffa",		spr_egg_pink);
+		scp_breedpad_mate_function("same", kangaskhan,	, 			"cubone",		spr_egg_brown);
+		scp_breedpad_mate_function("same", dugtrio,		,			"diglett",		spr_egg_brown);
+		scp_breedpad_mate_function("same", dodrio,		, 			"doduo",		spr_egg_blue_light);
+		scp_breedpad_mate_function("same", dragonite,	, 			"dratini",		spr_egg_blue_light);
+		scp_breedpad_mate_function("same", hypno,		, 			"drowzee",		spr_egg_purple);
+		scp_breedpad_mate_function("same", eevee,		, 			"eevee",		spr_egg_white);
+		scp_breedpad_mate_function("same", electivire,	, 			"elekid",		spr_egg_yellow);
+		scp_breedpad_mate_function("same", exeggutor,	, 			"exeggsicute",	spr_egg_green);
+		scp_breedpad_mate_function("same", arbok,		, 			"ekans",		spr_egg_purple);
+		scp_breedpad_mate_function("same", farfetched,	, 			"farfetched",	spr_egg_blue_light);
+		scp_breedpad_mate_function("same", gengar,		, 			"gastly",		spr_egg_purple);
+		scp_breedpad_mate_function("same", golem,		, 			"geodude",		spr_egg_grey);
+		scp_breedpad_mate_function("same", goldeen,		, 			"goldeen",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", muk,			, 			"grimer",		spr_egg_purple);
+		scp_breedpad_mate_function("same", arcanine,	, 			"growlith",		spr_egg_red);
+		scp_breedpad_mate_function("same", blissey,		, 			"happiny",		spr_egg_pink);
+		scp_breedpad_mate_function("same", kingdra,		, 			"horsea",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", houndoom,	, 			"houndour",		spr_egg_grey);
+		scp_breedpad_mate_function("same", wigglytuff,	, 			"igglybuff",	spr_egg_pink);
+		scp_breedpad_mate_function("same", kabutops,	, 			"kabuto",		spr_egg_brown);
+		scp_breedpad_mate_function("same", weezing,		, 			"koffing",		spr_egg_purple);
+		scp_breedpad_mate_function("same", kingler,		, 			"krabby",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", lapras,		, 			"lapras",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", tyranitar,	, 			"larvitar",		spr_egg_brown);
+		scp_breedpad_mate_function("same", lickilicky,	, 			"lickitung",	spr_egg_white);
+		scp_breedpad_mate_function("same", machamp,		, 			"machop",		spr_egg_brown);
+		scp_breedpad_mate_function("same", magmortar,	, 			"magby",		spr_egg_red);
+		scp_breedpad_mate_function("same", gyarados,	, 			"magikarp",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", magnezone,	, 			"magnemite",	spr_egg_yellow);
+		scp_breedpad_mate_function("same", annihilape,	, 			"mankey",		spr_egg_brown);
+		scp_breedpad_mate_function("same", persian,		, 			"meowth",		spr_egg_white);
+		scp_breedpad_mate_function("same", mewtwo,		,			"mewtwo",		spr_egg_purple);
+		scp_breedpad_mate_function("same", mew,			,			"mew",			spr_egg_purple);
+		scp_breedpad_mate_function("same", miltank,		,			"miltank",		spr_egg_white);
+		scp_breedpad_mate_function("same", moltres,		,			"moltres",		spr_egg_red);
+		scp_breedpad_mate_function("same", snorlax,		,			"munchlax",		spr_egg_white);
+		scp_breedpad_mate_function("same", nidoqueen,	, 			"nidoran",		spr_egg_purple);	
+		scp_breedpad_mate_function("same", vileplume,	, 			"oddish",		spr_egg_green);
+		scp_breedpad_mate_function("same", omastar,		,			"omanyte",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", steelix,		,			"onix",			spr_egg_grey);
+		scp_breedpad_mate_function("same", parasect,	, 			"paris",		spr_egg_green);
+		scp_breedpad_mate_function("same", raichu,		, 			"pichu",		spr_egg_yellow);
+		scp_breedpad_mate_function("same", pidgeot,		,			"pidgey",		spr_egg_blue_light);
+		scp_breedpad_mate_function("same", pinsir,		, 			"pinsir",		spr_egg_green);
+		scp_breedpad_mate_function("same", poliwrath,	, 			"poliwag",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", rapidash,	, 			"ponyta",		spr_egg_red);
+		scp_breedpad_mate_function("same", porygonz,	, 			"porygon",		spr_egg_white);
+		scp_breedpad_mate_function("same", golduck,		,			"psyduck",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", gardevoir,	, 			"ralts",		spr_egg_purple);
+		scp_breedpad_mate_function("same", raticate,	, 			"rattata",		spr_egg_purple);
+		scp_breedpad_mate_function("same", rhyperior,	, 			"rhyhorn",		spr_egg_grey);
+		scp_breedpad_mate_function("same", sandslash,	, 			"sandshrew",	spr_egg_brown);
+		scp_breedpad_mate_function("same", scizor,		, 			"scyther",		spr_egg_green);
+		scp_breedpad_mate_function("same", dewgong,		,			"seel",			spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", cloyster,	, 			"shellder",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", slowking,	, 			"slowpoke",		spr_egg_purple);
+		scp_breedpad_mate_function("same", jynx,		, 			"smoochum",		spr_egg_purple);
+		scp_breedpad_mate_function("same", blastoise,	, 			"squirtle",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", fearow,		, 			"spearow",		spr_egg_blue_light);
+		scp_breedpad_mate_function("same", starmie,		,			"staryu",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("same", tangrowth,	, 			"tangela",		spr_egg_green);
+		scp_breedpad_mate_function("same", ursaring,	, 			"teddiursa",	spr_egg_white);
+		scp_breedpad_mate_function("same", tentacruel,	, 			"tentacool",	spr_egg_purple);
+		scp_breedpad_mate_function("same", togekiss,	, 			"togepi",		spr_egg_blue_light);
+		scp_breedpad_mate_function("same", torkoal,		,			"torkoal",		spr_egg_red);
+		scp_breedpad_mate_function("same", sceptile,	, 			"treeko",		spr_egg_green);
+		scp_breedpad_mate_function("same", hitmon,		, 			"tyrogue",		spr_egg_brown);
+		scp_breedpad_mate_function("same", venomoth,	, 			"venonat",		spr_egg_green);
+		scp_breedpad_mate_function("same", electrode,	, 			"voltorb",		spr_egg_yellow);
+		scp_breedpad_mate_function("same", ninetails,	, 			"vulpix",		spr_egg_red);
+		scp_breedpad_mate_function("same", beedrill,	, 			"weedle",		spr_egg_green);
+		scp_breedpad_mate_function("same", zapdos,		, 			"zapdos",		spr_egg_yellow);
+		scp_breedpad_mate_function("same", crobat,		, 			"zubat",		spr_egg_purple);
     
-		//genderless - same species
-		scp_breedpad_mate_function("genderless", "same", magnezone, , , ,											"magnemite",	spr_egg_yellow);
-		scp_breedpad_mate_function("genderless", "same", hitmon, , , ,												"tyrogue",		spr_egg_red);
-		scp_breedpad_mate_function("genderless", "same", weezing, , , ,												"koffing",		spr_egg_purple);
-		scp_breedpad_mate_function("genderless", "same", electrode, , , ,											"voltorb",		spr_egg_yellow);
-
-		//crossbreed - gender + gender
-		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	golem[1],		pidgeot[1],		golem[0],		"aerodactyl",	spr_egg_grey);
-		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	glaceon[1],		pidgeot[1],		glaceon[0],		"articuno",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "cross", dugtrio[0],	charizard[1],	dugtrio[1],		charizard[0],	"cubone",		spr_egg_brown);
-		scp_breedpad_mate_function("gender", "cross", dugtrio[0],	fearow[1],		dugtrio[1],		fearow[0],		"doduo",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "cross", charizard[0],	arbok[1],		charizard[1],	arbok[0],		"dratini",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "cross", alakazam[0],	slowking[1],	alakazam[1],	slowking[0],	"drowzee",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "cross", raichu[0],	machamp[1],		raichu[1],		machamp[0],		"elekid",		spr_egg_yellow);
-		scp_breedpad_mate_function("gender", "cross", venusaur[0],	alakazam[1],	venusaur[1],	alakazam[0],	"exeggsicute",	spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	fearow[1],		pidgeot[1],		fearow[0],		"farfetched",	spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "cross", charizard[0],	houndoom[1],	charizard[1],	houndoom[0],	"growlith",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "cross", wigglytuff[0], togekiss[1],	wigglytuff[1],	togekiss[0],	"happiny",		spr_egg_pink);
-		scp_breedpad_mate_function("gender", "cross", goldeen[0],	rapidash[1],	goldeen[1],		rapidash[0],	"horsea",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", goldeen[0],	parasect[1],	goldeen[1],		parasect[0],	"krabby",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", blastoise[0],	cloyster[1],	blastoise[1],	cloyster[0],	"lapras",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", charizard[0],	machamp[1],		charizard[1],	machamp[0],		"magby",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "cross", charizard[0],	goldeen[1],		charizard[1],	goldeen[0],		"magikarp",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", alakazam[0],	jynx[1],		alakazam[1],	jynx[0],		"mew",			spr_egg_purple);
-		scp_breedpad_mate_function("gender", "cross", pidgeot[0],	charizard[1],	pidgeot[1],		charizard[0],	"moltres",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "cross", venusaur[0],	victreebell[1],	venusaur[1],	victreebell[0],	"oddish",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", arbok[0],		golem[1],		arbok[1],		golem[0],		"onix",			spr_egg_grey);
-		scp_breedpad_mate_function("gender", "cross", charizard[0],	miltank[1],		charizard[1],	miltank[0],		"ponyta",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "cross", parasect[0],	kingler[1],		parasect[1],	kingler[0],		"pinsir",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", venusaur[0],	blastoise[1],	venusaur[1],	blastoise[0],	"poliwag",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", goldeen[0],	pidgeot[1],		goldeen[1],		pidgeot[0],		"psyduck",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", nidoqueen[0],	golem[1],		nidoqueen[1],	golem[0],		"rhyhorn",		spr_egg_grey);
-		scp_breedpad_mate_function("gender", "cross", raichu[0],	dugtrio[1],		raichu[1],		dugtrio[0],		"sandshrew",	spr_egg_brown);
-		scp_breedpad_mate_function("gender", "cross", parasect[0],	venomoth[1],	parasect[1],	venomoth[0],	"scyther",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", goldeen[0],	ursaring[1],	goldeen[1],		ursaring[0],	"seel",			spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", blastoise[0],	golem[1],		blastoise[1],	golem[0],		"shellder",		spr_egg_blue_dark);
-		scp_breedpad_mate_function("gender", "cross", blastoise[0],	alakazam[1],	blastoise[1],	alakazam[0],	"slowpoke",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "cross", machamp[0],	alakazam[1],	machamp[1],		alakazam[0],	"smoochum",		spr_egg_purple);
-		scp_breedpad_mate_function("gender", "cross", raichu[0],	steelix[1],		raichu[1],		steelix[0],		"magnemite",	spr_egg_yellow);
-		scp_breedpad_mate_function("gender", "cross", victreebell[0], vileplume[1],	victreebell[1],	vileplume[0],	"tangela",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", wigglytuff[0], pidgeot[1],	wigglytuff[1],	pidgeot[0],		"togepi",		spr_egg_blue_light);
-		scp_breedpad_mate_function("gender", "cross", blastoise[0],	charizard[1],	blastoise[1],	charizard[0],	"torkoal",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "cross", venusaur[0],	charizard[1],	venusaur[1],	charizard[0],	"treeko",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", butterfree[0],beedrill[1],	butterfree[1],	beedrill[0],	"venonat",		spr_egg_green);
-		scp_breedpad_mate_function("gender", "cross", charizard[0],	flareon[1],		charizard[1],	flareon[0],		"vulpix",		spr_egg_red);
-		scp_breedpad_mate_function("gender", "cross", raichu[0],	pidgeot[1],		raichu[1],		pidgeot[0],		"zapdos",		spr_egg_yellow);
-		scp_breedpad_mate_function("gender", "cross", raticate[0],	pidgeot[1],		raticate[1],	pidgeot[0],		"zubat",		spr_egg_purple);
-		
+		//crossbreed
+		scp_breedpad_mate_function("cross", pidgeot,	golem,		"aerodactyl",	spr_egg_grey);
+		scp_breedpad_mate_function("cross", pidgeot,	glaceon,	"articuno",		spr_egg_blue_light);
+		scp_breedpad_mate_function("cross", raichu,		blastoise,	"azurill",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", dugtrio,	charizard,	"cubone",		spr_egg_brown);
+		scp_breedpad_mate_function("cross", dugtrio,	fearow,		"doduo",		spr_egg_blue_light);
+		scp_breedpad_mate_function("cross", charizard,	arbok,		"dratini",		spr_egg_blue_light);
+		scp_breedpad_mate_function("cross", alakazam,	slowking,	"drowzee",		spr_egg_purple);
+		scp_breedpad_mate_function("cross", raichu,		machamp,	"elekid",		spr_egg_yellow);
+		scp_breedpad_mate_function("cross", venusaur,	alakazam,	"exeggsicute",	spr_egg_green);
+		scp_breedpad_mate_function("cross", pidgeot,	fearow,		"farfetched",	spr_egg_blue_light);
+		scp_breedpad_mate_function("cross", charizard,	houndoom,	"growlith",		spr_egg_red);
+		scp_breedpad_mate_function("cross", wigglytuff, clefable,	"happiny",		spr_egg_pink);
+		scp_breedpad_mate_function("cross", goldeen,	rapidash,	"horsea",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", goldeen,	parasect,	"krabby",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", blastoise,	cloyster,	"lapras",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", charizard,	golem,		"larvitar",		spr_egg_brown);
+		scp_breedpad_mate_function("cross", charizard,	machamp,	"magby",		spr_egg_red);
+		scp_breedpad_mate_function("cross", charizard,	goldeen,	"magikarp",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", raichu,		steelix,	"magnemite",	spr_egg_yellow);
+		scp_breedpad_mate_function("cross", alakazam,	mew,		"mewtwo",		spr_egg_purple);
+		scp_breedpad_mate_function("cross", alakazam,	jynx,		"mew",			spr_egg_purple);
+		scp_breedpad_mate_function("cross", pidgeot,	charizard,	"moltres",		spr_egg_red);
+		scp_breedpad_mate_function("cross", venusaur,	victreebell, "oddish",		spr_egg_green);
+		scp_breedpad_mate_function("cross", arbok,		golem,		"onix",			spr_egg_grey);
+		scp_breedpad_mate_function("cross", charizard,	miltank,	"ponyta",		spr_egg_red);
+		scp_breedpad_mate_function("cross", parasect,	kingler,	"pinsir",		spr_egg_green);
+		scp_breedpad_mate_function("cross", venusaur,	blastoise,	"poliwag",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", goldeen,	pidgeot,	"psyduck",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", wigglytuff, alakazam,	"ralts",		spr_egg_purple);
+		scp_breedpad_mate_function("cross", nidoqueen,	golem,		"rhyhorn",		spr_egg_grey);
+		scp_breedpad_mate_function("cross", raichu,		dugtrio,	"sandshrew",	spr_egg_brown);
+		scp_breedpad_mate_function("cross", parasect,	venomoth,	"scyther",		spr_egg_green);
+		scp_breedpad_mate_function("cross", goldeen,	ursaring,	"seel",			spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", blastoise,	golem,		"shellder",		spr_egg_blue_dark);
+		scp_breedpad_mate_function("cross", blastoise,	alakazam,	"slowpoke",		spr_egg_purple);
+		scp_breedpad_mate_function("cross", machamp,	alakazam,	"smoochum",		spr_egg_purple);
+		scp_breedpad_mate_function("cross", victreebell, vileplume,	"tangela",		spr_egg_green);
+		scp_breedpad_mate_function("cross", wigglytuff, pidgeot,	"togepi",		spr_egg_blue_light);
+		scp_breedpad_mate_function("cross", blastoise,	charizard,	"torkoal",		spr_egg_red);
+		scp_breedpad_mate_function("cross", venusaur,	charizard,	"treeko",		spr_egg_green);
+		scp_breedpad_mate_function("cross", butterfree,	beedrill,	"venonat",		spr_egg_green);
+		scp_breedpad_mate_function("cross", charizard,	flareon,	"vulpix",		spr_egg_red);
+		scp_breedpad_mate_function("cross", raichu,		pidgeot,	"zapdos",		spr_egg_yellow);
+		scp_breedpad_mate_function("cross", raticate,	pidgeot,	"zubat",		spr_egg_purple);
 	}
 }

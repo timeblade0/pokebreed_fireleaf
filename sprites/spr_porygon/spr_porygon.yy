@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "porygon",
-    "path": "folders/Sprites/Pokemon/Normal/porygon.yy",
+    "name": "Porygon",
+    "path": "folders/Sprites/Pokemon/Normal/Porygon.yy",
   },
 }

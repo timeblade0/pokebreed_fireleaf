@@ -7,29 +7,37 @@ function scp_breedpad_collision() {
 	//gender
 	if(other.name=="aerodactyl")    {aerodactyl[other.gender]=1; }
 	if(other.name=="alakazam")      {alakazam[other.gender]=1; }
+	if(other.name=="annihilape")    {annihilape[other.gender]=1; }
 	if(other.name=="arbok")         {arbok[other.gender]=1; }
 	if(other.name=="arcanine")      {arcanine[other.gender]=1; }
 	if(other.name=="articuno")      {articuno[other.gender]=1; }
+	if(other.name=="azumarill")     {azumarill[other.gender]=1; }
 	if(other.name=="beedrill")      {beedrill[other.gender]=1; }
 	if(other.name=="blastoise")     {blastoise[other.gender]=1; }
 	if(other.name=="blissey")		{blissey[other.gender]=1; }
 	if(other.name=="butterfree")    {butterfree[other.gender]=1; }
 	if(other.name=="charizard")     {charizard[other.gender]=1; }
+	if(other.name=="clefable")      {clefable[other.gender]=1; }
 	if(other.name=="cloyster")      {cloyster[other.gender]=1; }
 	if(other.name=="crobat")        {crobat[other.gender]=1; }
 	if(other.name=="dewgong")		{dewgong[other.gender]=1; }
 	if(other.name=="dodrio")		{dodrio[other.gender]=1; }
 	if(other.name=="dragonite")		{dragonite[other.gender]=1; }
 	if(other.name=="dugtrio")       {dugtrio[other.gender]=1; }
+	if(other.name=="electrode")	    {electrode[other.gender]=1; }
 	if(other.name=="electivire")    {electivire[other.gender]=1; }
 	if(other.name=="exeggutor2")    {exeggutor[other.gender]=1; }
 	if(other.name=="farfetched")	{farfetched[other.gender]=1; }
 	if(other.name=="fearow")        {fearow[other.gender]=1; }
+	if(other.name=="gardevoir")		{gardevoir[other.gender]=1; }	
 	if(other.name=="gengar")		{gengar[other.gender]=1; }
 	if(other.name=="goldeen")       {goldeen[other.gender]=1; }
 	if(other.name=="golem")		    {golem[other.gender]=1; }
 	if(other.name=="golduck")       {golduck[other.gender]=1; }
 	if(other.name=="gyarados")      {gyarados[other.gender]=1; }
+	if(other.name=="hitmonchan")	{hitmon[other.gender]=1; }
+	if(other.name=="hitmonlee")		{hitmon[other.gender]=1; }
+	if(other.name=="hitmontop")		{hitmon[other.gender]=1; }
 	if(other.name=="houndoom")		{houndoom[other.gender]=1; }
 	if(other.name=="hypno")			{hypno[other.gender]=1; }
 	if(other.name=="jynx")			{jynx[other.gender]=1; }
@@ -41,6 +49,8 @@ function scp_breedpad_collision() {
 	if(other.name=="lickilicky")	{lickilicky[other.gender]=1; }	
 	if(other.name=="machamp")       {machamp[other.gender]=1; }
 	if(other.name=="magmortar")     {magmortar[other.gender]=1; }
+	if(other.name=="magnezone")     {magnezone[other.gender]=1; }
+	if(other.name=="mewtwo")		{mewtwo[other.gender]=1; }
 	if(other.name=="mew")			{mew[other.gender]=1; }
 	if(other.name=="miltank")		{miltank[other.gender]=1; }
 	if(other.name=="moltres")		{moltres[other.gender]=1; }
@@ -54,7 +64,6 @@ function scp_breedpad_collision() {
 	if(other.name=="pinsir")        {pinsir[other.gender]=1; }
 	if(other.name=="poliwrath")     {poliwrath[other.gender]=1; }
 	if(other.name=="porygonz")		{porygonz[other.gender]=1; }
-	if(other.name=="primeape")      {primeape[other.gender]=1; }
 	if(other.name=="raichu")        {raichu[other.gender]=1; }
 	if(other.name=="rapidash")      {rapidash[other.gender]=1; }
 	if(other.name=="raticate")      {raticate[other.gender]=1; }
@@ -70,22 +79,16 @@ function scp_breedpad_collision() {
 	if(other.name=="tentacruel")    {tentacruel[other.gender]=1; }
 	if(other.name=="torkoal")       {torkoal[other.gender]=1; }
 	if(other.name=="togekiss")      {togekiss[other.gender]=1; }
+	if(other.name=="tyranitar")     {tyranitar[other.gender]=1; }
 	if(other.name=="ursaring")		{ursaring[other.gender]=1; }
 	if(other.name=="victreebell")   {victreebell[other.gender]=1; }
 	if(other.name=="vileplume")     {vileplume[other.gender]=1; }
 	if(other.name=="venomoth")      {venomoth[other.gender]=1; }
 	if(other.name=="venusaur")      {venusaur[other.gender]=1; }
-	if(other.name=="wigglytuff")    {wigglytuff[other.gender]=1; }	
+	if(other.name=="weezing")	    {weezing[other.gender]=1; }
+	if(other.name=="wigglytuff")    {wigglytuff[other.gender]=1; }
 	if(other.name=="zapdos")		{zapdos[other.gender]=1; }
 	
-	//genderless
-	if(other.name=="electrode")     {electrode+=0.2;	}
-	if(other.name=="hitmonchan")    {hitmon+=0.2;		}
-	if(other.name=="hitmonlee")		{hitmon+=0.2;		}
-	if(other.name=="hitmontop")		{hitmon+=0.2;		}
-	if(other.name=="magnezone")		{magnezone+=0.2;	}
-	if(other.name=="weezing")		{weezing+=0.2;		}
-
 	//eevees
 	if(other.name=="flareon")       {eevee[other.gender]=1; flareon[other.gender]=1;	}
 	if(other.name=="jolteon")       {eevee[other.gender]=1; jolteon[other.gender]=1;	}

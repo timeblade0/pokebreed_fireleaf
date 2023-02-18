@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_item",
-    "path": "objects/obj_parent_item/obj_parent_item.yy",
+    "name": "obj_pokeball",
+    "path": "objects/obj_pokeball/obj_pokeball.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,10 +31,8 @@
     {"x":19.0,"y":19.0,},
   ],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":5,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_electic","path":"objects/obj_parent_electic/obj_parent_electic.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent_pokemon","path":"objects/obj_parent_pokemon/obj_parent_pokemon.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

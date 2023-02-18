@@ -71,6 +71,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Munchlax",
-    "path": "folders/Sprites/Pokemon/Munchlax.yy",
+    "path": "folders/Sprites/Pokemon/Normal/Munchlax.yy",
   },
 }

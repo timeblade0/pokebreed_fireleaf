@@ -1,2 +1,2 @@
 ///@desc choose random gender
-gender=floor(random(3))
+evolution_form=floor(random(3))

@@ -172,14 +172,14 @@ scp_shop_define_col_row()
 	AA.pokemon_sprite[3]=spr_sandslash
 	AA.pokemon_sprite[4]=spr_persian
 	AA.pokemon_sprite[5]=spr_kangaskhan
-	AA.pokemon_sprite[6]=spr_mew
+	AA.pokemon_sprite[6]=spr_mewtwo
 
 	AA.pokemon[1]=obj_nidoran;		AA.form[1]=2
 	AA.pokemon[2]=obj_diglett;		AA.form[2]=2
 	AA.pokemon[3]=obj_sandshrew;	AA.form[3]=1
 	AA.pokemon[4]=obj_meowth;		AA.form[4]=1
 	AA.pokemon[5]=obj_cubone;		AA.form[5]=2
-	AA.pokemon[6]=obj_mew;			AA.form[6]=0
+	AA.pokemon[6]=obj_mewtwo;		AA.form[6]=0
 #endregion
 
 

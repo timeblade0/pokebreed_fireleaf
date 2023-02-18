@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "omanyte",
-    "path": "folders/Sprites/Pokemon/Rock/omanyte.yy",
+    "name": "Omanyte",
+    "path": "folders/Sprites/Pokemon/Rock/Omanyte.yy",
   },
 }

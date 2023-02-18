@@ -30,11 +30,10 @@ instance_create_depth(menu_col[3],menu_row[2],0,obj_button_submenu_items)
 instance_create_depth(menu_col[4],menu_row[2],0,obj_button_submenu_terrain)
 
 //row 3
-AA=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_submenu_pokemon_gender)
+AA=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_submenu_pokemon)
 	AA.gender=0;	AA.tooltip="Pokemon Female";	AA.sprite_index=spr_button_black
-AA=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_submenu_pokemon_gender)
+AA=instance_create_depth(menu_col[2],menu_row[3],0,obj_button_submenu_pokemon)
 	AA.gender=1; 	AA.tooltip="Pokemon Male";		AA.sprite_index=spr_button_black
-instance_create_depth(menu_col[3],menu_row[3],0,obj_button_submenu_pokemon_genderless)
 
 //row bottom
 scp_shop_create_buttons_bottom()

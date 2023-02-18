@@ -1,3 +1,23 @@
+20230217
+	added larvitar = charizard + golem
+	enhanced sprites for all grass pokemon
+
+20230212
+	added gender for koffing
+	added gender for tyrouge
+	added gender for voltorb
+	added gender for magnemite
+	new geodude sprite
+	increased size of player
+	split ralts family from abra family
+		ralts = Alakazam + Wigglytuff/Clefable
+	split mewtwo away from mew
+		mewtwo = mew + alakazam
+	split clefable family from wigglytuff family
+		both are in shop
+	added azurill = blastoise + raichu
+	added annihilape
+
 20230211
 	added gender for gengar
 	added gender for grimer

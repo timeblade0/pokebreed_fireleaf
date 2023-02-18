@@ -1,10 +1,8 @@
-gender for koffing
-gender for tyrouge
-gender for voltorb
-gender for magnemite
-new sprite for player
+gym truck always shows brock truck sprite
 new sprite for plant
 
+test gym truck brock
+test gym truck misty
 test gym truck surge
 test gym truck erika
 test gym truck koga

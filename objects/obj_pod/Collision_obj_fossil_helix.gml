@@ -1,7 +1,7 @@
-/// @desc change to omanyte
+/// @desc omanyte
 
 //make egg, but skin it for pod
-scp_breedpad_mate_function("gender", "same", 1,	1, , ,									"omanyte",		spr_pod_helix);
+scp_breedpad_mate_function("same", yes,	yes, "omanyte", spr_pod_helix);
 
 instance_destroy(other);
 instance_destroy(self);

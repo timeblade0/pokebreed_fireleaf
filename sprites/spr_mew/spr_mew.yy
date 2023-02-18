@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b62c0eea-14bf-4db6-9f7a-5cae5cea7613",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"595679f1-af30-4798-b7f5-dced86dd855d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"317a0f8e-b6b7-4756-b82f-ccc594df040c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f74aaff4-96f0-42ed-be5d-70458f13fca8",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"568f271e-2af4-4000-ac36-9f82ee7d7aa0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b62c0eea-14bf-4db6-9f7a-5cae5cea7613","path":"sprites/spr_mew/spr_mew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"24261aa7-0a20-4a1e-9bb3-df7c27ad1fe2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"595679f1-af30-4798-b7f5-dced86dd855d","path":"sprites/spr_mew/spr_mew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5fa978d6-d82f-492f-8d20-13cd2291bfc3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"317a0f8e-b6b7-4756-b82f-ccc594df040c","path":"sprites/spr_mew/spr_mew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce89086a-d252-4421-8666-ac67e1e6192d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f74aaff4-96f0-42ed-be5d-70458f13fca8","path":"sprites/spr_mew/spr_mew.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,11 +66,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"98879f17-d293-445d-a2ce-50c64046c9a2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6647bff7-40a1-4139-9090-9fd8fe4ce26b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Mew_Mewtwo",
-    "path": "folders/Sprites/Pokemon/Psychic/Mew_Mewtwo.yy",
+    "name": "Mew",
+    "path": "folders/Sprites/Pokemon/Psychic/Mew.yy",
   },
 }
