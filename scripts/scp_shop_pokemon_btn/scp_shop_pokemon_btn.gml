@@ -5,7 +5,7 @@ function scp_shop_pokemon_btn_function(col,row,pokemon_name,button_bkg) {
 
 	//create pokemon buy button
 	AA=instance_create_depth(menu_col[col],menu_row[row],0,obj_button_pokemon_buy_parent)
-	AA.cost=500;
+	AA.cost=200;
 	AA.name=pokemon_name
 	AA.sprite=asset_get_index("spr_"+AA.name)
 	AA.object=asset_get_index("obj_"+AA.name)    
@@ -54,16 +54,15 @@ function scp_shop_pokemon_btn() {
 	#region row 5
 		scp_shop_pokemon_btn_function(1,5,"lickitung",spr_button_white)
 		scp_shop_pokemon_btn_function(2,5,"goldeen",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(3,5,"staryu",spr_button_blue_dark)
-		scp_shop_pokemon_btn_function(4,5,"miltank",spr_button_white)
-		scp_shop_pokemon_btn_function(5,5,"ditto",spr_button_white)
-		scp_shop_pokemon_btn_function(6,5,"eevee",spr_button_white)
-		scp_shop_pokemon_btn_function(7,5,"porygon",spr_button_white)
+		scp_shop_pokemon_btn_function(3,5,"miltank",spr_button_white)
+		scp_shop_pokemon_btn_function(4,5,"ditto",spr_button_white)
+		scp_shop_pokemon_btn_function(5,5,"eevee",spr_button_white)
+		scp_shop_pokemon_btn_function(6,5,"porygon",spr_button_white)
+		scp_shop_pokemon_btn_function(7,5,"munchlax",spr_button_white)
 	#endregion
 	#region row 6
-		scp_shop_pokemon_btn_function(1,6,"munchlax",spr_button_white)
-		scp_shop_pokemon_btn_function(2,6,"houndour",spr_button_black)
-		scp_shop_pokemon_btn_function(3,6,"teddiursa",spr_button_white)
+		scp_shop_pokemon_btn_function(1,6,"houndour",spr_button_black)
+		scp_shop_pokemon_btn_function(2,6,"teddiursa",spr_button_white)
 	#endregion
 
 	//bottom row

@@ -1,12 +1,1 @@
-change shelder and lapris breeds
-cheaper prices overall
-change meowth coin to be worth money when pressing delete
-stone evolution pokemon still eat candy
-
-new sprite for plant
-terrain objects
-object to destroy all plants
-
-fix not enough money in shop message exiting from full screen
-fix exit game messages from exiting full screen
 update github wiki to include all crossbreeds

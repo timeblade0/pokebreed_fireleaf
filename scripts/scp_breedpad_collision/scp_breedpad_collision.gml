@@ -78,7 +78,6 @@ function scp_breedpad_collision() {
 	if(other.name=="tangrowth")     {tangrowth[other.gender]=1; }
 	if(other.name=="tentacruel")    {tentacruel[other.gender]=1; }
 	if(other.name=="torkoal")       {torkoal[other.gender]=1; }
-	if(other.name=="togekiss")      {togekiss[other.gender]=1; }
 	if(other.name=="tyranitar")     {tyranitar[other.gender]=1; }
 	if(other.name=="ursaring")		{ursaring[other.gender]=1; }
 	if(other.name=="victreebell")   {victreebell[other.gender]=1; }

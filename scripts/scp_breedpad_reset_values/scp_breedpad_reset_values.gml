@@ -72,7 +72,6 @@ function scp_breedpad_reset_values() {
 		steelix[aa]=0;
 		tangrowth[aa]=0
 	    tentacruel[aa]=0
-		togekiss[aa]=0
 	    torkoal[aa]=0
 		tyranitar[aa]=0
 		ursaring[aa]=0

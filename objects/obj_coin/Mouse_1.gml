@@ -1,2 +1,3 @@
-global.money += 1;
+///@desc sell
+global.money += money;
 instance_destroy()

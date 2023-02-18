@@ -4,7 +4,7 @@
 alarm[0]=1
 
 //initial variables
-global.money=5000
+global.money=10000
 global.terrain_mode=0
 room_speed=60
 

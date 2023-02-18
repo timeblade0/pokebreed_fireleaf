@@ -24,7 +24,7 @@ aa=instance_create_depth(menu_col[1],menu_row[2],0,obj_button_item_buy_parent)
 aa=instance_create_depth(menu_col[2],menu_row[2],0,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Mushroom"; aa.sprite=spr_mushroom_1; aa.object=obj_mushroom; aa.sprite_index=spr_button_green_dark; aa.scale=1
 aa=instance_create_depth(menu_col[3],menu_row[2],0,obj_button_item_buy_parent)
-    aa.cost=1; aa.name="Coin"; aa.sprite=spr_coin; aa.object=obj_coin; aa.sprite_index=spr_button_black; aa.scale=1
+    aa.cost=100; aa.name="Coin"; aa.sprite=spr_coin; aa.object=obj_coin; aa.sprite_index=spr_button_black; aa.scale=1
 
 //row 3
 aa=instance_create_depth(menu_col[1],menu_row[3],0,obj_button_item_buy_parent)

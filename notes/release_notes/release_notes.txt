@@ -6,6 +6,7 @@
 	small improvement to multiple sprites
 	added save and load buttons to shop
 	added fullscreen toggle button to shop
+	changed staryu from shop to goldeen + alakazam
 
 20230217
 	added larvitar = charizard + golem

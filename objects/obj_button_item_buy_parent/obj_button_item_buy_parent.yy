@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_button_item_buy_parent",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_button_black",
+    "path": "sprites/spr_button_black/spr_button_black.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
