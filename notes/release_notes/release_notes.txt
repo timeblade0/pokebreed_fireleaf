@@ -1,3 +1,8 @@
+20230407
+	added 4 themes to shop
+	added pre built fence pen to shop
+	added pokecenter pokeshop and gym as placeable buildings
+
 20230218
 	added sprites for gym trucks for all badges
 	changed tentacool from shop to goldeen + muk

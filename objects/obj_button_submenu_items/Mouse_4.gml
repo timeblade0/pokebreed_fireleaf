@@ -35,6 +35,17 @@ aa=instance_create_depth(menu_col[3],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Helix Fossil"; aa.sprite=spr_fossil_helix; aa.object=obj_fossil_helix; aa.sprite_index=spr_button_black; aa.scale=1
 aa=instance_create_depth(menu_col[4],menu_row[3],0,obj_button_item_buy_parent)
     aa.cost=0; aa.name="Amber Fossil"; aa.sprite=spr_fossil_amber; aa.object=obj_fossil_amber; aa.sprite_index=spr_button_black; aa.scale=1
+	
+//row 4
+aa=instance_create_depth(menu_col[1],menu_row[4],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Fire Theme"; aa.sprite=spr_theme_fire; aa.object=obj_theme; aa.sprite_index=spr_button_black; aa.scale=1
+aa=instance_create_depth(menu_col[2],menu_row[4],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Grass Theme"; aa.sprite=spr_theme_grass; aa.object=obj_theme; aa.sprite_index=spr_button_black; aa.scale=1
+aa=instance_create_depth(menu_col[3],menu_row[4],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Ground Theme"; aa.sprite=spr_theme_ground; aa.object=obj_theme; aa.sprite_index=spr_button_black; aa.scale=1
+aa=instance_create_depth(menu_col[4],menu_row[4],0,obj_button_item_buy_parent)
+    aa.cost=0; aa.name="Water Theme"; aa.sprite=spr_theme_water; aa.object=obj_theme; aa.sprite_index=spr_button_black; aa.scale=1
+
 
 //row 9
 scp_shop_create_buttons_bottom()

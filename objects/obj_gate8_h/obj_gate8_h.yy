@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_gate8_h",
   "spriteId": {
     "name": "spr_gate8_h",
     "path": "sprites/spr_gate8_h/spr_gate8_h.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":5,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":5,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Fence",
     "path": "folders/Objects/Terrain/Fence.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_gate8_h",
-  "tags": [],
-  "resourceType": "GMObject",
 }

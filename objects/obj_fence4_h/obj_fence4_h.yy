@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_fence4_h",
   "spriteId": {
     "name": "spr_fence4_h",
     "path": "sprites/spr_fence4_h/spr_fence4_h.yy",
@@ -31,8 +34,4 @@
     "name": "Fence",
     "path": "folders/Objects/Terrain/Fence.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_fence4_h",
-  "tags": [],
-  "resourceType": "GMObject",
 }
